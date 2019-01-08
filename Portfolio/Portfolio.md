@@ -20,8 +20,8 @@ Include information of the following subjects:
 <h2>Python Notebooks
 
 
-Predictive Models
-Data preparation
+<h3>Predictive Models</h3>
+<h4>Data preparation</h4>
 Data Visualization
 Data collection
 Evaluation
