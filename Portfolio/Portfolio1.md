@@ -11,9 +11,15 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h1>Domain Knowledge</h1>
 <h2>Jargon</h2>
+ TODO: Add more jargon. 
+Used jargon for Opschaler is listed below.
 
-
-
+Dwelling: an unique house.
+Smartmeter data: electricity and gas meter data.
+gasPower: amount of gas being used at a given time.
+ePower: amount of electricity being used at a given time.
+smart: electricity DataFrame of a dwelling.
+seq2seq: sequence to sequence
  (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
 Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 <h2>Literature</h2>
