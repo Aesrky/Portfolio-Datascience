@@ -6,7 +6,8 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 * <b>Studentnummer</b>: 14121409
 * <b>E-mail</b>: 14121409@student.hhs.nl
 
-<h3>Introductie</h3>
+<h2>Introductie</h2>
+blabla
 
 <h1>Domain Knowledge</h1>
 <h2>Jargon</h2>
@@ -19,14 +20,19 @@ Include information of the following subjects:
 <h2>Coursera Courses </h2>
 <h2>Python Notebooks
 
+<h1>Data & Modellen</h1>
+<h2>Predictive Models</h2>
+<h2>Data preparation</h2>
+<h2>Data Visualization</h2>
+<h2>Data collection</h3>
+<h2>Evaluation</h3>
+<h2>Diagnostics of the learning process</h2>
 
-<h3>Predictive Models</h3>
-<h4>Data preparation</h4>
-Data Visualization
-Data collection
-Evaluation
-Diagnostics of the learning process
-Communication (presentations, summaries, paper, ...)
+<h1>Communicatie</h1>
+<h2>Presentaties</h2>
+<h2>Paper</h2>
+<h2>Scrum</h2>
+(presentations, summaries, paper, ...)
 Link to the Python Notebooks you have finished (you can dump them to PDF)
 List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.
 Add any other assisdadsasdgnment you feel is evidence of your abilities
