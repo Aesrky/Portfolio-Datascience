@@ -64,6 +64,9 @@ Zelf iets maken
 
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
+[Week 1](/Presentaties/2018.08.31-intro.pptx)
+
+
 <h2>Paper</h2>
 Bijdrage Paper beschrijving
 
