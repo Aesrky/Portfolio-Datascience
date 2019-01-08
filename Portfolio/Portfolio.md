@@ -1,6 +1,7 @@
 Include information of the following subjects:
 
-Courses (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
+<h1>Courses</h1>
+ (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
 Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 Predictive Models
 Data preparation
