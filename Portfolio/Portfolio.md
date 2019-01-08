@@ -51,15 +51,22 @@ Include information of the following subjects:
 
 <h1>Data & Modellen</h1>
 <h2>Predictive Models</h2>
+Hier stuk over supervised learning, classification of regression
 <h2>Data preparation</h2>
+Stuk over labelen 
 <h2>Data Visualization</h2>
+Stuk over confusion matrix
 <h2>Data collection</h3>
+Stuk over labelen
 <h2>Evaluation</h3>
+Zelf iets maken
 <h2>Diagnostics of the learning process</h2>
 
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
 <h2>Paper</h2>
+Bijdrage Paper beschrijving
+
 <h2>Scrum</h2>
 (presentations, summaries, paper, ...)
 Link to the Python Notebooks you have finished (you can dump them to PDF)
