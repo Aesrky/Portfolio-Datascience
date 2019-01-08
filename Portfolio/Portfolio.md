@@ -1,4 +1,4 @@
-<h1>Persoonlijke Portfolio
+<h1>Persoonlijke Portfolio</h1>
 
 Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
