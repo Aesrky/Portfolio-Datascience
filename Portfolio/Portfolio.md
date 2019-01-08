@@ -65,8 +65,25 @@ Zelf iets maken
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
 
+Stukje over presenteren, zelf 9 keer gespresenteerd waarbij 2 keer in mijn eentje en 7  in groepjesvorm
+Presentatie is altijd samen gemaakt binnen de groep
+
 * [Week 1](/Presentaties/2018.08.31-intro.pptx)
 * [Week 2](/Presentaties/2018.09.07%20Presentatie.pptx) 
+* [Week 3](/Presentaties/2018.09.10%20CBS%20Presentatie.pptx)
+* [Week 4](/Presentaties/2018.09.14%20Presentatie.pptx)
+* [Week 5](/Presentaties/2018.09.21%20CBS%20Presentatie.pptx)
+* [Week 6](/Presentaties/2018.09.28%20CBS%20Presentatie.pptx)
+* [Week 7](/Presentaties/2018.10.05%20CBS%20Presentatie.pptx)
+* [Week 8](/Presentaties/2018.10.12%20CBS%20Presentatie.pptx)
+* [Week 9](/Presentaties/2018.10.19%20CBS%20Presentatie.pptx)
+* [Week 10](/Presentaties/2018.11.02%20CBS%20Presentatie.pptx)
+* [Week 11](/Presentaties/2018.11.09%20CBS%20Presentatie.pptx)
+* [Week 12](/Presentaties/2018.11.16%20CBS%20Presentatie.pptx)
+* [Week 13](/Presentaties/2018.11.30%20CBS%20Presentatie.pptx)
+* [Week 14](/Presentaties/2018.12.07%20CBS%20Presentatie.pptx)
+* [Week 15](/Presentaties/2018.12.17%20CBS%20Presentatie%20%5BAutosaved%5D.pptx)
+* [Week 16](/Presentaties/2018.12.21%20CBS%20Presentatie.pptx)
 
 
 <h2>Paper</h2>
