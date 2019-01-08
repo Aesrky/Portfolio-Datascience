@@ -64,7 +64,9 @@ Zelf iets maken
 
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
-[Week 1](/Presentaties/2018.08.31-intro.pptx)
+
+* [Week 1](/Presentaties/2018.08.31-intro.pptx)
+* [Week 2](/Presentaties/2018.09.07%20Presentatie.pptx) 
 
 
 <h2>Paper</h2>
