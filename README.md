@@ -2,4 +2,4 @@
 
 Test test
 
-[Week 1 presentatie](/presentaties/2018.08.31-intro.pptx)
+[Week 1 presentatie](/Presentaties/2018.08.31-intro.pptx)
