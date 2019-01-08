@@ -8,26 +8,6 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h2>Introductie</h2>
 
-This is a general introduction to the KB74-OPSCHALER project and it is also intended for people who do not know anything about the Applied Data Science minor.
-
-In the OPSCHALER project multiple universities and (energy) companies collaborate in developing methods and tools to extract useful information out of the energy usage data of residential houses on different aggregation levels. For more information on OPSCHALER itself, see their website: www.opschaler.nl.
-
-The Hague University is one of the collaborators and offers the OPSCHALER data to students in their Applied Data Science minor, which takes one semester (30 ECT). This leads us to the KB74-OPSCHALER project.
-
- Click here for information regarding the KB74-OPSCHALER team.
-Our team consists of 6 students, 2 of which are doing this for their European Project Semester. Every one of us has different backgrounds. One person has a BSc in telecommunication engineering and is currently doing a masters. The others are studying industrial engineering and management, computer science engineering and engineering physics. Another important note is that most of us have never programmer before, or only in MATLAB. So along with learning the subjects from the minor, most of us had to learn Python from scratch aswell.
-
-Our research started out by trying to predict the electricity and gas consumption of individual residential houses on a 10 second and one-hour resolution, respectively. The time we wanted to predict ahead was one hour to a week, by using as less data as possible. Due to model complexity, time, and scarce messy data, the research got narrowed down to predicting the gas consumption of houses on the aggregated level, predicting one hour, a day and a week ahead with an hourly resolution. This is done by only using historical and future weather information. Whereas the aggregated level in our case consists of the mean gas usage of 54 houses and could represent a block of houses. These predictions are done by using the different models listed below and are eventually compared to each other.
-
-MVLR: Multivariate Linear Regression
-DNN: Deep Neural Network
-CNN: Convolutional Neural Network
-RNN: Recurrent Neural Network
-LSTM: Long Short-Term Memory
-GRU: Gated Recurrent Unit
-TimeDistributed(CNN)+RNN+DNN
-Despite these models being based on data on the aggregated level, they should also work for individual houses when trained specifically for that house. Creating an accurate general model, using only weather data is just hard due to each house having a specific gas consumption pattern.
-
 
 <h1>Domain Knowledge</h1>
 <h2>Jargon</h2>
