@@ -22,7 +22,7 @@ Include information of the following subjects:
 <h2>Datacamp Courses </h2>
 
 [Test](/Portfolio/Courses/Alle%20assignments%20+.png)
-![test](/Portfolio/Courses/Alle%20assignments%20+.png)
+![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
 
 <h2>Coursera Courses </h2>
 <h2>Python Notebooks
