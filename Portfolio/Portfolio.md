@@ -56,31 +56,31 @@ Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
 
-* <b> Programmeren </b>
+* <b> Programmeren </b> (19100 XP)
 1. (Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 2. (Course) [Intermediate Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 3. (Chapter) [Writing your own functions](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
 4. (Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
 5. (Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
 
-* <b> Importeren en Cleanen van Data </b>
+* <b> Importeren en Cleanen van Data </b> (8020 XP)
 1. (Chapter) [Importing Data in Python (Part 1)](https://www.datacamp.com/courses/importing-data-in-python-part-1) & Mandatory
 2. (Course) [Introduction and flat files](https://www.datacamp.com/courses/importing-data-in-python-part-1)
 3. (Course) [Cleaning data in Python](https://www.datacamp.com/courses/cleaning-data-in-python)
 
-* <b> Data Manipulatie </b>
+* <b> Data Manipulatie </b> (2080 XP)
 1. (Chapter) [Data ingestion & inspection](https://www.datacamp.com/courses/pandas-foundations)
 2. (Chapter) [Exploratory Data Analysis](https://www.datacamp.com/courses/pandas-foundations)
 
-* <b> Data Visualisatie </b>
+* <b> Data Visualisatie </b> (3520 XP)
 1. (Chapter) [Plotting 2D Arrays](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 2. (Chapter) [Statistical plots with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 3. (Chapter) [Customizing Plots](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 
-* <b> Waarschijnlijkheid & Statistiek </b>
+* <b> Waarschijnlijkheid & Statistiek </b> (4350 XP)
 1. (Course) [Statistical Thinking in Python (Part 1)](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1)
 
-* <b> Machine Learning </b>
+* <b> Machine Learning </b> (4300 XP)
 1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
 
 
