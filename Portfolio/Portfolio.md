@@ -30,6 +30,12 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 * Naive Bayes =
 * Skewed Dataset =
 * Logistic Regression =
+* Data Cleaning =
+* Programmeren = 
+* Machine Learning =
+* Data Visualisatie =
+* Data Manipuleren = 
+* Data Importeren =
 
 
 
@@ -135,7 +141,10 @@ Presentatie is altijd samen gemaakt binnen de groep
 <h2>Paper</h2>
 De paper is een gezamenlijke bijdrage van de gehele groep. 
 Omdat ik geen fervente coder ben, heb ik mij samen met Seyma gericht tot de taak onderzoeken en delen van kennis binnen dit blok. 
-Zodoende was de paper meer mijn domein. Zo heb ik het volgende uitgevoerd binnen de paper:
+Zodoende was de paper meer mijn domein. 
+
+Zo heb ik het volgende uitgevoerd binnen de paper:
+
 
 * Related Work
 * Delen Methode
