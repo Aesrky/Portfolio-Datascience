@@ -37,7 +37,8 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 <h2>Literature</h2>
 <h1>Courses</h1>
-Include information of the following subjects:
+In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
+
 <h2>Datacamp Courses </h2>
 
 
@@ -47,9 +48,16 @@ Include information of the following subjects:
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
+
+* <b> Programmeren </b>
+* <b> Importeren en Cleanen van Data </b>
+* <b> Data Manipulatie </b>
+* <b> Data Visualisatie </b>
+* <b> Waarschijnlijkheid & Statistiek </b>
+* <b> Machine Learning </b>
+
+
 (Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
-
-
 
 (Course) [Intermediate Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
@@ -125,7 +133,21 @@ Presentatie is altijd samen gemaakt binnen de groep
 
 
 <h2>Paper</h2>
-Bijdrage Paper beschrijving
+De paper is een gezamenlijke bijdrage van de gehele groep. 
+Omdat ik geen fervente coder ben, heb ik mij samen met Seyma gericht tot de taak onderzoeken en delen van kennis binnen dit blok. 
+Zodoende was de paper meer mijn domein. Zo heb ik het volgende uitgevoerd binnen de paper:
+
+* Related Work
+* Delen Methode
+* Delen Aanpak
+* Bronnen uitzoeken relevant voor ons opdracht, uitdragen en citeren in het verslag (Graag verwijs ik naar kopje literatuur)
+* Error Analyse samen met Timo Frionnet
+* Conclusie & Discussie
+* APA Verslag, Figuren, Vergelijkingen, Bronnen
+* Layout
+
+Het gehele rapport zal ook apart worden ingeleverd. I.v.m. de vertrouwelijkheid van data zal ik niet naar het rapport verwijzen in dit portfolio.
+
 
 <h2>Scrum</h2>
 (presentations, summaries, paper, ...)
