@@ -40,11 +40,52 @@ Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 Include information of the following subjects:
 <h2>Datacamp Courses </h2>
 
-[Test](/Portfolio/Courses/Alle%20assignments%20+.png)
+
 ![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
 ![Afgeronde Hele Courses](/Portfolio/Courses/Voltooide%20Courses.png)
-Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn gemaakt. 
+
+Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
+
+Introduction to Python
+
+https://www.datacamp.com/courses/intro-to-python-for-data-science
+
+Intermediate Python for Data Science
+https://www.datacamp.com/courses/intro-to-python-for-data-science
+
+Customizing Plots
+
+Introducing and flat files
+
+Writing your own functions
+
+Python Data Science Toolbox (Part 2)
+https://www.datacamp.com/courses/python-data-science-toolbox-part-2
+
+
+Data ingestion & inspection
+
+Exploratory Data Analysis
+
+Plotting 2D Arrays
+https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
+
+
+Statistical plots with Seaborn
+https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
+
+
+Cleaning data in Python
+https://www.datacamp.com/courses/cleaning-data-in-python
+
+
+Statistical Thinking in Python (Part 1)
+https://www.datacamp.com/courses/statistical-thinking-in-python-part-1
+
+Supervised Learning with scikit-learn
+https://www.datacamp.com/courses/supervised-learning-with-scikit-learn
+
 
 <h2>Coursera Courses </h2>
 
