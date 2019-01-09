@@ -24,7 +24,13 @@ Include information of the following subjects:
 [Test](/Portfolio/Courses/Alle%20assignments%20+.png)
 ![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
 
+Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn gemaakt. Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ter behoeve van mijn ontwikkeling.
+
 <h2>Coursera Courses </h2>
+! [Timeline Coursera](/Portfolio/Courses/Timeline%20Coursera.png)
+
+Voor Coursera zijn de weken 1,2,3 en 6 afgerond. De bijbehorende opdrachten zijn daarbij niet gemaakt. Alle quiz onderdelen zijn met een voldoende afgerond.
+
 <h2>Python Notebooks
 
 <h1>Data & Modellen</h1>
