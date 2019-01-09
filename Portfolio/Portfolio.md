@@ -60,8 +60,8 @@ Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde 
 
 (Chapter) [Writing your own functions](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
 
-(Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1
-)
+(Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
+
 (Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
 
 (Chapter) [Data ingestion & inspection](https://www.datacamp.com/courses/pandas-foundations)
