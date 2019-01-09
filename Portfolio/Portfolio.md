@@ -65,12 +65,11 @@ Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde 
 5. (Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
 
 Het leren van het programmeren van Python heeft er tot bijgedragen dat ik op een basis-gevorderd niveau Python code kan begrijpen. 
-Daarnaast zorgde dit ervoor dat bij het lezen van de code gemaakt door de programmeurs van de groep, dit niet vreemd overkwam bij mij op persoon.
+Dit zorgde direct ervoor dat bij het lezen van de code gemaakt (vooral tutorials gevolgd op internet) door de programmeurs van de groep, de code niet vreemd overkwam bij mij op persoon.
 Dit zorgde er tevens voor dat ik gericht ideeen/feedback kon geven passend op de haalbaarheid van de opdracht zonder dat dit buiten proporties kwam te liggen.
 
 Boven alles heeft dit ervoor gezorgd dat ik kundiger met Linux en tegelijk met Python ben geworden. Dit heeft ervoor gezorgd dat ik in mijn eigen vakgebied (IT - Security) scripts kan begrijpen & schrijven als ik bijvoorbeeld iets aan het pentesten ben.
 Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote positieve bijdrage in mijn carriere.
-
 
 
 * <b> Importeren en Cleanen van Data </b> (8020 XP)
