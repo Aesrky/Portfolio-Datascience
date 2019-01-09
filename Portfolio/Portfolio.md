@@ -22,7 +22,7 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 * Complement Naive Bayes
 * Logistic Regression
 
-Dit waren ook tevens de modellen met het beste resultaat op onze dataset. 
+Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
 
 <h1>Domain Knowledge</h1>
 
@@ -42,7 +42,7 @@ Include information of the following subjects:
 
 [Test](/Portfolio/Courses/Alle%20assignments%20+.png)
 ![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
-
+![Afgeronde Hele Courses](/Portfolio/Courses/Voltooide%20Courses.png)
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn gemaakt. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
