@@ -8,9 +8,28 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h2>Introductie</h2>
 
+Voor onze minor Data Science aan de Haagse Hogeschool hebben wij in een groep van 4 mensen een opdracht uitgevoerd namens het CBS.
+Daarbij werd er getracht de top 10 categorieen, van gegeven data van het CBS, eruit te filteren.
+Data die door het CBS beschikbaar is gesteld en tevens gebruikt is voor deze opdracht zijn de gestelde vragen per e-mail aan het CBS.
+Omdat dit zodanig groot bleek te zijn, door het aantal categorieen waarin vragen kunnen worden gesteld meer dan 180 bleek, hebben wij ons als groep beperkt tot 2 datasets:
+
+* Inkomen
+* Bevolkingsgroep
+
+Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algoritme op los te laten. Daarbij hebben wij voornamelijk volgende modellen gebruikt:
+
+* Multionomial Naive Bayes
+* Complement Naive Bayes
+* Logistic Regression
+
+Dit waren ook tevens de modellen met het beste resultaat op onze dataset. 
 
 <h1>Domain Knowledge</h1>
+
 <h2>Jargon</h2>
+* Naive Bayes =
+* Skewed Dataset =
+* Logistic Regression =
 
 
 
@@ -24,12 +43,14 @@ Include information of the following subjects:
 [Test](/Portfolio/Courses/Alle%20assignments%20+.png)
 ![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
 
-Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn gemaakt. Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ter behoeve aan mijn ontwikkeling.
+Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn gemaakt. 
+Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
 <h2>Coursera Courses </h2>
-![Timeline Coursera](/Portfolio/Courses/Timeline%20Coursera.png) .
 
-Voor Coursera zijn de weken 1,2,3 en 6 afgerond. De bijbehorende opdrachten zijn daarbij niet gemaakt. Alle quiz onderdelen zijn met een voldoende afgerond.
+
+Voor Coursera zijn de weken 1,2,3 en 6 afgerond. De bijbehorende opdrachten zijn daarbij niet gemaakt. 
+Alle quiz onderdelen zijn met een voldoende afgerond.
 
 <h2>Python Notebooks
 
