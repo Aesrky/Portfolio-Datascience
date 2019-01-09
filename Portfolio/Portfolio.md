@@ -47,43 +47,43 @@ Include information of the following subjects:
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
-Introduction to Python
+(Course) Introduction to Python
 
 https://www.datacamp.com/courses/intro-to-python-for-data-science
 
-Intermediate Python for Data Science
+(Course) Intermediate Python for Data Science
 https://www.datacamp.com/courses/intro-to-python-for-data-science
 
-Customizing Plots
+(Chapter) Customizing Plots
 
-Introducing and flat files
+(Chapter) Introducing and flat files
 
-Writing your own functions
+(Chapter) Writing your own functions 
+https://www.datacamp.com/courses/python-data-science-toolbox-part-1
 
-Python Data Science Toolbox (Part 2)
+(Chapter) Default arguments, variable-length arguments and scope
+https://www.datacamp.com/courses/python-data-science-toolbox-part-1
+
+(Course) Python Data Science Toolbox (Part 2)
 https://www.datacamp.com/courses/python-data-science-toolbox-part-2
 
+(Chapter) Data ingestion & inspection
 
-Data ingestion & inspection
+(Chapter) Exploratory Data Analysis
 
-Exploratory Data Analysis
-
-Plotting 2D Arrays
+(Chapter) Plotting 2D Arrays
 https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
 
-
-Statistical plots with Seaborn
+(Chapter) Statistical plots with Seaborn
 https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
 
-
-Cleaning data in Python
+(Course) Cleaning data in Python
 https://www.datacamp.com/courses/cleaning-data-in-python
 
-
-Statistical Thinking in Python (Part 1)
+(Course) Statistical Thinking in Python (Part 1)
 https://www.datacamp.com/courses/statistical-thinking-in-python-part-1
 
-Supervised Learning with scikit-learn
+(Course) Supervised Learning with scikit-learn
 https://www.datacamp.com/courses/supervised-learning-with-scikit-learn
 
 
