@@ -47,44 +47,36 @@ Include information of the following subjects:
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
-(Course) Introduction to Python
+(Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
-https://www.datacamp.com/courses/intro-to-python-for-data-science
 
-(Course) Intermediate Python for Data Science
-https://www.datacamp.com/courses/intro-to-python-for-data-science
 
-(Chapter) Customizing Plots
+(Course) [Intermediate Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
-(Chapter) Introducing and flat files
+(Chapter) [Customizing Plots](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 
-(Chapter) Writing your own functions 
-https://www.datacamp.com/courses/python-data-science-toolbox-part-1
+(Chapter) [Importing Data in Python (Part 1)](https://www.datacamp.com/courses/importing-data-in-python-part-1) & Mandatory
+(Course) [Introduction and flat files](https://www.datacamp.com/courses/importing-data-in-python-part-1)
 
-(Chapter) Default arguments, variable-length arguments and scope
-https://www.datacamp.com/courses/python-data-science-toolbox-part-1
+(Chapter) [Writing your own functions](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
 
-(Course) Python Data Science Toolbox (Part 2)
-https://www.datacamp.com/courses/python-data-science-toolbox-part-2
+(Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1
+)
+(Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
 
-(Chapter) Data ingestion & inspection
+(Chapter) [Data ingestion & inspection](https://www.datacamp.com/courses/pandas-foundations)
 
-(Chapter) Exploratory Data Analysis
+(Chapter) [Exploratory Data Analysis](https://www.datacamp.com/courses/pandas-foundations)
 
-(Chapter) Plotting 2D Arrays
-https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
+(Chapter) [Plotting 2D Arrays](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 
-(Chapter) Statistical plots with Seaborn
-https://www.datacamp.com/courses/introduction-to-data-visualization-with-python
+(Chapter) [Statistical plots with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 
-(Course) Cleaning data in Python
-https://www.datacamp.com/courses/cleaning-data-in-python
+(Course) [Cleaning data in Python](https://www.datacamp.com/courses/cleaning-data-in-python)
 
-(Course) Statistical Thinking in Python (Part 1)
-https://www.datacamp.com/courses/statistical-thinking-in-python-part-1
+(Course) [Statistical Thinking in Python (Part 1)](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1)
 
-(Course) Supervised Learning with scikit-learn
-https://www.datacamp.com/courses/supervised-learning-with-scikit-learn
+(Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
 
 
 <h2>Coursera Courses </h2>
