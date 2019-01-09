@@ -40,9 +40,6 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 * Pentesting = 
 
 
-
- (add screenshots of the online courses you have finished (DataCamp, Coursera, etc))
-Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 <h2>Literature</h2>
 <h1>Courses</h1>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
@@ -91,25 +88,6 @@ Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote
 
 * <b> Machine Learning </b> (4300 XP)
 1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <h2>Coursera Courses </h2>
