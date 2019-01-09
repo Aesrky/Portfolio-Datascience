@@ -27,6 +27,7 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 <h1>Domain Knowledge</h1>
 
 <h2>Jargon</h2>
+
 * Naive Bayes =
 * Skewed Dataset =
 * Logistic Regression =
