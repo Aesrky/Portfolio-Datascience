@@ -14,8 +14,8 @@ Voor onze dataset hebben wij gebruikt gemaakt van het concept Predictive Modelin
 Het is in eerste instantie namelijk niet duidelijk wat men precies voor technieken kan gebruiken voor de dataset gegeven door het CBS. 
 Grof gezegd hebben wij middels deze techniek getracht patronen of gelijkenissen in de dataset proberen te vinden.
 
-Ten eerste hebben wij de data handmatig gelabeld, hierbij hebben wij de data een 1,2,3,4 of classificatie meegegeven. 
-Vervolgens hebben wij de data Ge-Preprocessed.
+Ten eerste hebben ik de data handmatig gelabeld met mijn collega's, hierbij hebben wij de data een 1,2,3,4 of classificatie meegegeven. 
+Vervolgens is er een preprocess over de data toegepast.
 
 Dit kan uitgevoerd worden in 4 stappen:
 
