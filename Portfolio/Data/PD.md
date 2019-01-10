@@ -120,11 +120,38 @@ Zo kwamen wij uit op:
             self.check_model(classifier, xcross_tfidf, self.y_cross, model_name, features, 'tfidf_ngram', 'cross')
 ```
 
-Per model is er de Training - Test - Cross 
 
 
+* Count Vectors
+```python
+    def count_vectors(self, features):
+        count_vect = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_df=1.0, max_features=features)
+        count_vect.fit(self.trainDF['cleaned_sentence'])
+        xtrain_count = count_vect.transform(self.X_train)
+        xvalid_count = count_vect.transform(self.X_test)
+        xcross_count = count_vect.transform(self.X_cross)
 
+        for model_name, model in self.models.items():
+            mc_model = multiclass.OneVsRestClassifier(model)
+            classifier = mc_model.fit(xtrain_count, self.y_train)
+
+            # Training predictions
+            self.check_model(classifier, xtrain_count, self.y_train, model_name, features, 'count_vectors', 'training')
+
+            # Test predictions
+            self.check_model(classifier, xvalid_count, self.y_test, model_name, features, 'count_vectors', 'test')
+
+            # Cross Validation predictions
+            self.check_model(classifier, xcross_count, self.y_cross, model_name, features, 'count_vectors', 'cross')
+
+```
 
 * Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
 In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
-* Count Vector
+
+
+Per model wordt er een onderscheid gemaakt tussen Training, Test en Cross validation set van de data. Dit is geleerd op de Coursera Course van Andrew NG.
+* Training set is het initiele set waarbij een model of algoritme op wordt "gefit". Als dit op een goede manier is toegepast kan de validation set observaties of responses voorspellen.
+* Een validatieset is een unbiased evaluatie model. Men kan ook snel zien op de validatieset wanneer er sprake is van een overfit. Door middel van bepaalde handelingen zoals regularization kan dit probleem worden aangepakt.
+* Tot slot wordt er een test dataset geproduceerd. Dit is ook een unbiased evaluatie maar van het "eind" model. Tevens is dit een onafhankelijk model van de training set, maar volgt het wel dezelfde distributie. Als een model op de training set en de test set een goede fit heeft betekent dat er sprake is van een minimale overfit.
+Als een model beter op de training set past dan op de test set, is er meestal sprake van een overfit.
