@@ -139,7 +139,7 @@ Presentaties per week:
 
 <h2>Paper</h2>
 De paper is een gezamenlijke bijdrage van de gehele groep. 
-Omdat ik geen fervente coder ben, heb ik samen met mijn collega Seyma gericht tot de taak onderzoeken en delen van kennis(o.a. aanpak, ideeen etc.) aan ons groepsgenoten binnen dit blok. 
+Omdat ik geen fervente coder ben, heb ik samen met mijn collega Seyma Irilmazbilek gericht tot de taak onderzoeken en delen van kennis(o.a. aanpak, ideeen etc.) aan ons groepsgenoten binnen dit blok. 
 Zodoende was de paper meer mijn domein. 
 
 Zo heb ik het volgende uitgevoerd binnen de paper:
@@ -149,7 +149,7 @@ Zo heb ik het volgende uitgevoerd binnen de paper:
 * Delen Methode
 * Delen Aanpak
 * Bronnen uitzoeken relevant voor ons opdracht, uitdragen en citeren in het verslag (Graag verwijs ik naar kopje literatuur)
-* Error Analyse samen met Timo Frionnet
+* (Code)Error Analyse samen met Timo Frionnet 
 * Conclusie & Discussie
 * APA Verslag, Figuren, Vergelijkingen, Bronnen
 * Layout
