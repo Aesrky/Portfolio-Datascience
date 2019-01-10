@@ -108,6 +108,8 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 
 <h1>Data & Modellen</h1>
 <h2>Predictive Models</h2>
+
+
 Hier stuk over supervised learning, classification of regression. Python bestand multiclass classification
 <h2>Data preparation</h2>
 Stuk over labelen, check bestand python labelen, in bestanden bijvoorbeeld de lege plekken een 0 geven.
@@ -118,7 +120,7 @@ Stuk over confusion matrix, in code en gebruik plaatjes van de 2 error analyse
 <h2>Data collection</h3>
 Stuk over labelen
 <h2>Evaluation</h3>
-Zelf iets maken
+Zelf iets maken 
 Underfit, Overfit, Bias
 
 <h2>Diagnostics of the learning process</h2>
@@ -158,8 +160,8 @@ Zo heb ik het volgende uitgevoerd binnen de paper:
 
 
 * Related Work
-* Delen Methode
-* Delen Aanpak
+* Gedeelte Methode
+* Gedeelte Aanpak
 * Bronnen uitzoeken relevant voor ons opdracht, uitdragen en citeren in het verslag (Graag verwijs ik naar kopje literatuur)
 * (Code)Error Analyse samen met Timo Frionnet 
 * Conclusie & Discussie
