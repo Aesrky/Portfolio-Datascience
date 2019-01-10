@@ -96,6 +96,8 @@ Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote
 Voor Coursera zijn de weken 1,2,3 en 6 afgerond. De bijbehorende opdrachten zijn daarbij niet gemaakt. 
 Alle quiz onderdelen zijn met een voldoende afgerond.
 
+![Coursera](/Portfolio/Courses/Timeline%20Coursera.png)
+
 <h2>Python Notebooks
 
 <h1>Data & Modellen</h1>
@@ -183,8 +185,6 @@ Taken en activiteiten beknopt:
 * Datasets labelen in 4 classificaties
 * Confusion Matrixes maken van gelabelde datasets
 * Error Analyse over Training - Test - Cross set
-
-
 ```python
 def test():
     return True
