@@ -156,12 +156,11 @@ Het gehele rapport zal ook apart worden ingeleverd. I.v.m. de vertrouwelijkheid 
 
 
 <h2>Scrum</h2>
-Omdat ik niet de grootste fan van scrum ben, heb ik dit ook nauwelijks gebruikt. Voor een breakdown van Scrum per persoon, refereer ik naar de [Scrumwise](https://www.scrumwise.com/scrum/#/people/project/kb74-2018-cbs/)
-pagina van het CBS Groepje.
+Omdat ik niet de grootste fan van scrum ben, heb ik dit ook nauwelijks gebruikt. Voor een breakdown van Scrum per persoon, refereer ik naar de [Scrumwise](https://www.scrumwise.com/scrum/#/people/project/kb74-2018-cbs) pagina van de CBS projectgroep.
 
-Taken en activiteiten beknopt:
+Taken en activiteiten beknopt:  
 
-* Domein Studie: Dit houdt in dat ik onderzoek deed naar alle gerelateerde onderzoeken op dit gebied. Maar ook naar bepaalde gehanteerde methodieken etc. Dit heb ik vervolgens geinventariseerd en uitgedragen binnen het groepje.
+* Domein Studie: Dit houdt in dat ik onderzoek deed naar alle gerelateerde onderzoeken op dit gebied. Maar ook naar bepaalde gehanteerde methodieken etc. Dit heb ik vervolgens geinventariseerd en uitgedragen binnen het project groep.
 * Het onderzoeksplan voor ons opdracht opstellen en presenteren aan het CBS
 * Linear Classifier Methode Onderzoeken & Beschrijven
 * Logistic Regression Methode Onderzoeken & Beschrijven
