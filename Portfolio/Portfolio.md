@@ -156,7 +156,25 @@ Het gehele rapport zal ook apart worden ingeleverd. I.v.m. de vertrouwelijkheid 
 
 
 <h2>Scrum</h2>
-(presentations, summaries, paper, ...)
-Link to the Python Notebooks you have finished (you can dump them to PDF)
-List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.
-Add any other assisdadsasdgnment you feel is evidence of your abilities
+Omdat ik niet de grootste fan van scrum ben, heb ik dit ook nauwelijks gebruikt. Voor een breakdown van Scrum per persoon, refereer ik naar de [Scrumwise](https://www.scrumwise.com/scrum/#/people/project/kb74-2018-cbs/)
+pagina van het CBS Groepje.
+
+Taken en activiteiten beknopt:
+
+* Domein Studie: Dit houdt in dat ik onderzoek deed naar alle gerelateerde onderzoeken op dit gebied. Maar ook naar bepaalde gehanteerde methodieken etc. Dit heb ik vervolgens geinventariseerd en uitgedragen binnen het groepje.
+* Het onderzoeksplan voor ons opdracht opstellen en presenteren aan het CBS
+* Linear Classifier Methode Onderzoeken & Beschrijven
+* Logistic Regression Methode Onderzoeken & Beschrijven
+* Word Level TF - IDF Methode Onderzoeken & Beschrijven
+* Linear Regression & TF - IDF & Naive Bayes Voordelen, Nadelen omschrijven per type model
+* Language Models Onderzoeken
+* Formule uitleggen Extreme Gradient Boosting & Linear Regression
+* Onderzoek Deep Learning Models
+* Related Work - Bronnen onderzoeken gerelateerd aan ons project
+* Research Paper
+* POS Tagging > Text Classificatie methoden en modellen onderzoek
+* Multinomial Naive Bayes > Onderzoek
+* Text Classificatie methoden en modellen onderzoeken & uitschrijven
+* Datasets labelen in 4 classificaties
+* Confusion Matrixes maken van gelabelde datasets
+* Error Analyse over Training - Test - Cross set
