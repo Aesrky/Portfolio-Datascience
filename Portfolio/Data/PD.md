@@ -39,7 +39,25 @@ Dit was een stukje die ik had toegepast om in ieder geval de data van CBS e-mail
 
 * Het invoeren van data waarbij niets ingevoerd is. Meestal wordt er door een script gekeken waar data leegstaat.
 Alle data die het model als <1 herkent wordt vervangen met een 0. Soms wordt het vervangen door een NaN = Not a Number.
+
+Bij het zogeheten cleanen en voorbereiden van data heb ik een aantal tutorials gevolgd waarbij naar voren kwam hoe men leegstaande cellen zo goed mogelijk kon aanpakken. 
+Daarbij is door mij de volgende code gehanteerd:
+
+```python
+# Lijst van alle leegstaande waarde
+missing_values = ["n/a", "na", "--"]
+df = pd.read_csv("cbs.csv", na_values = missing_values)
+```
+
+Zoals in de comment staat, zorgt dit stukje code ervoor dat het een lijst maakt van de dataset waarbij alle data die leegstaat wordt geinventariseerd.
+Vervolgens heb ik gekozen om leegstaande vakken te vervangen door een nummer met de volgende code:
+
+```python
+# Leegstaande waarde veranderen door een nummer
+df['cbs].fillna(125, inplace=True)
+```
 Dit zorgt ervoor bij het debuggen dat het je uren kan schelen bij het analyseren van je debug.
+
 * Het verwijderen van Data punten die niet in contrast staat met de overige data.
 
 
