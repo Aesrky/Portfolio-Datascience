@@ -105,10 +105,14 @@ Hier stuk over supervised learning, classification of regression
 Stuk over labelen 
 <h2>Data Visualization</h2>
 Stuk over confusion matrix
+
+
 <h2>Data collection</h3>
 Stuk over labelen
 <h2>Evaluation</h3>
 Zelf iets maken
+Underfit, Overfit, Bias
+
 <h2>Diagnostics of the learning process</h2>
 
 <h1>Communicatie</h1>
