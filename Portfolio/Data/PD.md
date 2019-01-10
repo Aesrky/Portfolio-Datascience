@@ -1,4 +1,4 @@
-In dit stuk worden de technieken voor de minor Data Science aan de Haagse Hogeschool toegepast met uitleg waarom er gekozen is voor deze technieken en hoe deze zijn toegepast.
+In dit stuk worden de technieken die ik heb toegepast voor de minor Data Science aan de Haagse Hogeschool uitgelegd. Tevens wordt er per stuk de theorie achter de keuze uitgelegd en waarom er gekozen is voor deze technieken.
 Daarbij komen de volgende aspecten terug: 
 
 * Predictive Modelling
@@ -59,7 +59,6 @@ df['cbs].fillna(125, inplace=True)
 Dit zorgt ervoor bij het debuggen dat het je uren kan schelen bij het analyseren van je debug.
 
 * Het verwijderen van Data punten die niet in contrast staat met de overige data.
-
 
 
 Vervolgens hebben wij 3 soorten algoritme gebruikt die het beste bij ons data paste. Dit waren de volgende algoritme:
@@ -146,12 +145,22 @@ Zo kwamen wij uit op:
 
 ```
 
+
+Foto resultaat model neigt naar type 3
+
 * Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
 In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
 
-
 Per model wordt er een onderscheid gemaakt tussen Training, Test en Cross validation set van de data. Dit is geleerd op de Coursera Course van Andrew NG.
 * Training set is het initiele set waarbij een model of algoritme op wordt "gefit". Als dit op een goede manier is toegepast kan de validation set observaties of responses voorspellen.
-* Een validatieset is een unbiased evaluatie model. Men kan ook snel zien op de validatieset wanneer er sprake is van een overfit. Door middel van bepaalde handelingen zoals regularization kan dit probleem worden aangepakt.
+* Een validatieset is gesplitte data set en ook een unbiased evaluatie model. Men kan ook snel zien op de validatieset wanneer er sprake is van een overfit. Door middel van bepaalde handelingen zoals regularization kan dit probleem worden aangepakt.
 * Tot slot wordt er een test dataset geproduceerd. Dit is ook een unbiased evaluatie maar van het "eind" model. Tevens is dit een onafhankelijk model van de training set, maar volgt het wel dezelfde distributie. Als een model op de training set en de test set een goede fit heeft betekent dat er sprake is van een minimale overfit.
 Als een model beter op de training set past dan op de test set, is er meestal sprake van een overfit.
+
+Meestal is de verdeling dat 60% de training set is, 20% cross validation set en 20% de test set.
+
+* Overfit
+* Underfit
+
+
+
