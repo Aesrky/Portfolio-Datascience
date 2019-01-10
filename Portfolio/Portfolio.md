@@ -114,8 +114,10 @@ Zelf iets maken
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
 
-Stukje over presenteren, zelf 9 keer gespresenteerd waarbij 2 keer in mijn eentje en 7  in groepjesvorm
-Presentatie is altijd samen gemaakt binnen de groep
+Presentaties zijn altijd gezamenlijk gemaakt met de inbreng van de groep. Omdat ik, zoals aangegeven, meer in de kant van het onderzoeken was, presenteerde ik ook veel meer. 
+In totaal heb ik 10 keer gepresenteerd waarvan 2 keer alleen. 
+
+Presentaties per week:
 
 * [Week 1](/Presentaties/2018.08.31-intro.pptx)
 * [Week 2](/Presentaties/2018.09.07%20Presentatie.pptx) 
