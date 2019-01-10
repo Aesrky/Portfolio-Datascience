@@ -98,6 +98,12 @@ Alle quiz onderdelen zijn met een voldoende afgerond.
 
 ![Coursera](/Portfolio/Courses/Timeline%20Coursera.png)
 
+
+De video's van Coursera en de bijbehorende quiz hebben bijgedragen tot een betere kennis op het gebied van machine learning. 
+Bij Datacamp lag de focus meer op het toepassen en programmeren. Bij Coursera werd de achterliggende gedachte, formules etc. het gehele concept uitgelegd over machine learning dus ook toepassen.
+Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde het bestuderen van Coursera ervoor dat ik nieuwe ideeen opdeed en dit zorgde er direct voor dat bepaalde handelingen veel makkelijker konden uitgevoerd. Immers, wij begrepen het concept van machine learning veel beter nu.
+
+
 <h2>Python Notebooks
 
 <h1>Data & Modellen</h1>
