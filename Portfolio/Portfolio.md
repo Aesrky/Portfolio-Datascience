@@ -104,7 +104,7 @@ Hier stuk over supervised learning, classification of regression. Python bestand
 <h2>Data preparation</h2>
 Stuk over labelen, check bestand python labelen, in bestanden bijvoorbeeld de lege plekken een 0 geven.
 <h2>Data Visualization</h2>
-Stuk over confusion matrix, in code en gebruik plaatjes van de 2
+Stuk over confusion matrix, in code en gebruik plaatjes van de 2 error analyse
 
 
 <h2>Data collection</h3>
