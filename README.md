@@ -11,7 +11,6 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 # Table of contents
 1. [Introductie](#Introductie)
-
 2. [Domain Knowledge](#Domein)
     1. [Jargon](#Jargon)   
 3. [Courses](#Courses)
