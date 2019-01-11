@@ -136,6 +136,8 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 <h2>Predictive Models</h2>
 
 
+
+
 Hier stuk over supervised learning, classification of regression. Python bestand multiclass classification
 <h2>Data preparation</h2>
 
@@ -182,6 +184,11 @@ df['cbs].fillna(125, inplace=True)
 Dit zorgt ervoor dat men bij het debuggen uren werk minder hoeft te doen wanneer je een diagnose / analyse gaat uitvoeren op je data.
 
 * Het verwijderen van Data punten die niet in contrast staat met de overige data.
+
+Tevens heb ik samen met mijn collega's data gelabeld in 4 classificaties voor het predictive model. De code hiervoor en mijn aandeel staat beschreven in het kopje Predictive Models
+
+
+
 
 <h2>Data Visualization</h2>
 Stuk over confusion matrix, in code en gebruik plaatjes van de 2 error analyse
