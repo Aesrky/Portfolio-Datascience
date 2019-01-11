@@ -161,11 +161,9 @@ class MultiClassifier(BaseModel):
         
 ```
 
-<i>Dit stukje code is ter context.</i>
-
-Dit stukje code is het begin van het testen van ons model. Het bevat onder andere een preprocessor(voor het cleanen van de data), de code test op de 3 predictive modellen hierboven genoemd en het split de data in een training / test / cross set.
-Dit was in het beginsel niet voldoende, alleen testen op modellen bleek niet de juiste resultaat weer te geven op onze dataset. Na uitgebreid onderzoek en advies zijn wij terecht gekomen op zogeheten word embeddings.
-Deze word embeddings geven aan tekst een bepaalde waarde in nummers. Waardoor het model beter kon begrijpen welke woordcombinatie zwaarder weegt dan het ander. In dit geval zou het gebruikt worden om een bepaalde vraag te herkennen.
+Dit stukje code is het begin van het testen van ons model. Het bevat onder andere een preprocessor(voor het cleanen van de data). De code test op de 3 predictive modellen hierboven genoemd, ook split de code de dataset in een training / test / cross set.
+Dit was in het begin niet voldoende, alleen testen op modellen bleek niet de juiste resultaat weer te geven op onze dataset. Na uitgebreid onderzoek en advies zijn wij terecht gekomen op zogeheten word embeddings.
+Deze word embeddings geven tekst een bepaalde waarde in nummers. Hierdoor kan het model beter kon begrijpen welke woordcombinatie zwaarder weegt dan het ander. In dit geval zou het gebruikt worden om een bepaalde vraag te herkennen.
 Zo hebben wij gekeken hoe een vraag zin wordt opgebouwd in het Nederlands en dit als input gegeven aan het model.
 
 Omdat Word Embeddings meerdere modellen kent heb ik er twee gekozen om dit te gebruiken voor ons model. Dit waren de modellen TF - IDF Ngram en Count Vectors.
@@ -194,14 +192,14 @@ Omdat Word Embeddings meerdere modellen kent heb ik er twee gekozen om dit te ge
             # Cross Validation predictions
             self.check_model(classifier, xcross_tfidf, self.y_cross, model_name, features, 'tfidf_ngram', 'cross')
 ```
-Predictive model met TFIDF - ngram op onze dataset
+<i>Predictive model met TFIDF - ngram op onze dataset</i>
 
 Dit model traint op de aantal features en daarbij is gekozen voor een OneVsRest classifier.
 Deze strategie zorgt ervoor dat je een classifier fit per class. Voor elke classifier is de class gefit tegen alle andere classes.
 Het is gebruikelijk om voor de OneVsRest classifier te kiezen bij een Multi-class classification.
 Tot slot split dit stukje code de data in Training, Test en een Cross Validation set.
 
-Voor het model van de count_vectors is hetzelfde principe toepgepast. Te zien hieronder:
+Voor het model van de count_vectors is hetzelfde principe toegepast. Te zien hieronder:
 
 * Count Vectors.
 ```python
@@ -229,7 +227,7 @@ Voor het model van de count_vectors is hetzelfde principe toepgepast. Te zien hi
 Predictive model met count vectors op onze dataset.
 
 De toegevoegde waarde van mijn code op het project was het feit dat de bovengenoemde vormen van word embedding toegepast is op onze data.
-Daaruit is gebleken welk model uiteindelijk het beste was voor onze dataset. Uiteindelijk heeft het ervoor gezorgd dat er d.m.v. een model onstn
+Daaruit is gebleken welk model uiteindelijk het beste was voor onze dataset. Uiteindelijk heeft het ervoor gezorgd dat er een vergelijking is gemaakt tussen allerlei modellen, en daaruit is het beste model gekozen.
 Ook omdat elk model getest is tegenover Logistic Regression, Multinomial NB & Complement NB, kan de conclusie getrokken worden welk predictive model + word embeddings het best werken op de dataset.
 
 Tot slot is gebleken dat de predictive model Logistic Regression met count vectors het bestel model bleek te zijn voor ons dataset.
