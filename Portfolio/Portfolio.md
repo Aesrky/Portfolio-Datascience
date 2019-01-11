@@ -164,9 +164,10 @@ class MultiClassifier(BaseModel):
         
 ```
 
-Dit stuk code is ter context.
+Dit stukje code is ter context.
 
 Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger de waarde in nummers.
+
 Zo kwam ik uit op de volgende code:
 
 * TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
