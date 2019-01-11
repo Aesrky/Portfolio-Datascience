@@ -26,7 +26,7 @@ Hiervoor heb ik gebruik gemaakt van de package pandas. Dit is geleerd op de cour
 
 ```python
 import pandas as pd
-import dateutil
+
 
 # Data laden van een .csv file
 data = pd.DataFrame.from_csv('cbs.data')
@@ -148,7 +148,7 @@ Zo kwamen wij uit op:
 
 Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 
-
+![Test](/Portfolio/Data/Screenshot%202019-01-11%20at%2010.40.46.png)
 
 
 * Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
