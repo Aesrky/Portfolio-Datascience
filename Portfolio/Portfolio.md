@@ -451,12 +451,7 @@ Een aantal punten die uit de error analyse is voortgekomen:
 
 <h2>Diagnostics</h2>
 
-Aanvullend op de confusion matrix visualisatie, heb ik een diagnose uitgevoerd op dit model en de test dataset 
-Dit is te vinden onder het stukje: Predictive Modeling, Error Analyse.
-
-Hierbij bestudeer ik het model en maak ik een vergelijking met het door de onderzoekers voorspelde classificatie in tegenstelling tot wat het model voorspelt.
-
-
+Dit is naar mijn weten niet uitgevoerd binnen het project.
 
 
 <h1>Communicatie</h1>
@@ -506,7 +501,7 @@ Het gehele rapport zal ook apart worden ingeleverd. I.v.m. de vertrouwelijkheid 
 
 
 <h2>Scrum</h2>
-Omdat ik niet de grootste fan van scrum ben, heb ik dit ook nauwelijks gebruikt. Voor een breakdown van Scrum per persoon, refereer ik naar de [Scrumwise](https://www.scrumwise.com/scrum/#/people/project/kb74-2018-cbs) pagina van de CBS projectgroep.
+Omdat ik niet de grootste fan van scrum ben, heb ik dit ook nauwelijks gebruikt. Voor een breakdown van Scrum per persoon, refereer ik naar de ![Scrumwise](https://www.scrumwise.com/scrum/#/people/project/kb74-2018-cbs) pagina van de CBS projectgroep.
 
 Taken en activiteiten beknopt:  
 
