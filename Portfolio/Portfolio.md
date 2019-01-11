@@ -230,12 +230,11 @@ De toegevoegde waarde van mijn code op het project was het feit dat er ten eerst
 Daaruit is gebleken welk model het beste was voor onze dataset. Uiteindelijk heeft het ervoor gezorgd dat er een vergelijking is gemaakt tussen allerlei modellen, en daaruit is het beste model gekozen.
 Ook omdat elk model getest is tegenover Logistic Regression, Multinomial NB & Complement NB, kan de conclusie getrokken worden welk predictive model + word embeddings het best werken op de dataset.
 
-Tot slot is gebleken dat de predictive model Logistic Regression met count vectors het bestel model bleek te zijn voor ons dataset.
+Tot slot is gebleken dat de predictive model Logistic Regression met count vectors het beste model bleek te zijn voor ons dataset.
 
 
-Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
-
-![Test](/Portfolio/Courses/Screenshot%202019-01-11%20at%2010.40.46.png)
+<i>Uiteindelijke resultaat van F1-score bij cross validatie set op datasets met verschillende verhoudingen van classificatie 3 vs de rest.</i>
+![Test](/Portfolio/Courses/Screenshot%202019-01-11%20at%2020.06.46.png)
 
 
 * Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
