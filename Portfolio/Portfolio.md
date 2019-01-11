@@ -326,7 +326,49 @@ Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar 
 Stuk over labelen
 <h2>Evaluation</h2>
 
+```python
 
+    def count_vectors(self, cvalue):
+        count_vect = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_df=1.0, max_features=1500)
+        count_vect.fit(self.trainDF['cleaned_sentence'])
+        xtrain_count = count_vect.transform(self.X_train)
+        xvalid_count = count_vect.transform(self.X_test)
+        xcross_count = count_vect.transform(self.X_cross)
+
+        for model_name, model in self.models.items():
+            model.C = cvalue
+            mc_model = multiclass.OneVsRestClassifier(model)
+            classifier = mc_model.fit(xtrain_count, self.y_train)
+
+            # Training predictions
+            self.check_model(classifier, xtrain_count, self.y_train, model_name, features, 'count_vectors', 'training')
+
+            # Test predictions
+            self.check_model(classifier, xvalid_count, self.y_test, model_name, features, 'count_vectors', 'test')
+
+            # Cross Validation predictions
+            self.check_model(classifier, xcross_count, self.y_cross, model_name, features, 'count_vectors', 'cross')
+```
+
+Gehanteerde Range, Logistic Regression:
+
+```python
+    def get_and_print_all_scores(self):
+        print('Running for count_vectors')
+        for i in range(-5, 5):
+            self.count_vectors(10**i)
+            self.tfidf_words(i)
+            self.tfidf_ngram(i)
+            self.tfidf_char(i)
+```
+
+
+Voor het bepalen of de data overfit of underfit is, heb ik de volgende functie gemaakt. Deze functie is een soortgelijke functie gebruikt bij het predictive modellen.
+
+Daaruit is het volgende gekomen:
+
+![LG](/Portfolio/Courses/Screenshot%202019-01-11%20at%2013.53.33.png)
+ 
 
 
 
