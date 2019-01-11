@@ -303,6 +303,7 @@ df['cbs].fillna(125, inplace=True)
 
 De toegevoegde waarde van het cleanen van data is dat er vooral een overzicht komt van de bruikbare data. Ook kan het ervoor zorgen dat men een verborgen patroon herkent in de data die voorheen niet gezien kon worden.
 Tot slot kan het ervoor zorgen dat men bij het debuggen uren werk minder hoeft te doen wanneer je een diagnose / analyse gaat uitvoeren op je data.
+Echter, moet er opgemerkt worden dat bij het teveel "cleanen" van data je veel cruciale data kan verliezen, gelukkig was mijn bijdrage niet te ingrijpend om dit daadwerkelijk zien te gebeuren.
 
 
 Tevens heb ik samen met mijn collega's data gelabeld in 4 classificaties voor het predictive model. De code hiervoor en mijn aandeel staat beschreven in het kopje Predictive Models
