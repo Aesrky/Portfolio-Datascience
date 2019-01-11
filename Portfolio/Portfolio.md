@@ -14,8 +14,11 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
     2. [Literatuur](#Jargon)    
 3. [Courses](#Courses)
    1. [Datacamp Courses](#Datacamp)
-   2. [Coursera](#Coursera)
-   4
+   2. [Coursera Courses](#Coursera)
+4. [Data Science Technieken](#Data)
+5. [Communicatie](#Communicatie)
+    1. [Presentaties](#Presentaties)
+    2. [Paper](#Paper)
 
 ## This is the introduction <a name="introduction"></a>
 Some introduction text, formatted in heading 2 style
@@ -129,9 +132,7 @@ Bij Datacamp lag de focus meer op het toepassen en programmeren. Bij Coursera we
 Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde het bestuderen van Coursera ervoor dat ik nieuwe ideeen opdeed en dit zorgde er direct voor dat bepaalde handelingen veel makkelijker konden uitgevoerd. Immers, wij begrepen het concept van machine learning veel beter nu.
 
 
-<h2>Python Notebooks
-
-<h1>Data & Modellen</h1>
+<h1>Data</h1>
 <h2>Predictive Models</h2>
 
 
