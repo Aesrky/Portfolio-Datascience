@@ -163,7 +163,7 @@ class MultiClassifier(BaseModel):
 
 Dit stukje code is het begin van het testen van ons model. Het bevat onder andere een preprocessor(voor het cleanen van de data). De code test op de 3 predictive modellen hierboven genoemd, ook split de code de dataset in een training / test / cross set.
 Dit was in het begin niet voldoende, alleen testen op modellen bleek niet de juiste resultaat weer te geven op onze dataset. Na uitgebreid onderzoek en advies zijn wij terecht gekomen op zogeheten word embeddings.
-Deze word embeddings geven tekst een bepaalde waarde in nummers. Hierdoor kan het model beter kon begrijpen welke woordcombinatie zwaarder weegt dan het ander. In dit geval zou het gebruikt worden om een bepaalde vraag te herkennen.
+Deze word embeddings geven tekst een bepaalde waarde in nummers. Hierdoor kan het model beter begrijpen welke woordcombinatie zwaarder weegt dan het ander. In dit geval zou het gebruikt worden om een bepaalde vraag te herkennen.
 Zo hebben wij gekeken hoe een vraag zin wordt opgebouwd in het Nederlands en dit als input gegeven aan het model.
 
 Omdat Word Embeddings meerdere modellen kent heb ik er twee gekozen om dit te gebruiken voor ons model. Dit waren de modellen TF - IDF Ngram en Count Vectors.
