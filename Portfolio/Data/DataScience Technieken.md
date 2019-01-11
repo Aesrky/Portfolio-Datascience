@@ -191,3 +191,5 @@ def create_confusion_matrix(self, valid_y, predictions_valid, model_name):
 ```
 ![test1](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.11.png)
 ![test2](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.31.png)
+
+Resultaten uit de Confusion Matrix met bovenstaande code. Uit deze confusion matrix heb ik vervolgens een error analyse gemaakt te lezen in het rapport.
