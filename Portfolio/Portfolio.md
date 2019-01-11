@@ -263,7 +263,7 @@ data = pd.DataFrame.from_csv('cbs.data')
 data['date'] = data['date'].apply(dateutil.parser.parse, dayfirst=True)
 ```
 
-Dit was een stukje die ik had toegepast om in ieder geval de data van CBS e-mails in een datum formaat te zetten zodat het duidelijk was welke email wanneer is gestuurd.
+Dit was een stukje die ik had toegepast om in ieder geval de data van CBS e-mails in een datum formaat te zetten zodat het duidelijk was welke email op welke dat is gestuurd.
 
 * Het invoeren van data waarbij niets ingevoerd is. Meestal wordt er door een script gekeken waar data leegstaat.
 Alle data die het model als <1 herkent wordt vervangen met een 0. Soms wordt het vervangen door een NaN = Not a Number.
