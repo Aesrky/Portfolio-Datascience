@@ -528,7 +528,7 @@ Het gehele rapport zal ook apart worden ingeleverd. I.v.m. de vertrouwelijkheid 
 
 
 <h2>Scrum</h2>
-Omdat ik niet de grootste fan van scrum ben, heb ik dit ook nauwelijks gebruikt. Voor een breakdown van Scrum per persoon, refereer ik naar de ![Scrumwise](https://www.scrumwise.com/scrum/#/people/project/kb74-2018-cbs) pagina van de CBS projectgroep.
+Omdat ik niet de grootste fan van scrum ben, heb ik dit ook nauwelijks gebruikt. Voor een breakdown van Scrum per persoon, refereer ik naar de Scrumwise: https://www.scrumwise.com/scrum/#/people/project/kb74-2018-cbs pagina van de CBS projectgroep.
 
 Taken en activiteiten beknopt:  
 
