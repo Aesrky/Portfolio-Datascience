@@ -221,7 +221,7 @@ Predictive model met TFIDF - ngram op onze dataset
 ```
 Predictive model met count vectors op onze dataset.
 
-Uiteindelijk is gebleken dat de predictive model van Multinomial Naive Bayes in combinatie met de count vectors het beste heeft gewerkt op onze ongebalanceerde dataset.
+Uiteindelijk is gebleken dat de predictive model Logistic Regression in combinatie met de count vectors het beste heeft gewerkt op onze ongebalanceerde dataset.
 
 Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 
@@ -310,11 +310,18 @@ def create_confusion_matrix(self, valid_y, predictions_valid, model_name):
 
     plt.show()
 ```
+
+Het idee van het uitvoeren van een confusion matrix op de test set is om te kijken hoe het model een voorspelling uitvoert ten opzichte van onze voorspelling.
+Zo kon er vervolgens bepaald worden op welke punten het model niet een goede voorspelling deed, of dat er sprake was van een overfit of iets dergelijks.
+Ook kon er een diagnose worden gedaan van de machine learning model in vorm van een Error Analyse.
+
+
 ![test1](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.11.png)
 ![test2](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.31.png)
 
-Resultaten uit de Confusion Matrix met bovenstaande code. Uit deze confusion matrix heb ik vervolgens een error analyse gemaakt te lezen in het rapport.
-Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code tre realiseren. 
+Resultaten uit de Confusion Matrix met bovenstaande code.
+Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code te realiseren. 
+Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar het kopje Diagnostics
 
 
 
@@ -354,7 +361,7 @@ Presentaties per week:
 
 <h2>Paper</h2>
 De paper is een gezamenlijke bijdrage van de gehele groep. 
-Omdat ik geen fervente coder ben, heb ik samen met mijn collega Seyma Irilmazbilek gericht tot de taak onderzoeken en delen van kennis(o.a. aanpak, ideeen etc.) aan ons groepsgenoten binnen dit blok. 
+Omdat ik geen fervente coder ben, heb ik samen met mijn collega Seyma Irilmazbilek vooral gericht tot de taak onderzoeken en delen van kennis(o.a. aanpak, ideeen etc.) aan ons groepsgenoten binnen dit blok. 
 Zodoende was de paper meer mijn domein. 
 
 Zo heb ik het volgende uitgevoerd binnen de paper:
