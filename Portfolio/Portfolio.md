@@ -369,7 +369,7 @@ Daaruit is het volgende gekomen:
 
 ![LG](/Portfolio/Courses/Screenshot%202019-01-11%20at%2013.53.33.png)
  
-
+In dit model is te zien data voor de -1 Range underfit is en boven de 1 overfit te zien aan de testdata.
 
 
 Zelf iets maken 
