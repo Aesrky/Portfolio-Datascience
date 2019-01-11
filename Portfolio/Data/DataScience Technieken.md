@@ -148,7 +148,7 @@ Zo kwamen wij uit op:
 
 Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 
-![Test](/Portfolio/Data/Screenshot%202019-01-11%20at%2010.40.46.png)
+![Test](/Portfolio/Courses/Screenshot%202019-01-11%20at%2010.40.46.png)
 
 
 * Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
@@ -189,5 +189,5 @@ def create_confusion_matrix(self, valid_y, predictions_valid, model_name):
 
     plt.show()
 ```
-![test1](/Portfolio/Data/Screenshot%202019-01-11%20at%2011.07.11.png)
-![test2](/Portfolio/Data/Screenshot%202019-01-11%20at%2011.07.31.png)
+![test1](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.11.png)
+![test2](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.31.png)
