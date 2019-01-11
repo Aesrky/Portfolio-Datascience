@@ -140,7 +140,7 @@ Na verschillende tests op onze dataset bleek dat 3 soorten predictive models het
 * Complement Bayes
 * Logistic Regression
 
-Deze 3 algoritme hebben wij "getrained" over ons dataset. Daarbij behoort onder andere de volgende code:
+Deze 3 predictive models hebben wij toegepast op ons dataset. Daarbij behoort onder andere de volgende code:
 
 ```python
 
@@ -161,12 +161,13 @@ class MultiClassifier(BaseModel):
             'ComplementNB': naive_bayes.ComplementNB(alpha=0.767, class_prior=None, fit_prior=True),
             'LogisticRegression': linear_model.LogisticRegression(solver='lbfgs')
         }
-
+        
 ```
 
+Dit stuk code is ter context.
 
 Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger de waarde in nummers.
-Zo kwamen wij uit op:
+Zo kwam ik uit op de volgende code:
 
 * TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
 ```python
@@ -191,7 +192,7 @@ Zo kwamen wij uit op:
             # Cross Validation predictions
             self.check_model(classifier, xcross_tfidf, self.y_cross, model_name, features, 'tfidf_ngram', 'cross')
 ```
-
+Predictive model met TFIDF - ngram op onze dataset
 
 
 * Count Vectors
@@ -217,7 +218,9 @@ Zo kwamen wij uit op:
             self.check_model(classifier, xcross_count, self.y_cross, model_name, features, 'count_vectors', 'cross')
 
 ```
+Predictive model met count vectors op onze dataset.
 
+Uiteindelijk is gebleken dat de predictive model van Multinomial Naive Bayes in combinatie met de count vectors het beste heeft gewerkt op onze ongebalanceerde dataset.
 
 Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 
