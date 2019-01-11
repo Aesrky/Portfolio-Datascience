@@ -557,8 +557,18 @@ Dit blok kent veel up's en down's voor mij zowel op persoonlijk vlak als op het 
 Wellicht kwam dit omdat mij interesse er ook niet naar was. Dit neem ik mijzelf kwalijk. Ook vind ik dat ik sommige onderdelen van de course te laks heb aangepakt. Ik had meer inzet moeten tonen en meer moeten willen.
 Ik vind wel dat ik mijzelf heb herpakt, en dat ook heb laten zien de afgelopen weken, maar die laksheid is toch iets wat in mijn aard zit af en toe. Dan gooi ik er met de pet naar.
 
-Sommige lessen gingen wel eens van 0 naar 100 voor mijn gevoel, lang leve de internet en jaar 2018 waar alles tegenwoordig online te vinden staat. Ik heb ook een hele goede groep gehad moet ik bekennen die elkaar steunde door dik en dun.
-Wij als groep hebben het ook niet makkelijk gehad, zo zijn er vroegtijdig al 2 groepsgenoten ons project verlaten. Dit zorgde ervoor dat ons groep tijdelijk ons evenwicht kwijtraakte. Gelukkig hebben wij dat echter kunnen herpakken.
+Daarentegen waren er onderwerpen die ik probleemloos afmaakte, ook het coderen van python en het keer op keer falen vond ik niet erg. Ik had er mijn passie in gevonden en ik zou het blijven doen tot ik er voldoende skilled in was.
+Ik heb bovendien heel veel geleerd op het gebied van Machine Learning, vooral het onderzoeken en het vertalen naar een model was leerzaam. Ik heb wel het idee dat ik aardig kan meepraten als men het nu over data science heeft.
+Wellicht was dat mijn doel ook al die tijd, ik had sowieso niet verwacht de beste data scientist te worden binnen 5 maanden. Stiekem had ik wel verwacht dat ik een carriere in de data science zag.
+Dat is nu wel veranderd, ik denk dat ik toch meer hou van mijn eigen vakgebied (IT-Security)
 
-Ik heb veel geleerd over Data Science en hoe men dit kan toepassen in de praktijk, als men mij zal vragen zal je ooit iets met data science doen? Wellicht, maar niet in de nabije toekomst.
-Wel zal ik Python vaak gebruiken, dat is een taal die ik inmiddels goed heb omarmd en dit zal ik dan ook zeer zeker voor een lange tijd gebruiken.
+Sommige lessen gingen wel eens van 0 naar 100 voor mijn gevoel, lang leve de internet en jaar 2018 waar alles tegenwoordig online te vinden staat zeg ik dan maar. Ik heb ook een hele goede groep gehad moet ik bekennen die elkaar steunde door dik en dun.
+Wij als groep hebben het ook niet makkelijk gehad, zo zijn er vroegtijdig al 2 groepsgenoten ons project verlaten. Dit zorgde ervoor dat ons groep tijdelijk ons evenwicht kwijtraakte. Gelukkig hebben wij dat kunnen herpakken.
+
+Ik heb veel geleerd over Data Science en hoe men dit kan toepassen in de praktijk. Maar vooral van het vak zelf. Wat inspireert mensen, wat beweegt mensen. Hoe krijg je van niets naar een prachtig model. Het is toch een passie die niet voor vele is weggelegd. Maar als men mij zal vragen zal je ooit iets met data science doen? Wellicht, maar niet in de nabije toekomst.
+Wel zal ik Python vaak gebruiken, dat is een taal die ik inmiddels goed heb omarmd en dit zal ik dan ook zeer zeker voor een lange tijd gebruiken. 
+
+Ik vind wel dat de course een strengere eis moet gaan stellen voor het programmeren en het begrijpen van wiskunde op gebied van statistiek. Ik begrijp overigens dat de minor niet vraagt dat je opeens een prodigy bent na 5 maanden, maar toch is het soms lastig in te komen.
+
+Tot slot wil ik zeggen dat ik wel een positief gevoel heb over gehouden aan de leraren en de sfeer in de klas. De leraren wisten waar ze over praatte en bij Jeroen had ik het idee dat er geen een onderwerp was in Machine Learning waar hij geen weet van had.
+Dat is toch prettig af en toe, dat je leraren hebt die weten waar ze over praten. Dat is naar mijn ervaring niet altijd zo geweest.
