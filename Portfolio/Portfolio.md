@@ -19,8 +19,9 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
     1. [Predictive Modeling](#Predictive)
     2. [Data Preparation](#Preparation)
     3. [Data Visualization](#Visualization)
-    4. [Data Evaluation](#Evaluation)
-    5. [Diagnostics](#Diagnostics)
+    4. [Data Collection](#Collection)
+    5. [Data Evaluation](#Evaluation)
+    6. [Diagnostics](#Diagnostics)
 5. [Communicatie](#Communicatie)
     1. [Presentaties](#Presentaties)
     2. [Paper](#Paper)
@@ -338,14 +339,14 @@ In de gemaakte code kan men 2 soorten modellen van de confusion matrix ondersche
 * Van beide confusion matrix visualisaties is de input het geschetste model beschreven in hoofdstuk predictive modelling. Daar is ook beschreven dat Logistic Regression uiteindelijk het best mogelijke model is voor onze dataset.
 * Te zien is hoe wij data hebben gelabeld op de "True Label" en hoe het model dit heeft voorspelt op de "Predicted Label".
 * Alhoewel ik de confusion matrix op de Training, Cross validation en Test set heb gemaakt, schrijft de error analyse voor dat het uitgevoerd zal moeten worden op de test set. Vandaar de visualisatie van de test set.
-* Normalizing is gedaan om de snelheid van data te optimaliseren. Ook geeft het model verschil aan tussen zinnen en percentage. Dit bleek achteraf handig te zijn om letterlijk uit te vinden waarom een model iets voorspelt wat wij anders hebben geclassificeerd.
+* Normalization is gedaan om de snelheid van data te optimaliseren. Ook geeft het model verschil aan tussen zinnen en percentage. Dit bleek achteraf handig te zijn om letterlijk uit te vinden waarom een model iets voorspelt wat wij anders hebben geclassificeerd.
 
 Credits: Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code te realiseren. 
 Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar het kopje Diagnostics & Rapport
 
 
 
-<h2>Data collection</h2>
+<h2>Collection</h2>
 Dit is niet relevant geweest voor ons onderzoek, aangezien alle beschikbare data door het CBS is vrijgegeven. Wellicht kan het stukje labelen vallen onder het kopje "Data Collection".
 Hierbij hebben mijn collega's en ik de relevante datasets doorlopen en gelabeld als een 1,2,3 of 4 classificatie.
 
@@ -398,8 +399,18 @@ Bij een query vraag wordt de context van de vraag tevens als query vraag geclass
             # Cross Validation predictions
             self.check_model(classifier, xcross_count, self.y_cross, model_name, features, 'count_vectors', 'cross')
 ```
-E.v.t Uitleg toegevoegde waarde en breakdown code
-Gehanteerde Range, Logistic Regression:
+
+Voor de evaluatie van het model om te zien wanneer er precies sprake is van een overfit of underfit is ongeveer hetzelfde soort code toegepast bij predictive modelling.
+Echter, zijn er een aantal wijzigingen gemaakt:
+
+
+* Data die uit mijn code is voortgevloeid is als .csv bestand in excel geimporteerd en vervolgens gevisualiseerd. Hierbij is geen code gebruikt van Python
+* Input van data voor de visualisatie is de data output waarbij modellen die ik heb beschreven zijn gebruikt in het hoofdstuk: Predictive Modelling
+* In plaats van features wordt nu gebruik gemaakt van cvalue (nieuwe feature)
+* Max aantal features is nu 1500, uit eerdere tests van mijn collega's bleek dat na 1500 features sprake was van een overfit.
+* Gehanteerde range is nu veranderd van -5 tot 5. 
+* Alle gehanteerde inputs zijn de standaard inputs zoals max_df (verwijderen van termen dat te vaak voorkomen) = 1.0 etc. Deze bleek ook goed op de data te passen, te zien op de screenshot hier onder.
+
 
 ```python
     def get_and_print_all_scores(self):
@@ -410,15 +421,13 @@ Gehanteerde Range, Logistic Regression:
             self.tfidf_ngram(i)
             self.tfidf_char(i)
 ```
+<i> Code voor het veranderen van de range </i>
 
-
-Voor het bepalen of de data overfit of underfit is, heb ik de volgende functie gemaakt. Deze functie is een soortgelijke functie gebruikt bij het predictive modellen.
-
-Daaruit is het volgende gekomen:
 
 ![LG](/Portfolio/Courses/Screenshot%202019-01-11%20at%2013.53.33.png)
  
-In dit model is te zien data voor de -1 Range underfit is en boven de 1 overfit te zien aan de testdata.
+In dit model is te zien dat alles onder  <1 Range underfit is en boven de 1 Range overfit  Hierbij is te zien dat de default input van het model werkt op ons model.
+Door middel van deze code is dus af te leiden voor de onderzoekers wanneer er sprake zou kunnen zijn van een overfit. 
 
 
 <h2>Diagnostics</h2>
