@@ -54,13 +54,12 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 * Skewed Dataset = Ongebalanceerde dataset
 * Logistic Regression =
 * Data Cleaning = Het verschonen en categoriseren van de dataset
-* Programmeren = 
 * Machine Learning =
 * Data Visualisatie = Het visualiseren van data
 * Data Manipuleren = 
 * Data Importeren =
 * Pentesting = 
-
+* OneVsRest
 
 <h2>Literatuur</h2>
 <h1>Courses</h1>
@@ -165,7 +164,7 @@ class MultiClassifier(BaseModel):
 <i>Dit stukje code is ter context.</i>
 
 Dit stukje code is het begin van het testen van ons model. Het bevat onder andere een preprocessor, de code test op de 3 predictive modellen hierboven genoemd en het split de data in een training / test / cross set.
-Dit was in het beginsel niet voldoende, alleen testen op modellen bleek niet de juiste resultaat weer te geven. Na uitgebreid onderzoek en advies zijn wij terecht gekomen op zogeheten word embeddings.
+Dit was in het beginsel niet voldoende, alleen testen op modellen bleek niet de juiste resultaat weer te geven op onze dataset. Na uitgebreid onderzoek en advies zijn wij terecht gekomen op zogeheten word embeddings.
 Deze word embeddings geven aan tekst een bepaalde waarde in nummers. Waardoor het model beter kon begrijpen welke woordcombinatie zwaarder weegt dan het ander. In dit geval zou het gebruikt worden om een bepaalde vraag te herkennen.
 Zo hebben wij gekeken hoe een vraag zin wordt opgebouwd in het Nederlands en dit als input gegeven aan het model.
 
@@ -196,6 +195,11 @@ Omdat Word Embeddings meerdere modellen kent heb ik er twee gekozen om dit te ge
             self.check_model(classifier, xcross_tfidf, self.y_cross, model_name, features, 'tfidf_ngram', 'cross')
 ```
 Predictive model met TFIDF - ngram op onze dataset
+
+Dit model traint op de aantal features en daarbij is gekozen voor een OneVsRest classifier.
+Deze strategie zorgt ervoor dat je een classifier fit per class. Voor elke classifier is de class gefit tegen alle andere classes.
+Het is gebruikelijk om voor de OneVsRest classifier te kiezen bij een Multi-class classification.
+
 
 
 * Count Vectors  // Ook gemaakt zelfde breakdown e.v.t.
