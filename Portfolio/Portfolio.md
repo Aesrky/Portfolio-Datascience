@@ -224,9 +224,9 @@ Voor het model van de count_vectors is hetzelfde principe toegepast. Te zien hie
             self.check_model(classifier, xcross_count, self.y_cross, model_name, features, 'count_vectors', 'cross')
 
 ```
-Predictive model met count vectors op onze dataset.
+<i>Predictive model met count vectors op onze dataset.</i>
 
-De toegevoegde waarde van mijn code op het project was het feit dat de bovengenoemde vormen van word embedding toegepast is op onze data.
+De toegevoegde waarde van mijn code op het project was het feit dat er ten eerste predictive model(len) is toegepast. Vervolgens zijn deze modellen ook met bovengenoemde vormen van word embedding toegepast is op onze data.
 Daaruit is gebleken welk model uiteindelijk het beste was voor onze dataset. Uiteindelijk heeft het ervoor gezorgd dat er een vergelijking is gemaakt tussen allerlei modellen, en daaruit is het beste model gekozen.
 Ook omdat elk model getest is tegenover Logistic Regression, Multinomial NB & Complement NB, kan de conclusie getrokken worden welk predictive model + word embeddings het best werken op de dataset.
 
