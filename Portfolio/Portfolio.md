@@ -80,6 +80,11 @@ In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegel
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
+Voor bewijs van voltooiing refereer ik graag naar mijn Datacamp Account:
+
+[Datacamp Account](https://www.datacamp.com/profile/14121409)
+
+
 
 * <b> Programmeren </b> (19100 XP)
 1. (Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
