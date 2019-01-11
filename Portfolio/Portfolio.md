@@ -164,7 +164,7 @@ class MultiClassifier(BaseModel):
         
 ```
 
-Dit stukje code is ter context.
+<i>Dit stukje code is ter context.</i>
 
 Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger de waarde in nummers.
 
@@ -232,9 +232,6 @@ Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
 
 
-
-
-Hier stuk over supervised learning, classification of regression. Python bestand multiclass classification
 <h2>Data preparation</h2>
 
 Voor het project heb ik op het gebied van Data preparation een stukje datacleaning toegepast. 
@@ -325,9 +322,14 @@ Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar 
 
 
 
-<h2>Data collection</h3>
+<h2>Data collection</h2>
 Stuk over labelen
-<h2>Evaluation</h3>
+<h2>Evaluation</h2>
+
+
+
+
+
 Zelf iets maken 
 Underfit, Overfit, Bias
 
