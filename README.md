@@ -556,6 +556,7 @@ Dit blok kent veel up's en down's voor mij zowel op persoonlijk vlak als op het 
 Wellicht kwam dit omdat mij interesse er ook niet naar was. Dit neem ik mijzelf kwalijk. Ook vind ik dat ik sommige onderdelen van de course te laks heb aangepakt. Ik had meer inzet moeten tonen en meer moeten willen.
 Ik vind wel dat ik mijzelf heb herpakt, en dat ook heb laten zien de afgelopen weken, maar die laksheid is toch iets wat in mijn aard zit af en toe. Dan gooi ik er met de pet naar.
 
+
 Daarentegen waren er onderwerpen die ik probleemloos afmaakte, ook het coderen van python en het keer op keer falen vond ik niet erg. Ik had er mijn passie in gevonden en ik zou het blijven doen tot ik er voldoende skilled in was.
 Ik heb bovendien heel veel geleerd op het gebied van Machine Learning, vooral het onderzoeken en het vertalen naar een model was leerzaam. Ik heb wel het idee dat ik aardig kan meepraten als men het nu over data science heeft.
 Wellicht was dat mijn doel ook al die tijd, ik had sowieso niet verwacht de beste data scientist te worden binnen 5 maanden. Stiekem had ik wel verwacht dat ik een carriere in de data science zag.
