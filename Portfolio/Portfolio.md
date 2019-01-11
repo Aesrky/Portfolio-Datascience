@@ -338,10 +338,10 @@ In de gemaakte code kan men 2 soorten modellen van de confusion matrix ondersche
 * Van beide confusion matrix visualisaties is de input het geschetste model beschreven in hoofdstuk predictive modelling. Daar is ook beschreven dat Logistic Regression uiteindelijk het best mogelijke model is voor onze dataset.
 * Te zien is hoe wij data hebben gelabeld op de "True Label" en hoe het model dit heeft voorspelt op de "Predicted Label".
 * Alhoewel ik de confusion matrix op de Training, Cross validation en Test set heb gemaakt, schrijft de error analyse voor dat het uitgevoerd zal moeten worden op de test set. Vandaar de visualisatie van de test set.
+* Normalizing is gedaan om de snelheid van data te optimaliseren. Ook geeft het model verschil aan tussen zinnen en percentage. Dit bleek achteraf handig te zijn om letterlijk uit te vinden waarom een model iets voorspelt wat wij anders hebben geclassificeerd.
 
-Resultaten uit de Confusion Matrix met bovenstaande code.
-Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code te realiseren. 
-Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar het kopje Diagnostics
+Credits: Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code te realiseren. 
+Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar het kopje Diagnostics & Rapport
 
 
 
