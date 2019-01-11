@@ -426,7 +426,7 @@ Echter, zijn er een aantal wijzigingen gemaakt:
 
 ![LG](/Portfolio/Courses/Screenshot%202019-01-11%20at%2013.53.33.png)
  
-In dit model is te zien dat alles onder  <1 Range underfit is en boven de 1 Range overfit  Hierbij is te zien dat de default input van het model werkt op ons model.
+In dit model is te zien dat alles onder  <1 Range underfit is en boven de 1 Range overfit. Hierbij is te zien dat de default input van het model werkt op ons model.
 Door middel van deze code is dus af te leiden voor de onderzoekers wanneer er sprake zou kunnen zijn van een overfit. 
 
 
