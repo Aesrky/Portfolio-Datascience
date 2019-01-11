@@ -69,9 +69,6 @@ In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegel
 <h2>Datacamp</h2>
 
 
-#![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
-#![Afgeronde Hele Courses](/Portfolio/Courses/Voltooide%20Courses.png)
-
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
 
@@ -127,16 +124,20 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 
 
 <h1>Data</h1>
+In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd.
+
+
 <h2>Predictive</h2>
-Na verschillende tests op onze dataset bleek dat 3 soorten predictive models het beste werkte op onze dataset:
+
+Voor onze dataset bleek het beste dat er gekozen werd voor een supervised manier van leren. Hierbij zijn wij voorbarig begonnen met allerlei modellen te testen op onze data alvorens wij uberhaupt iets wisten over data science.
+Na wat onderzoek en veel verder in het project, zijn wij tot conclusie gekomen dat de volgende 3 modellen het best werken voor onze dataset.
 
 * Multinomial Naive Bayes
 * Complement Naive Bayes
 * Logistic Regression
 
-Deze 3 predictive models hebben wij toegepast op ons dataset. Daarbij behoort onder andere de volgende code:
+Deze 3 predictive models hebben wij vervolgens ook toegepast op onze dataset. Daarbij behoort onder andere de volgende code:
 
-Wat betekent deze code? Breakdown
 
 
 ```python
@@ -163,11 +164,13 @@ class MultiClassifier(BaseModel):
 
 <i>Dit stukje code is ter context.</i>
 
-Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger de waarde in nummers.
+Dit stukje code is het begin van het testen van ons model. Het bevat onder andere een preprocessor, de code test op de 3 predictive modellen hierboven genoemd en het split de data in een training / test / cross set.
+Dit was in het beginsel niet voldoende, alleen testen op modellen bleek niet de juiste resultaat weer te geven. Na uitgebreid onderzoek en advies zijn wij terecht gekomen op zogeheten word embeddings.
+Deze word embeddings geven aan tekst een bepaalde waarde in nummers. Waardoor het model beter kon begrijpen welke woordcombinatie zwaarder weegt dan het ander. In dit geval zou het gebruikt worden om een bepaalde vraag te herkennen.
+Zo hebben wij gekeken hoe een vraag zin wordt opgebouwd in het Nederlands en dit als input gegeven aan het model.
 
-Zo heb ik de volgende code beschreven aan de hand van de TF-IDF Ngram model. 
+Omdat Word Embeddings meerdere modellen kent heb ik er twee gekozen om dit te gebruiken voor ons model. Dit waren de modellen TF - IDF Ngram en Count Vectors.
 
-Toegevoegde waarde = meerdere modellen proberen kijken welk model het beste past, en breakdown van code
 
 * TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
 ```python
