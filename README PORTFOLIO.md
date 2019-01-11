@@ -108,20 +108,38 @@ Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote
 2. (Course) [Introduction and flat files](https://www.datacamp.com/courses/importing-data-in-python-part-1)
 3. (Course) [Cleaning data in Python](https://www.datacamp.com/courses/cleaning-data-in-python)
 
+Dit gedeelte van Python heeft ervoor gezorgd dat ik nu weet hoe ik verschillende soorten data kan invoeren in python, en vervolgens met deze data aan de slag kan gaan.
+Het lijkt iets simpels, maar het invoeren van data was voorheen al een hele uitdaging. Bovendien heeft het een beeld gegeven hoe ik met mijn blote oog op zoek moet gaan naar nieuwe "raw" data. Tevens heeft deze course ook bijgedragen aan het leren van cleanen van coding met de pandas package.
+Dit heb ik in kleine schaal toegepast in de hoofdstuk Data Preparation. Tot slot heeft dit mij een algehele beeld gegeven van hoe ik data kan importeren en cleanen om het bruikbaar te maken voor mijn predictive models.
+
+
 * <b> Data Manipulatie </b> (2080 XP)
 1. (Chapter) [Data ingestion & inspection](https://www.datacamp.com/courses/pandas-foundations)
 2. (Chapter) [Exploratory Data Analysis](https://www.datacamp.com/courses/pandas-foundations)
+
+In deze chapters heb ik kort geleerd hoe ik met Pandas om kan gaan en heb ik ingezien wat een krachtige tool dit kan zijn. Ik heb dit echter niet toegepast binnen mijn project.
 
 * <b> Data Visualisatie </b> (3520 XP)
 1. (Chapter) [Plotting 2D Arrays](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 2. (Chapter) [Statistical plots with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 3. (Chapter) [Customizing Plots](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
 
+Mijn favoriete onderdeel en volgens mij ook het onderdeel wat ik dagelijks gebruik voor mijn eigen werk. Ik heb hierbij geleerd hoe ik mijn grafieken zo goed mogelijk kan visualiseren en heb zelfs Excel afgezworen na het volgen van deze tutorials.
+Ik gebruik de package seaborn nog dagelijks voor het maken van heatmaps voor mijn werk. Visualisatie is echt key als dit zo goed mogelijk de data vertegenwoordigd. Dit heb ik geleerd van deze course en zal het zonder twijfel een leven lang meedragen.
+
+
 * <b> Waarschijnlijkheid & Statistiek </b> (4350 XP)
 1. (Course) [Statistical Thinking in Python (Part 1)](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1)
 
+Een course waarbij wordt weergegeven hoe je statistiek kan vertalen binnen Python. Een cruciale stap binnen Data Science, want je kan zoveel moeite doen om je data te vergaren en het vormen in een product waar je mee kan werken. 
+Het zal je niets opbrengen als je geen duidelijke conclusies van je data kan trekken. Deze course heeft geholpen bij het formuleren van duidelijke resultaten en conclusies voor de paper.
+
+
 * <b> Machine Learning </b> (4300 XP)
 1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
+
+De Course die mij heeft geholpen met het maken van een predictive model. Hierbij heb ik informatie vergaard over classificatie, regressie maar ook het fine tunen van mijn model wat cruciaal is.
+Mijn code voor predictive modelling is veelal gebaseerd op stukjes van de course.
 
 
 <h2>Coursera</h2>
