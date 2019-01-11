@@ -552,3 +552,13 @@ Taken en activiteiten beknopt:
 * Error Analyse over Training - Test - Cross set
 
 <h2> Reflectie </h2>
+Het waren hele leerzame 2 blokken en voorheen had ik nooit gedacht dat ik mij zou verdiepen in dit onderwerp. Wat ben ik enerzijds blij dat ik het toch heb gedaan maar anderzijds ook weer niet.
+Dit blok kent veel up's en down's voor mij zowel op persoonlijk vlak als op het "zakelijke". Zo kon ik niet altijd opbrengen om aan onderwerpen te zitten wat ik veelal niet begreep. 
+Wellicht kwam dit omdat mij interesse er ook niet naar was. Dit neem ik mijzelf kwalijk. Ook vind ik dat ik sommige onderdelen van de course te laks heb aangepakt. Ik had meer inzet moeten tonen en meer moeten willen.
+Ik vind wel dat ik mijzelf heb herpakt, en dat ook heb laten zien de afgelopen weken, maar die laksheid is toch iets wat in mijn aard zit af en toe. Dan gooi ik er met de pet naar.
+
+Sommige lessen gingen wel eens van 0 naar 100 voor mijn gevoel, lang leve de internet en jaar 2018 waar alles tegenwoordig online te vinden staat. Ik heb ook een hele goede groep gehad moet ik bekennen die elkaar steunde door dik en dun.
+Wij als groep hebben het ook niet makkelijk gehad, zo zijn er vroegtijdig al 2 groepsgenoten ons project verlaten. Dit zorgde ervoor dat ons groep tijdelijk ons evenwicht kwijtraakte. Gelukkig hebben wij dat echter kunnen herpakken.
+
+Ik heb veel geleerd over Data Science en hoe men dit kan toepassen in de praktijk, als men mij zal vragen zal je ooit iets met data science doen? Wellicht, maar niet in de nabije toekomst.
+Wel zal ik Python vaak gebruiken, dat is een taal die ik inmiddels goed heb omarmd en dit zal ik dan ook zeer zeker voor een lange tijd gebruiken.
