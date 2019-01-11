@@ -321,6 +321,7 @@ Dit is niet relevant geweest voor ons onderzoek, aangezien alle beschikbare data
 Hierbij hebben mijn collega's en ik de relevante datasets doorlopen en gelabeld als een 1,2,3 of 4 classificatie.
 
 
+```python
 Multi-class classification | Vier classificaties
 De multi-class classification bestaat uit de volgende vier classificaties:
 •	Niet-relevante beschikbaarheidsvraag: classificatie 1
@@ -338,8 +339,7 @@ Query vragen zijn relevante vragen waarin een verzoek wordt gediend om informati
 o	specifieke cijfers van een onderwerp wat binnen een thema van het CBS valt. 
 o	concrete gegevens van een onderwerp wat binnen een thema van het CBS valt. Denk hierbij aan inkomen wat onder CBS-categorie ‘Beroepsbevolking’ valt.
 Bij een query vraag wordt de context van de vraag tevens als query vraag geclassificeerd, zodat de input van een query als volledig wordt beschouwd. 
-
-
+```
 
 
 
@@ -392,12 +392,9 @@ Daaruit is het volgende gekomen:
 In dit model is te zien data voor de -1 Range underfit is en boven de 1 overfit te zien aan de testdata.
 
 
-Zelf iets maken 
-Underfit, Overfit, Bias
-
 <h2>Diagnostics</h2>
 
-Aanvullend op de confusion matrix visualisatie, heb ik een diagnose uitgevoerd op dit model en de test dataset in een vorm van een diagnose.
+Aanvullend op de confusion matrix visualisatie, heb ik een diagnose uitgevoerd op dit model en de test dataset 
 Dit is te vinden onder het stukje: Predictive Modeling, Error Analyse.
 
 Hierbij bestudeer ik het model en maak ik een vergelijking met het door de onderzoekers voorspelde classificatie in tegenstelling tot wat het model voorspelt.
