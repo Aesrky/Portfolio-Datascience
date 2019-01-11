@@ -10,8 +10,7 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 # Table of contents
 1. [Introductie](#Introductie)
 2. [Domain Knowledge](#Domein)
-    1. [Jargon](#Jargon)
-    2. [Literatuur](#Literatuur)    
+    1. [Jargon](#Jargon)   
 3. [Courses](#Courses)
    1. [Datacamp Courses](#Datacamp)
    2. [Coursera Courses](#Coursera)
@@ -44,30 +43,39 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 * Multionomial Naive Bayes
 * Complement Naive Bayes
 * Logistic Regression
+* Support Vector Machine (SVM)
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
 
 <h1>Domein</h1>
 
+Voordat ik aan de course begon had ik nauwelijks kennis op het gebied van Data Science. Het werd vaak in mijn omgeving genoemd als de "next" big thing en ik ben als het ware gestapt op de hype train.
+Daarbij ging ik met bijna 0 programmeer kennis in dit vak en daarbij had ik totaal geen affiniteit met wiskunde tijdens mijn middelbare school tijden. Het was een recipe for disaster. 
+De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel iets anders dan verwacht. Wel heb ik gigantisch veel kennis gedaan door veel te onderzoeken en te relateren aan ons project.
+
+
 <h2>Jargon</h2>
 
-* Naive Bayes = Predictive Model
-* Skewed Dataset = Ongebalanceerde dataset
-* Logistic Regression =
+* Naive Bayes = Naive Bayes is een familie van simpele "probabilistic classifier" gebaseerd op de Bayes' theorem met een sterke (naief) onafhankelijkheid veronderstellingen tussen de features
+* Machine Learning = Is het wetenschappelijke onderzoek van algoritme en statistische modellen die computers gebruiken om progressieve verbetering te boeken op de prestaties van een specifieke taak.
+* Skewed Dataset = Ongebalanceerde dataset tussen verschillende classen
+* Logistic Regression = Logistische Regressie binnen de statistiek wordt gebruikt om een dichotome uitkomstvariabele te relateren aan een of meerdere variabelen
+* Feature = De input gegeven aan een predictive model. 
 * Data Cleaning = Het verschonen en categoriseren van de dataset
-* Machine Learning =
-* Data Visualisatie = Het visualiseren van data
-* Data Manipuleren = 
-* Data Importeren =
-* Pentesting = 
-* OneVsRest
+* TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
+* Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc. In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
+* Data Visualisatie = Het visualiseren van data om zo een beeld te geven van je resultaten of bevindingen
+* Data Manipuleren = Het veranderen van metadata van je dataset
+* Data Importeren = Het importeren van Data
+* Data Preparatie = Het cleanen van "raw data" om als input te dienen voor een predictive model
+* Pentesting = Het vinden van kwetsbaarheden in systemen
+* OneVsRest = Het kiezen van een class en het trainen van een two class classifier met de samples van een geselecteerde class aan de ene kant en alle andere voorbeelden aan de andere kant.
 
-<h2>Literatuur</h2>
+
 <h1>Courses</h1>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
 
 <h2>Datacamp</h2>
-
 
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
@@ -170,8 +178,9 @@ Zo hebben wij gekeken hoe een vraag zin wordt opgebouwd in het Nederlands en dit
 
 Omdat Word Embeddings meerdere modellen kent heb ik er twee gekozen om dit te gebruiken voor ons model. Dit waren de modellen TF - IDF Ngram en Count Vectors.
 
+* TF - IDF 
+* Count Vectors
 
-* TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
 ```python
     def tfidf_ngram(self, features):
         tfidf_vect_ngram = TfidfVectorizer(
@@ -237,10 +246,6 @@ Tot slot is gebleken dat de predictive model Logistic Regression met count vecto
 
 <i>Uiteindelijke resultaat van F1-score bij cross validatie set op datasets met verschillende verhoudingen van classificatie 3 vs de rest.</i>
 ![Test](/Portfolio/Courses/Screenshot%202019-01-11%20at%2020.06.46.png)
-
-
-* Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
-In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
 
 
 <h2>Preparation</h2>
