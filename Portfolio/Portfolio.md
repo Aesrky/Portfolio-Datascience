@@ -16,9 +16,15 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
    1. [Datacamp Courses](#Datacamp)
    2. [Coursera Courses](#Coursera)
 4. [Data Science Technieken](#Data)
+    1. [Predictive Modeling](#Predictive)
+    2. [Data Preparation](#Preparation)
+    3. [Data Visualization](#Visualization)
+    4. [Data Evaluation](#Evaluation)
+    5. [Diagnostics](#Diagnostics)
 5. [Communicatie](#Communicatie)
     1. [Presentaties](#Presentaties)
     2. [Paper](#Paper)
+    3. [Reflectie](#Reflectie)
 
 ## This is the introduction <a name="introduction"></a>
 Some introduction text, formatted in heading 2 style
@@ -133,7 +139,7 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 
 
 <h1>Data</h1>
-<h2>Predictive Models</h2>
+<h2>Predictive</h2>
 Na verschillende tests op onze dataset bleek dat 3 soorten predictive models het beste werkte op onze dataset:
 
 * Multinomial Bayes
@@ -232,7 +238,7 @@ Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
 
 
-<h2>Data preparation</h2>
+<h2>Preparation</h2>
 
 Voor het project heb ik op het gebied van Data preparation een stukje datacleaning toegepast. 
 
@@ -283,7 +289,7 @@ Tevens heb ik samen met mijn collega's data gelabeld in 4 classificaties voor he
 
 
 
-<h2>Data Visualization</h2>
+<h2>Visualization</h2>
 
 Error Analyse Code & Confusion Matrix Visualisatie 
 
@@ -375,7 +381,7 @@ In dit model is te zien data voor de -1 Range underfit is en boven de 1 overfit 
 Zelf iets maken 
 Underfit, Overfit, Bias
 
-<h2>Diagnostics of the learning process</h2>
+<h2>Diagnostics</h2>
 
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
@@ -445,3 +451,5 @@ Taken en activiteiten beknopt:
 * Datasets labelen in 4 classificaties
 * Confusion Matrixes maken van gelabelde datasets
 * Error Analyse over Training - Test - Cross set
+
+<h2> Reflectie </h2>
