@@ -9,11 +9,13 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 # Table of contents
 1. [Introductie](#Introductie)
-2. [Domain Knowledge](#DomainKnowledge)
+2. [Domain Knowledge](#Domein)
     1. [Jargon](#Jargon)
-    2. [Literatuur](#Jargon)
-    
-3. [Another paragraph](#paragraph2)
+    2. [Literatuur](#Jargon)    
+3. [Courses](#Courses)
+   1. [Datacamp Courses](#Datacamp)
+   2. [Coursera](#Coursera)
+   4
 
 ## This is the introduction <a name="introduction"></a>
 Some introduction text, formatted in heading 2 style
@@ -47,7 +49,7 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
 
-<h1>Domain Knowledge</h1>
+<h1>Domein</h1>
 
 <h2>Jargon</h2>
 
@@ -67,7 +69,7 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 <h1>Courses</h1>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
 
-<h2>Datacamp Courses </h2>
+<h2>Datacamp</h2>
 
 
 ![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
@@ -113,7 +115,7 @@ Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote
 1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
 
 
-<h2>Coursera Courses </h2>
+<h2>Coursera</h2>
 
 
 Voor Coursera zijn de weken 1,2,3 en 6 afgerond. De bijbehorende opdrachten zijn daarbij niet gemaakt. 
