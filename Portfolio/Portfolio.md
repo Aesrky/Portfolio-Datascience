@@ -11,7 +11,7 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 1. [Introductie](#Introductie)
 2. [Domain Knowledge](#Domein)
     1. [Jargon](#Jargon)
-    2. [Literatuur](#Jargon)    
+    2. [Literatuur](#Literatuur)    
 3. [Courses](#Courses)
    1. [Datacamp Courses](#Datacamp)
    2. [Coursera Courses](#Coursera)
@@ -28,7 +28,7 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 
 
-<h1>1. Introductie</h1>
+<h2>Introductie</h2>
 
 Voor onze minor Data Science aan de Haagse Hogeschool hebben wij in een groep van 4 mensen een opdracht uitgevoerd namens het CBS.
 Daarbij werd er getracht de top 10 categorieen, van gegeven data van het CBS, eruit te filteren.
@@ -46,9 +46,9 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
 
-<h1>2. Domein</h1>
+<h1>Domein</h1>
 
-<h2>2.1 Jargon</h2>
+<h2>Jargon</h2>
 
 * Naive Bayes = Predictive Model
 * Skewed Dataset = Ongebalanceerde dataset
@@ -62,11 +62,11 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 * Pentesting = 
 
 
-<h2>2.2 Literatuur</h2>
-<h1>3. Courses</h1>
+<h2>Literatuur</h2>
+<h1>Courses</h1>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
 
-<h2>3.1 Datacamp</h2>
+<h2>Datacamp</h2>
 
 
 #![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
@@ -112,7 +112,7 @@ Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote
 1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
 
 
-<h2>3.2 Coursera</h2>
+<h2>Coursera</h2>
 
 
 Voor Coursera zijn de weken 1,2,3 en 6 afgerond. De bijbehorende opdrachten zijn daarbij niet gemaakt. 
@@ -126,8 +126,8 @@ Bij Datacamp lag de focus meer op het toepassen en programmeren. Bij Coursera we
 Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde het bestuderen van Coursera ervoor dat ik nieuwe ideeen opdeed en dit zorgde er direct voor dat bepaalde handelingen veel makkelijker konden uitgevoerd. Immers, wij begrepen het concept van machine learning veel beter nu.
 
 
-<h1>4. Data</h1>
-<h2>4.1 Predictive</h2>
+<h1>Data</h1>
+<h2>Predictive</h2>
 Na verschillende tests op onze dataset bleek dat 3 soorten predictive models het beste werkte op onze dataset:
 
 * Multinomial Naive Bayes
@@ -231,7 +231,7 @@ Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
 
 
-<h2>4.2 Preparation</h2>
+<h2>Preparation</h2>
 
 Voor het project heb ik op het gebied van Data preparation een stukje datacleaning toegepast. 
 
@@ -282,7 +282,7 @@ Tevens heb ik samen met mijn collega's data gelabeld in 4 classificaties voor he
 
 
 
-<h2>4.3 Visualization</h2>
+<h2>Visualization</h2>
 
 Error Analyse Code & Confusion Matrix Visualisatie 
 
@@ -323,7 +323,7 @@ Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar 
 
 
 
-<h2>4.4 Data collection</h2>
+<h2>Data collection</h2>
 Dit is niet relevant geweest voor ons onderzoek, aangezien alle beschikbare data door het CBS is vrijgegeven. Wellicht kan het stukje labelen vallen onder het kopje "Data Collection".
 Hierbij hebben mijn collega's en ik de relevante datasets doorlopen en gelabeld als een 1,2,3 of 4 classificatie.
 
@@ -351,7 +351,7 @@ Bij een query vraag wordt de context van de vraag tevens als query vraag geclass
 
 
 
-<h2>4.5 Evaluation</h2>
+<h2>Evaluation</h2>
 
 ```python
 
@@ -399,7 +399,7 @@ Daaruit is het volgende gekomen:
 In dit model is te zien data voor de -1 Range underfit is en boven de 1 overfit te zien aan de testdata.
 
 
-<h2>4.6 Diagnostics</h2>
+<h2>Diagnostics</h2>
 
 Aanvullend op de confusion matrix visualisatie, heb ik een diagnose uitgevoerd op dit model en de test dataset 
 Dit is te vinden onder het stukje: Predictive Modeling, Error Analyse.
@@ -409,7 +409,7 @@ Hierbij bestudeer ik het model en maak ik een vergelijking met het door de onder
 
 
 
-<h1>5. Communicatie</h1>
+<h1>Communicatie</h1>
 <h2>Presentaties</h2>
 
 Presentaties zijn altijd gezamenlijk gemaakt met de inbreng van de groep. Omdat ik, zoals aangegeven, meer in de kant van het onderzoeken was, presenteerde ik ook veel meer. 
