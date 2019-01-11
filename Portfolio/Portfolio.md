@@ -26,18 +26,6 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
     2. [Paper](#Paper)
     3. [Reflectie](#Reflectie)
 
-## This is the introduction <a name="introduction"></a>
-Some introduction text, formatted in heading 2 style
-
-## Some paragraph <a name="paragraph1"></a>
-The first paragraph text
-
-### Sub paragraph <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
-
-## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
-
 
 
 <h2>Introductie</h2>
@@ -62,13 +50,13 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 
 <h2>Jargon</h2>
 
-* Naive Bayes =
-* Skewed Dataset =
+* Naive Bayes = Predictive Model
+* Skewed Dataset = Ongebalanceerde dataset
 * Logistic Regression =
-* Data Cleaning =
+* Data Cleaning = Het verschonen en categoriseren van de dataset
 * Programmeren = 
 * Machine Learning =
-* Data Visualisatie =
+* Data Visualisatie = Het visualiseren van data
 * Data Manipuleren = 
 * Data Importeren =
 * Pentesting = 
@@ -142,8 +130,8 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 <h2>Predictive</h2>
 Na verschillende tests op onze dataset bleek dat 3 soorten predictive models het beste werkte op onze dataset:
 
-* Multinomial Bayes
-* Complement Bayes
+* Multinomial Naive Bayes
+* Complement Naive Bayes
 * Logistic Regression
 
 Deze 3 predictive models hebben wij toegepast op ons dataset. Daarbij behoort onder andere de volgende code:
@@ -329,7 +317,33 @@ Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar 
 
 
 <h2>Data collection</h2>
-Stuk over labelen
+Dit is niet relevant geweest voor ons onderzoek, aangezien alle beschikbare data door het CBS is vrijgegeven. Wellicht kan het stukje labelen vallen onder het kopje "Data Collection".
+Hierbij hebben mijn collega's en ik de relevante datasets doorlopen en gelabeld als een 1,2,3 of 4 classificatie.
+
+
+Multi-class classification | Vier classificaties
+De multi-class classification bestaat uit de volgende vier classificaties:
+•	Niet-relevante beschikbaarheidsvraag: classificatie 1
+Beschikbaarheidsvragen zijn niet-relevante vragen waarin een verzoek wordt gediend om informatie te verkrijgen over:
+o	wanneer nieuwe cijfers gepubliceerd en/of geüpdatet zullen worden.
+•	Niet-relevante verduidelijkingsvraag: classificatie 2
+Verduidelijkingsvragen zijn niet-relevante vragen waarin een verzoek wordt gediend om informatie te verkrijgen over één of meerdere onderdelen:
+o	totstandkoming van specifieke cijfers in publicaties en/of Statline.
+o	definities van de gehanteerde termen in publicaties en/of Statline.
+•	Niet-relevante zinnen: classificatie 3
+Niet-relevante zinnen zijn zinnen waarin meningsuitingen over maatschappelijke onderwerpen worden gegeven, afsluitingen van e-mails en introductie van e-mails.
+
+•	Relevante query vraag: classificatie 4
+Query vragen zijn relevante vragen waarin een verzoek wordt gediend om informatie te verkrijgen over één of meerdere onderdelen:
+o	specifieke cijfers van een onderwerp wat binnen een thema van het CBS valt. 
+o	concrete gegevens van een onderwerp wat binnen een thema van het CBS valt. Denk hierbij aan inkomen wat onder CBS-categorie ‘Beroepsbevolking’ valt.
+Bij een query vraag wordt de context van de vraag tevens als query vraag geclassificeerd, zodat de input van een query als volledig wordt beschouwd. 
+
+
+
+
+
+
 <h2>Evaluation</h2>
 
 ```python
@@ -382,6 +396,14 @@ Zelf iets maken
 Underfit, Overfit, Bias
 
 <h2>Diagnostics</h2>
+
+Aanvullend op de confusion matrix visualisatie, heb ik een diagnose uitgevoerd op dit model en de test dataset in een vorm van een diagnose.
+Dit is te vinden onder het stukje: Predictive Modeling, Error Analyse.
+
+Hierbij bestudeer ik het model en maak ik een vergelijking met het door de onderzoekers voorspelde classificatie in tegenstelling tot wat het model voorspelt.
+
+
+
 
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
