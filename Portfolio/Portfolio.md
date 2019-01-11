@@ -193,8 +193,3 @@ Taken en activiteiten beknopt:
 * Datasets labelen in 4 classificaties
 * Confusion Matrixes maken van gelabelde datasets
 * Error Analyse over Training - Test - Cross set
-```python
-def test():
-    return True
-
-```
