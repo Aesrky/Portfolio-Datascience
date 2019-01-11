@@ -168,3 +168,26 @@ De verdeling van Training, Cross en Test wordt veelal voorgeschreven als: 60% de
 
 
 Error Analyse Code & Confusion Matrix Visualisatie 
+
+```python
+def create_confusion_matrix(self, valid_y, predictions_valid, model_name):
+    # Compute confusion matrix
+    cnf_matrix = confusion_matrix(valid_y, predictions_valid)
+    np.set_printoptions(precision=2)
+    # Plot non-normalized confusion matrix
+    plt.figure()
+    class_names = ['Beschikbaarheidsvraag', 'Verduidelijkingsvraag', 'Niet relevant', 'Relevante query vraag']
+    self.plot_confusion_matrix(cnf_matrix,
+                               classes=class_names,
+                               title=model_name + ' Confusion matrix, without normalization')
+
+    # Plot normalized confusion matrix
+    plt.figure()
+    self.plot_confusion_matrix(cnf_matrix, classes=class_names,
+                               normalize=True,
+                               title=model_name + ' Normalized confusion matrix')
+
+    plt.show()
+```
+![test1](/Portfolio/Data/Screenshot%202019-01-11%20at%2011.07.11.png)
+![test2](/Portfolio/Data/Screenshot%202019-01-11%20at%2011.07.31.png)
