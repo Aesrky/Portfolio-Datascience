@@ -136,6 +136,9 @@ Na verschillende tests op onze dataset bleek dat 3 soorten predictive models het
 
 Deze 3 predictive models hebben wij toegepast op ons dataset. Daarbij behoort onder andere de volgende code:
 
+Wat betekent deze code? Breakdown
+
+
 ```python
 
 class MultiClassifier(BaseModel):
@@ -162,7 +165,9 @@ class MultiClassifier(BaseModel):
 
 Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger de waarde in nummers.
 
-Zo kwam ik uit op de volgende code:
+Zo heb ik de volgende code beschreven aan de hand van de TF-IDF Ngram model. 
+
+Toegevoegde waarde = meerdere modellen proberen kijken welk model het beste past, en breakdown van code
 
 * TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
 ```python
@@ -190,7 +195,7 @@ Zo kwam ik uit op de volgende code:
 Predictive model met TFIDF - ngram op onze dataset
 
 
-* Count Vectors
+* Count Vectors  // Ook gemaakt zelfde breakdown e.v.t.
 ```python
     def count_vectors(self, features):
         count_vect = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_df=1.0, max_features=features)
@@ -233,9 +238,9 @@ Voor het project heb ik op het gebied van Data preparation een stukje datacleani
 Dit kan uitgevoerd worden in 4 stappen:
 
 * Smoothen van Noisy data (Dit gedeelte was niet van toepassing op onze dataset)
-* Aggregeren van Data - Het in een leesbare tabel zetten van verkregen e-mail data 
+* Aggregeren van Data - Het in een leesbare tabel zetten van verkregen e-mail data(uitgevoerd door mij)
 
-Hiervoor heb ik gebruik gemaakt van de package pandas. Dit is geleerd op de courses van datacamp:
+Hiervoor heb ik gebruik gemaakt van de package pandas in Python. Dit is geleerd op de courses van datacamp:
 
 ```python
 import pandas as pd
@@ -306,6 +311,8 @@ Het idee van het uitvoeren van een confusion matrix op de test set is om te kijk
 Zo kon er vervolgens bepaald worden op welke punten het model niet een goede voorspelling deed, of dat er sprake was van een overfit of iets dergelijks.
 Ook kon er een diagnose worden gedaan van de machine learning model in vorm van een Error Analyse.
 
+Toegevoegde waarde van confusion matrix
+Breakdown Code
 
 ![test1](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.11.png)
 ![test2](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.31.png)
@@ -369,7 +376,7 @@ Bij een query vraag wordt de context van de vraag tevens als query vraag geclass
             # Cross Validation predictions
             self.check_model(classifier, xcross_count, self.y_cross, model_name, features, 'count_vectors', 'cross')
 ```
-
+E.v.t Uitleg toegevoegde waarde en breakdown code
 Gehanteerde Range, Logistic Regression:
 
 ```python
