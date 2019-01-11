@@ -163,7 +163,7 @@ class MultiClassifier(BaseModel):
 
 <i>Dit stukje code is ter context.</i>
 
-Dit stukje code is het begin van het testen van ons model. Het bevat onder andere een preprocessor, de code test op de 3 predictive modellen hierboven genoemd en het split de data in een training / test / cross set.
+Dit stukje code is het begin van het testen van ons model. Het bevat onder andere een preprocessor(voor het cleanen van de data), de code test op de 3 predictive modellen hierboven genoemd en het split de data in een training / test / cross set.
 Dit was in het beginsel niet voldoende, alleen testen op modellen bleek niet de juiste resultaat weer te geven op onze dataset. Na uitgebreid onderzoek en advies zijn wij terecht gekomen op zogeheten word embeddings.
 Deze word embeddings geven aan tekst een bepaalde waarde in nummers. Waardoor het model beter kon begrijpen welke woordcombinatie zwaarder weegt dan het ander. In dit geval zou het gebruikt worden om een bepaalde vraag te herkennen.
 Zo hebben wij gekeken hoe een vraag zin wordt opgebouwd in het Nederlands en dit als input gegeven aan het model.
@@ -199,10 +199,11 @@ Predictive model met TFIDF - ngram op onze dataset
 Dit model traint op de aantal features en daarbij is gekozen voor een OneVsRest classifier.
 Deze strategie zorgt ervoor dat je een classifier fit per class. Voor elke classifier is de class gefit tegen alle andere classes.
 Het is gebruikelijk om voor de OneVsRest classifier te kiezen bij een Multi-class classification.
+Tot slot split dit stukje code de data in Training, Test en een Cross Validation set.
 
+Voor het model van de count_vectors is hetzelfde principe toepgepast. Te zien hieronder:
 
-
-* Count Vectors  // Ook gemaakt zelfde breakdown e.v.t.
+* Count Vectors.
 ```python
     def count_vectors(self, features):
         count_vect = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_df=1.0, max_features=features)
