@@ -9,8 +9,10 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 # Table of contents
 1. [Introductie](#Introductie)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
+2. [Domain Knowledge](#Domain Knowledge)
+    1. [Jargon](#Jargon)
+    2. [Literatuur](#Jargon)
+    
 3. [Another paragraph](#paragraph2)
 
 ## This is the introduction <a name="introduction"></a>
@@ -61,7 +63,7 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 * Pentesting = 
 
 
-<h2>Literature</h2>
+<h2>Literatuur</h2>
 <h1>Courses</h1>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
 
