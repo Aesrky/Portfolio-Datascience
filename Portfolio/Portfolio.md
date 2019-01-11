@@ -134,6 +134,98 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 
 <h1>Data</h1>
 <h2>Predictive Models</h2>
+Na verschillende tests op onze dataset bleek dat 3 soorten predictive models het beste werkte op onze dataset:
+
+* Multinomial Bayes
+* Complement Bayes
+* Logistic Regression
+
+Deze 3 algoritme hebben wij "getrained" over ons dataset. Daarbij behoort onder andere de volgende code:
+
+```python
+
+class MultiClassifier(BaseModel):
+    def __init__(self, trainDF):
+        super().__init__()
+        prePro = PreProcessor()
+        self.pf = PlotFunctions()
+        self.trainDF = trainDF
+        self.X_train, self.X_test, self.y_train, self.y_test = \
+            prePro.split_train_test(trainDF['cleaned_sentence'], trainDF['classification'], 0.4)
+        self.X_test, self.X_cross, self.y_test, self.y_cross = \
+            prePro.split_train_test(self.X_test, self.y_test, 0.5)
+        
+        self.all_scores = list()
+        self.models = {
+            'MultinomialNB': naive_bayes.MultinomialNB(alpha=0.767, class_prior=None, fit_prior=True),
+            'ComplementNB': naive_bayes.ComplementNB(alpha=0.767, class_prior=None, fit_prior=True),
+            'LogisticRegression': linear_model.LogisticRegression(solver='lbfgs')
+        }
+
+```
+
+
+Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger de waarde in nummers.
+Zo kwamen wij uit op:
+
+* TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
+```python
+    def tfidf_ngram(self, features):
+        tfidf_vect_ngram = TfidfVectorizer(
+            analyzer='word', token_pattern=r'\w{1,}', ngram_range=(2, 5), max_features=features)
+        tfidf_vect_ngram.fit(self.trainDF['cleaned_sentence'])
+        xtrain_tfidf = tfidf_vect_ngram.transform(self.X_train)
+        xvalid_tfidf = tfidf_vect_ngram.transform(self.X_test)
+        xcross_tfidf = tfidf_vect_ngram.transform(self.X_cross)
+
+        for model_name, model in self.models.items():
+            mc_model = multiclass.OneVsRestClassifier(model)
+            classifier = mc_model.fit(xtrain_tfidf, self.y_train)
+
+            # Training predictions
+            self.check_model(classifier, xtrain_tfidf, self.y_train, model_name, features, 'tfidf_ngram', 'training')
+
+            # Test predictions
+            self.check_model(classifier, xvalid_tfidf, self.y_test, model_name, features, 'tfidf_ngram', 'test')
+
+            # Cross Validation predictions
+            self.check_model(classifier, xcross_tfidf, self.y_cross, model_name, features, 'tfidf_ngram', 'cross')
+```
+
+
+
+* Count Vectors
+```python
+    def count_vectors(self, features):
+        count_vect = CountVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_df=1.0, max_features=features)
+        count_vect.fit(self.trainDF['cleaned_sentence'])
+        xtrain_count = count_vect.transform(self.X_train)
+        xvalid_count = count_vect.transform(self.X_test)
+        xcross_count = count_vect.transform(self.X_cross)
+
+        for model_name, model in self.models.items():
+            mc_model = multiclass.OneVsRestClassifier(model)
+            classifier = mc_model.fit(xtrain_count, self.y_train)
+
+            # Training predictions
+            self.check_model(classifier, xtrain_count, self.y_train, model_name, features, 'count_vectors', 'training')
+
+            # Test predictions
+            self.check_model(classifier, xvalid_count, self.y_test, model_name, features, 'count_vectors', 'test')
+
+            # Cross Validation predictions
+            self.check_model(classifier, xcross_count, self.y_cross, model_name, features, 'count_vectors', 'cross')
+
+```
+
+
+Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
+
+![Test](/Portfolio/Courses/Screenshot%202019-01-11%20at%2010.40.46.png)
+
+
+* Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
+In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
 
 
 
