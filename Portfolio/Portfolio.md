@@ -245,10 +245,9 @@ In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar
 
 Voor het project heb ik op het gebied van Data preparation een stukje datacleaning toegepast. 
 
-Dit kan uitgevoerd worden in 4 stappen:
+Dit kan uitgevoerd worden in verschillende manieren, ik heb er twee toegepast op de dataset:
 
-* Smoothen van Noisy data (Dit gedeelte was niet van toepassing op onze dataset)
-* Aggregeren van Data - Het in een leesbare tabel zetten van verkregen e-mail data(uitgevoerd door mij)
+* Aggregeren van Data - Het in een leesbare tabel zetten van verkregen e-mail data(<i>uitgevoerd door mij op de dataset </i>)
 
 Hiervoor heb ik gebruik gemaakt van de package pandas in Python. Dit is geleerd op de courses van datacamp:
 
@@ -262,9 +261,12 @@ data = pd.DataFrame.from_csv('cbs.data')
 data['date'] = data['date'].apply(dateutil.parser.parse, dayfirst=True)
 ```
 
-Dit was een stukje die ik had toegepast om in ieder geval de data van CBS e-mails in een datum formaat te zetten zodat het duidelijk was welke email op welke dat is gestuurd.
+Dit was een stukje die ik had toegepast om in ieder geval de data van CBS e-mails in een datum formaat te zetten zodat het duidelijk was welke email op welke datum is verstuurd.
 
-* Het invoeren van data waarbij niets ingevoerd is. Meestal wordt er door een script gekeken waar data leegstaat.
+&
+
+
+* Het invoeren van data waar cellen leeg staan. Meestal wordt er door een script gekeken waar data leegstaat.
 Alle data die het model als <1 herkent wordt vervangen met een 0. Soms wordt het vervangen door een NaN = Not a Number.
 
 Bij het zogeheten cleanen en voorbereiden van data heb ik een aantal tutorials gevolgd waarbij naar voren kwam hoe men leegstaande cellen zo goed mogelijk kon aanpakken. 
@@ -272,8 +274,8 @@ Daarbij is door mij de volgende code gehanteerd:
 
 ```python
 # Lijst van alle leegstaande waarde
-missing_values = ["n/a", "na", "--"]
-df = pd.read_csv("cbs.csv", na_values = missing_values)
+lege_waarden = ["n/a", "na", "--"]
+df = pd.read_csv("cbs.csv", na_values = lege_waarden)
 ```
 
 Zoals in de comment staat, zorgt dit stukje code ervoor dat het een lijst maakt van de dataset waarbij alle data die leegstaat wordt geinventariseerd.
@@ -283,9 +285,11 @@ Vervolgens heb ik gekozen om leegstaande vakken te vervangen door een nummer met
 # Leegstaande waarde veranderen door een nummer
 df['cbs].fillna(125, inplace=True)
 ```
-Dit zorgt ervoor dat men bij het debuggen uren werk minder hoeft te doen wanneer je een diagnose / analyse gaat uitvoeren op je data.
 
-* Het verwijderen van Data punten die niet in contrast staat met de overige data.
+
+De toegevoegde waarde van het cleanen van data is dat er vooral een overzicht komt van de bruikbare data. Ook kan het ervoor zorgen dat men een verborgen patroon herkent in de data die voorheen niet gezien kon worden.
+Tot slot kan het ervoor zorgen dat men bij het debuggen uren werk minder hoeft te doen wanneer je een diagnose / analyse gaat uitvoeren op je data.
+
 
 Tevens heb ik samen met mijn collega's data gelabeld in 4 classificaties voor het predictive model. De code hiervoor en mijn aandeel staat beschreven in het kopje Predictive Models
 
@@ -294,7 +298,7 @@ Tevens heb ik samen met mijn collega's data gelabeld in 4 classificaties voor he
 
 <h2>Visualization</h2>
 
-Error Analyse Code & Confusion Matrix Visualisatie 
+Confusion Matrix Visualisatie 
 
 ```python
 def create_confusion_matrix(self, valid_y, predictions_valid, model_name):
@@ -321,11 +325,14 @@ Het idee van het uitvoeren van een confusion matrix op de test set is om te kijk
 Zo kon er vervolgens bepaald worden op welke punten het model niet een goede voorspelling deed, of dat er sprake was van een overfit of iets dergelijks.
 Ook kon er een diagnose worden gedaan van de machine learning model in vorm van een Error Analyse.
 
-Toegevoegde waarde van confusion matrix
-Breakdown Code
+In de gemaakte code kan men 2 soorten modellen van de confusion matrix onderscheiden:
 
-![test1](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.11.png)
-![test2](/Portfolio/Courses/Screenshot%202019-01-11%20at%2011.07.31.png)
+* Normalized Confusion Matrix
+* Non - Normalized Confusion Matrix
+
+
+![test1](/Portfolio/Courses/Test-Normalized.png)
+![test2](/Portfolio/Courses/Test-Not-Normalized.png)
 
 Resultaten uit de Confusion Matrix met bovenstaande code.
 Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code te realiseren. 
