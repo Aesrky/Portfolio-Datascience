@@ -247,7 +247,7 @@ Voor het project heb ik op het gebied van Data preparation een stukje datacleani
 
 Dit kan uitgevoerd worden in verschillende manieren, ik heb er twee toegepast op de dataset:
 
-* Aggregeren van Data - Het in een leesbare tabel zetten van verkregen e-mail data(<i>uitgevoerd door mij op de dataset </i>)
+* <b> Aggregeren van Data </b> - Het in een leesbare tabel zetten van verkregen e-mail data(<i>uitgevoerd door mij op de dataset </i>)
 
 Hiervoor heb ik gebruik gemaakt van de package pandas in Python. Dit is geleerd op de courses van datacamp:
 
@@ -266,7 +266,7 @@ Dit was een stukje die ik had toegepast om in ieder geval de data van CBS e-mail
 &
 
 
-* Het invoeren van data waar cellen leeg staan. Meestal wordt er door een script gekeken waar data leegstaat.
+* <b> Het invoeren van data waar cellen leeg staan </b> - Meestal wordt er door een script gekeken waar data leegstaat.
 Alle data die het model als <1 herkent wordt vervangen met een 0. Soms wordt het vervangen door een NaN = Not a Number.
 
 Bij het zogeheten cleanen en voorbereiden van data heb ik een aantal tutorials gevolgd waarbij naar voren kwam hoe men leegstaande cellen zo goed mogelijk kon aanpakken. 
