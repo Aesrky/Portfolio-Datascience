@@ -138,6 +138,53 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 
 Hier stuk over supervised learning, classification of regression. Python bestand multiclass classification
 <h2>Data preparation</h2>
+
+Voor het project heb ik op het gebied van Data preparation een stukje datacleaning toegepast. 
+
+Dit kan uitgevoerd worden in 4 stappen:
+
+* Smoothen van Noisy data (Dit gedeelte was niet van toepassing op onze dataset)
+* Aggregeren van Data - Het in een leesbare tabel zetten van verkregen e-mail data 
+
+Hiervoor heb ik gebruik gemaakt van de package pandas. Dit is geleerd op de courses van datacamp:
+
+```python
+import pandas as pd
+
+
+# Data laden van een .csv file
+data = pd.DataFrame.from_csv('cbs.data')
+# Converteren van data van een string naar tijd
+data['date'] = data['date'].apply(dateutil.parser.parse, dayfirst=True)
+```
+
+Dit was een stukje die ik had toegepast om in ieder geval de data van CBS e-mails in een datum formaat te zetten zodat het duidelijk was welke email wanneer is gestuurd.
+
+* Het invoeren van data waarbij niets ingevoerd is. Meestal wordt er door een script gekeken waar data leegstaat.
+Alle data die het model als <1 herkent wordt vervangen met een 0. Soms wordt het vervangen door een NaN = Not a Number.
+
+Bij het zogeheten cleanen en voorbereiden van data heb ik een aantal tutorials gevolgd waarbij naar voren kwam hoe men leegstaande cellen zo goed mogelijk kon aanpakken. 
+Daarbij is door mij de volgende code gehanteerd:
+
+```python
+# Lijst van alle leegstaande waarde
+missing_values = ["n/a", "na", "--"]
+df = pd.read_csv("cbs.csv", na_values = missing_values)
+```
+
+Zoals in de comment staat, zorgt dit stukje code ervoor dat het een lijst maakt van de dataset waarbij alle data die leegstaat wordt geinventariseerd.
+Vervolgens heb ik gekozen om leegstaande vakken te vervangen door een nummer met de volgende code:
+
+```python
+# Leegstaande waarde veranderen door een nummer
+df['cbs].fillna(125, inplace=True)
+```
+Dit zorgt ervoor dat men bij het debuggen uren werk minder hoeft te doen wanneer je een diagnose / analyse gaat uitvoeren op je data.
+
+* Het verwijderen van Data punten die niet in contrast staat met de overige data.
+
+
+
 Stuk over labelen, check bestand python labelen, in bestanden bijvoorbeeld de lege plekken een 0 geven.
 <h2>Data Visualization</h2>
 Stuk over confusion matrix, in code en gebruik plaatjes van de 2 error analyse
