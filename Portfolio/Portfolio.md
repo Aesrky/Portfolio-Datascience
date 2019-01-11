@@ -321,7 +321,7 @@ def create_confusion_matrix(self, valid_y, predictions_valid, model_name):
     plt.show()
 ```
 
-Het idee van het uitvoeren van een confusion matrix op de test set is om te kijken hoe het model een voorspelling uitvoert ten opzichte van onze voorspelling.
+Het idee van het uitvoeren van een confusion matrix op de test set is om te kijken hoe het model een voorspelling uitvoert ten opzichte van onze classificatie.
 Zo kon er vervolgens bepaald worden op welke punten het model niet een goede voorspelling deed, of dat er sprake was van een overfit of iets dergelijks.
 Ook kon er een diagnose worden gedaan van de machine learning model in vorm van een Error Analyse.
 
@@ -333,6 +333,11 @@ In de gemaakte code kan men 2 soorten modellen van de confusion matrix ondersche
 
 ![test1](/Portfolio/Courses/Test-Normalized.png)
 ![test2](/Portfolio/Courses/Test-Not-Normalized.png)
+
+
+* Van beide confusion matrix visualisaties is de input het geschetste model beschreven in hoofdstuk predictive modelling. Daar is ook beschreven dat Logistic Regression uiteindelijk het best mogelijke model is voor onze dataset.
+* Te zien is hoe wij data hebben gelabeld op de "True Label" en hoe het model dit heeft voorspelt op de "Predicted Label".
+* Alhoewel ik de confusion matrix op de Training, Cross validation en Test set heb gemaakt, schrijft de error analyse voor dat het uitgevoerd zal moeten worden op de test set. Vandaar de visualisatie van de test set.
 
 Resultaten uit de Confusion Matrix met bovenstaande code.
 Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code te realiseren. 
