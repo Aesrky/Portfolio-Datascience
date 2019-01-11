@@ -342,7 +342,7 @@ In de gemaakte code kan men 2 soorten modellen van de confusion matrix ondersche
 * Normalization is gedaan om de snelheid van data te optimaliseren. Ook geeft het model verschil aan tussen zinnen en percentage. Dit bleek achteraf handig te zijn om letterlijk uit te vinden waarom een model iets voorspelt wat wij anders hebben geclassificeerd.
 
 Credits: Om het bovenstaande te visualiseren heb ik samengewerkt met Timo Frionnet om de code te realiseren. 
-Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar het kopje Diagnostics & Rapport
+Voor de error analyse gebaseerd op de gemaakte confusion matrix verwijs ik naar het kopje Evaluatie
 
 
 
@@ -428,6 +428,19 @@ Echter, zijn er een aantal wijzigingen gemaakt:
  
 In dit model is te zien dat alles onder  <1 Range underfit is en boven de 1 Range overfit. Hierbij is te zien dat de default input van het model werkt op ons model.
 Door middel van deze code is dus af te leiden voor de onderzoekers wanneer er sprake zou kunnen zijn van een overfit. 
+
+
+Ook hebben wij constant in het project geevalueerd op F1 Score, Recall en Precision. Door deze scores te hanteren kon men in een opslag zien welk model het beste werkte voor onze dataset.
+
+Aanvullend op de confusion matrix visualisatie, heb ik een diagnose uitgevoerd op dit model en de test dataset. Dit zorgde ervoor dat wij konden zien waar het model problemen had met het voorspellen.
+Door middel van de error analyse herkende wij ook patronen in onze data, dit zorgde er direct voor dat wij het model zodanig konden tweaken dat het beter zou performen.
+
+Een aantal punten die uit de error analyse is voortgekomen:
+
+* Het model voorspelt vragen met aanhef meestal als geen vraag
+* Het model heeft relevante vragen beter voorspelt dan de onderzoekers
+* Het model had een precision & recall van bijna 80&
+
 
 
 <h2>Diagnostics</h2>
