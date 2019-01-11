@@ -10,11 +10,11 @@ Daarbij komen de volgende aspecten terug:
 
 Veelal is dit in hulp gemaakt met behulp van klasgenoten aangezien ik niet de meest beste programmeur ben. Sommige stukken code zijn door mijzelf gemaakt in een poging tot het beheersen van de stof en om enigszins de stof te kunnen toepassen.
 
-Voor onze dataset hebben wij gebruikt gemaakt van het concept Predictive Modeling oftewel Data Mining.
-Het is in eerste instantie namelijk niet duidelijk wat men precies voor technieken kan gebruiken voor de dataset gegeven door het CBS. 
+Voor onze opdract hebben wij onder andere gebruikt gemaakt van het concept Predictive Modeling.
+Het was in eerste instantie namelijk niet duidelijk wat men precies voor technieken kon gebruiken voor de dataset gegeven door het CBS. 
 Grof gezegd hebben wij middels deze techniek getracht patronen of gelijkenissen in de dataset proberen te vinden.
 
-Ten eerste hebben ik de data handmatig gelabeld met mijn collega's, hierbij hebben wij de data een 1,2,3,4 of classificatie meegegeven. 
+Ten eerste hebben ik en mijn collega's de data handmatig gelabeld, hierbij hebben wij de data een 1,2,3,4 of classificatie meegegeven. 
 Vervolgens is er een preprocess over de data toegepast.
 
 Dit kan uitgevoerd worden in 4 stappen:
@@ -22,7 +22,7 @@ Dit kan uitgevoerd worden in 4 stappen:
 * Smoothen van Noisy data (Dit gedeelte was niet van toepassing op onze dataset)
 * Aggregeren van Data - Het in een leesbare tabel zetten van verkregen e-mail data 
 
-Hiervoor is gebruik gemaakt van de package pandas. Dit is geleerd op de courses van datacamp:
+Hiervoor heb ik gebruik gemaakt van de package pandas. Dit is geleerd op de courses van datacamp:
 
 ```python
 import pandas as pd
@@ -56,7 +56,7 @@ Vervolgens heb ik gekozen om leegstaande vakken te vervangen door een nummer met
 # Leegstaande waarde veranderen door een nummer
 df['cbs].fillna(125, inplace=True)
 ```
-Dit zorgt ervoor bij het debuggen dat het je uren kan schelen bij het analyseren van je debug.
+Dit zorgt ervoor dat men bij het debuggen uren werk minder hoeft te doen wanneer je een diagnose / analyse gaat uitvoeren op je data.
 
 * Het verwijderen van Data punten die niet in contrast staat met de overige data.
 
@@ -67,7 +67,7 @@ Vervolgens hebben wij 3 soorten algoritme gebruikt die het beste bij ons data pa
 * Complement Bayes
 * Logistic Regression
 
-Deze 3 algoritme hebben wij "getrained" over ons dataset. Daarbij behoort de volgende code:
+Deze 3 algoritme hebben wij "getrained" over ons dataset. Daarbij behoort onder andere de volgende code:
 
 ```python
 
@@ -92,7 +92,7 @@ class MultiClassifier(BaseModel):
 ```
 
 
-Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger het nummer.
+Tevens wilde wij ook weten hoe belangrijk bepaalde woorden zijn binnen een dataset. Zogeheten Word Embeddings, deze geven aan tekst een bepaalde waarde in nummers. Hoe belangrijker een bepaald stuk tekst, des te hoger de waarde in nummers.
 Zo kwamen wij uit op:
 
 * TF - IDF Ngram = Hoe belangrijk een woord is in een document of in een collectie van documenten
@@ -146,21 +146,25 @@ Zo kwamen wij uit op:
 ```
 
 
-Foto resultaat model neigt naar type 3
+Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
+
+
+
 
 * Ngram = Model over de relatie tussen woorden. Daarbij creeert het bijvoorbeeld, Unigram(1 woord), Bigram(2 woorden), Trigram (3 woorden) etc.
 In het geval van een bigram kunnen we meegeven dat 2 bepaalde woorden bij elkaar een bepaalde opbouw van een zin aangeven bijvoorbeeld.
 
-Per model wordt er een onderscheid gemaakt tussen Training, Test en Cross validation set van de data. Dit is geleerd op de Coursera Course van Andrew NG.
+Per model wordt er een onderscheid gemaakt tussen Training, Test en Cross validation set van de data. Te zien in de 2 stukjes code hierboven. Dit is geleerd op de Coursera Course van Andrew NG.
 * Training set is het initiele set waarbij een model of algoritme op wordt "gefit". Als dit op een goede manier is toegepast kan de validation set observaties of responses voorspellen.
 * Een validatieset is gesplitte data set en ook een unbiased evaluatie model. Men kan ook snel zien op de validatieset wanneer er sprake is van een overfit. Door middel van bepaalde handelingen zoals regularization kan dit probleem worden aangepakt.
-* Tot slot wordt er een test dataset geproduceerd. Dit is ook een unbiased evaluatie maar van het "eind" model. Tevens is dit een onafhankelijk model van de training set, maar volgt het wel dezelfde distributie. Als een model op de training set en de test set een goede fit heeft betekent dat er sprake is van een minimale overfit.
+* Tot slot wordt er een test dataset geproduceerd. Dit is ook een unbiased evaluatie maar van het "eind" model. Tevens is dit een onafhankelijk model van de training set, maar volgt het wel dezelfde distributie. 
+Als een model op de training set en de test set een goede fit heeft, dan kan dit betekenen dat er sprake is van een minimale overfit.
 Als een model beter op de training set past dan op de test set, is er meestal sprake van een overfit.
 
-Meestal is de verdeling dat 60% de training set is, 20% cross validation set en 20% de test set.
+De verdeling van Training, Cross en Test wordt veelal voorgeschreven als: 60% de training set, 20% cross validation set en 20% de test set.
 
 * Overfit
 * Underfit
 
 
-
+Error Analyse Code & Confusion Matrix Visualisatie 
