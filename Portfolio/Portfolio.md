@@ -123,7 +123,7 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 
 
 <h1>Data</h1>
-In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd.
+In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
 
 <h2>Predictive</h2>
