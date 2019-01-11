@@ -69,8 +69,8 @@ In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegel
 <h2>Datacamp</h2>
 
 
-![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
-![Afgeronde Hele Courses](/Portfolio/Courses/Voltooide%20Courses.png)
+#![Afgeronde Courses](/Portfolio/Courses/Alle%20assignments%20+.png)
+#![Afgeronde Hele Courses](/Portfolio/Courses/Voltooide%20Courses.png)
 
 Alle benodigde opdrachten beschreven in de wekelijkse agenda voor datacamp zijn voltooid. 
 Hieronder wordt per course een korte stuk beschreven over de toegevoegde waarde van de course ten behoeve van mijn ontwikkeling.
