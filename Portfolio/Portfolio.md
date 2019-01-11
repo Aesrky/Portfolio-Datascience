@@ -135,6 +135,7 @@ Na wat onderzoek en veel verder in het project, zijn wij tot conclusie gekomen d
 * Multinomial Naive Bayes
 * Complement Naive Bayes
 * Logistic Regression
+* Support Vector Machine
 
 Deze 3 predictive models hebben wij vervolgens ook toegepast op onze dataset. Daarbij behoort onder andere de volgende code:
 
