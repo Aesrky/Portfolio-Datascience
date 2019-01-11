@@ -228,7 +228,12 @@ Voor het model van de count_vectors is hetzelfde principe toepgepast. Te zien hi
 ```
 Predictive model met count vectors op onze dataset.
 
-Uiteindelijk is gebleken dat de predictive model Logistic Regression in combinatie met de count vectors het beste heeft gewerkt op onze ongebalanceerde dataset.
+De toegevoegde waarde van mijn code op het project was het feit dat de bovengenoemde vormen van word embedding toegepast is op onze data.
+Daaruit is gebleken welk model uiteindelijk het beste was voor onze dataset. Uiteindelijk heeft het ervoor gezorgd dat er d.m.v. een model onstn
+Ook omdat elk model getest is tegenover Logistic Regression, Multinomial NB & Complement NB, kan de conclusie getrokken worden welk predictive model + word embeddings het best werken op de dataset.
+
+Tot slot is gebleken dat de predictive model Logistic Regression met count vectors het bestel model bleek te zijn voor ons dataset.
+
 
 Foto resultaat model neigt naar type 3 staat in rapport resultaten gelijk
 
