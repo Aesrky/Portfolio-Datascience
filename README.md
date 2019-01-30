@@ -162,7 +162,7 @@ In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitg
 
 
 
-* <details><summary><b>Klik hier voor de vorige Portfolio versie</b></summary>
+ <details><summary><b>Klik hier voor de vorige Portfolio versie</b></summary>
 
 
 
