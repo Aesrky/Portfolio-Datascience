@@ -75,7 +75,7 @@ De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel
 * OneVsRest = Het kiezen van een class en het trainen van een two class classifier met de samples van een geselecteerde class aan de ene kant en alle andere voorbeelden aan de andere kant.
 
 
-<h1>Courses</h1>
+<details><summary><h1>Courses</h1></summary></details>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
 
 <h2>Datacamp</h2>
