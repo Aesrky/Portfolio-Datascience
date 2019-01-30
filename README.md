@@ -161,7 +161,8 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
 
-<details><summary><b>Klik hier voor de vorige Portfolio versie</b></summary>
+
+* <details><summary><b>Klik hier voor de vorige Portfolio versie</b></summary>
 
 
 
