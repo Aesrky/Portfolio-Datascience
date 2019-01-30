@@ -155,15 +155,20 @@ Alle quiz onderdelen zijn met een voldoende afgerond.
 De video's van Coursera en de bijbehorende quiz hebben bijgedragen tot een betere kennis op het gebied van machine learning. 
 Bij Datacamp lag de focus meer op het toepassen en programmeren. Bij Coursera werd de achterliggende gedachte, formules etc. het gehele concept uitgelegd over machine learning dus ook toepassen.
 Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde het bestuderen van Coursera ervoor dat ik nieuwe ideeen opdeed en dit zorgde er direct voor dat bepaalde handelingen veel makkelijker konden uitgevoerd. Immers, wij begrepen het concept van machine learning veel beter nu.
-
+&nbsp;
 
 <h1>Data</h1>
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
-
+&nbsp;
 
  <details><summary><b>Klik hier voor de vorige Portfolio versie</b></summary>
+ 
+&nbsp;
 
+Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
+
+[Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 
 
 <h2>Predictive</h2>
