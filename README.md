@@ -160,7 +160,11 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 <h1>Data</h1>
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
-<details><summary>Klik hier voor de vorige Portfolio versie</summary>
+
+<details><summary><b>Klik hier voor de vorige Portfolio versie</b></summary>
+
+
+
 <h2>Predictive</h2>
 
 Voor onze dataset bleek het beste dat er gekozen werd voor een supervised manier van leren. Hierbij zijn wij voorbarig begonnen met allerlei modellen te testen op onze data alvorens wij uberhaupt iets wisten over data science.
