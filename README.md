@@ -31,6 +31,11 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 
 
+<h1> Leeswijzer </h1>
+
+
+
+
 <h2>Introductie</h2>
 
 Voor onze minor Data Science aan de Haagse Hogeschool hebben wij in een groep van 4 mensen een opdracht uitgevoerd namens het CBS.
@@ -158,13 +163,15 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 &nbsp;
 
 <h1>Data</h1>
+
+Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
+
+
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 Welke Dataset (Korte intro):
 
 
 Stappen, Taken, Technieken & Modellen die ik heb gedemonstreert  op de Huis Dataset:
-
-
 
 
 [Notebook 2]() Welke Dataset (Korte intro):
@@ -198,13 +205,6 @@ Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. D
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
 &nbsp;
-
- <details><summary><b>Klik hier voor de vorige Portfolio versie</b>
- 
-&nbsp;
-
-Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
-
 
 <h2>Predictive</h2>
 
@@ -526,7 +526,7 @@ Een aantal punten die uit de error analyse is voortgekomen:
 Dit is naar mijn weten niet uitgevoerd binnen het project.
 
 
-</summary></details>
+
 
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
