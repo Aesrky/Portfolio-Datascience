@@ -169,6 +169,37 @@ In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitg
 Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
+Welke Dataset (Korte intro):
+
+
+Stappen, Taken, Technieken & Modellen die ik heb gedemonstreert  op de Huis Dataset:
+
+
+
+
+[Notebook 2]() Welke Dataset (Korte intro):
+
+Stappen, Taken, Technieken & Modellen die ik heb gedemonstreert  op de Bank Dataset:
+
+•	Mijn data heeft heel veel features (kolommen). Van die features hebben aantal een aantal categorische (ordinaal) waarde en sommige een continue waarde. Ik heb een code geïmplementeerd die deze twee waarde teruggeeft in lijsten: CON = bevat namen van kolommen met de continue waarde als inhoud & CAT = bevat namen van kolommen die een categorische waarde bevatten. Ik heb dit gedaan omdat ik na deze stap. Het automatiseringsproces van een aantal stappen kan vergemakkelijken. Ik hoef dus niet handmatig meer data te analyseren tot een bepaalde punt.
+
+•	Data analyse heb ik toegepast op de dataset. Ik heb hierbij gekeken naar missende data in de dataset. Ook EDA(Explatory Data Analyse) heb ik toegepast. Waarbij ik een aantal features heb gevisualiseerd en waardevolle insights heb kunnen verkrijgen
+
+•	Door het plotten van boxplots heb ik de outliers kunnen observeren, zo weet ik dat de data dit bevat.
+
+•	Met feature engineering heb ik nieuwe features gecreëerd van al bestaande features. De data heeft een groot aantal features om het model te trainen. Nieuwe features kan gemaakt worden van bestaande features zoals, leeftijd(age). Daarbij heb ik dummy variabeles gemaakt van de ordinale waarde. Dit heb ik gedaan omdat de machine learning model geen string waardes begrijpt. Bijvoorbeeld in de gender kolom waar te zien is dat de feature een aantal stringwaarde bevat zoals “male” of “female”. Dit heb ik geconverteerd in een kolom genaamd “male” met een 1 en 0 waarde (binary). Als de waarde 1 is, is het een “male”, zo niet een “female” in dit geval.
+
+•	De correlatiematrix (heatmap) laat de correlatie zien tussen elke feature. Features die een hoge correlatie bevatten zorgen ervoor dat er sneller sprake is van data redundancy.
+
+•	Met feature selection heb ik  de meest belangrijke features geselecteerd voor de machine learning model. Ik heb hierbij 2 technieken toegepast (voor feature selection):
+o	Decision Tree
+o	Lasso Regressie
+
+Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. Decision tree wel, dit heb ik vervolgens als uitgangspunt genomen.
+
+•	Feature Scaling, het scalen van alle features op de zelfde schaal
+
+•	Ik heb mijn model getrained om de target variabele “deposit” te trainen. Hierbij heb ik een dimensie reductie techniek gebruikt genaamd PCA(Principle Component Analyse). Het model heb ik vervolgens getrained met meerdere componenten van PCA. Het voorspellen heb ik twee maal uitgevoerd. Eenmaal alleen voor de meest belangrijke features, en de tweede keer met alle features. Het blijkt uiteindelijk dat de beste resultaat wordt behaald door het trainen van alle features.
 
 
 <h2>Predictive</h2>
