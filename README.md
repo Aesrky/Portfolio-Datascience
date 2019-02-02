@@ -158,16 +158,6 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 &nbsp;
 
 <h1>Data</h1>
-In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
-
-&nbsp;
-
- <details><summary><b>Klik hier voor de vorige Portfolio versie</b></summary></details>
- 
-&nbsp;
-
-Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
-
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 Welke Dataset (Korte intro):
 
@@ -200,6 +190,20 @@ Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. D
 •	Feature Scaling, het scalen van alle features op de zelfde schaal
 
 •	Ik heb mijn model getrained om de target variabele “deposit” te trainen. Hierbij heb ik een dimensie reductie techniek gebruikt genaamd PCA(Principle Component Analyse). Het model heb ik vervolgens getrained met meerdere componenten van PCA. Het voorspellen heb ik twee maal uitgevoerd. Eenmaal alleen voor de meest belangrijke features, en de tweede keer met alle features. Het blijkt uiteindelijk dat de beste resultaat wordt behaald door het trainen van alle features.
+
+
+
+
+
+In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
+
+&nbsp;
+
+ <details><summary><b>Klik hier voor de vorige Portfolio versie</b>
+ 
+&nbsp;
+
+Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
 
 
 <h2>Predictive</h2>
@@ -521,8 +525,8 @@ Een aantal punten die uit de error analyse is voortgekomen:
 
 Dit is naar mijn weten niet uitgevoerd binnen het project.
 
-</details>
 
+</summary></details>
 
 <h1>Communicatie</h1>
 <h2>Presentaties</h2>
