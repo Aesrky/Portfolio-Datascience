@@ -57,12 +57,12 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 </p></details>
 
 
-<h1>Klik hier voor Hoofdstuk Domein</h1>
+<h1>Domein</h1>
 Voordat ik aan de course begon had ik nauwelijks kennis op het gebied van Data Science. Het werd vaak in mijn omgeving genoemd als de "next" big thing en ik ben als het ware gestapt op de hype train.
 Daarbij ging ik met bijna 0 programmeer kennis in dit vak en daarbij had ik totaal geen affiniteit met wiskunde tijdens mijn middelbare school tijden. Het was een recipe for disaster. 
 De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel iets anders dan verwacht. Wel heb ik gigantisch veel kennis gedaan door veel te onderzoeken en te relateren aan ons project.
 
-<details><summary>Klik hier voor inhoud hoofdstuk Domein</summary><p>
+<details><summary><h3>Klik hier voor inhoud hoofdstuk Domein</h3></summary><p>
 <h2>Jargon</h2>
 
 * Naive Bayes = Naive Bayes is een familie van simpele "probabilistic classifier" gebaseerd op de Bayes' theorem met een sterke (naief) onafhankelijkheid veronderstellingen tussen de features
@@ -86,7 +86,8 @@ De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel
  <h1>Courses</h1>
  
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
-<details><summary>Klik hier voor inhoud hoofdstuk Courses</summary>
+
+<details><summary><h3>Klik hier voor inhoud hoofdstuk Courses</h3></summary>
        <p>
 <h2>Datacamp</h2>
 
@@ -238,7 +239,7 @@ Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. D
 •	Ik heb mijn model getrained om de target variabele “deposit” te trainen. Hierbij heb ik een dimensie reductie techniek gebruikt genaamd PCA(Principle Component Analyse). Het model heb ik vervolgens getrained met meerdere componenten van PCA. Het voorspellen heb ik twee maal uitgevoerd. Eenmaal alleen voor de meest belangrijke features, en de tweede keer met alle features. Het blijkt uiteindelijk dat de beste resultaat wordt behaald door het trainen van alle features.
 
 
-<details><summary><b><h3>Klik hier voor de oude code van portfolio voor herkansing</h3></b></summary>
+<details><summary><b><h3>Klik hier voor de oude code van de portfolio voor mijn herkansing</h3></b></summary>
 <p>
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
@@ -571,7 +572,7 @@ Een aantal punten die uit de error analyse is voortgekomen:
 <h1>Communicatie</h1>
     In dit hoofdstuk wordt er ingegaan op de presentaties, de research paper, taken in scrum & een korte reflectie over dit minor blok.
 
- <details><summary>Klik hier voor inhoud van de Communicatie hoofdstuk</summary>
+ <details><summary><h3>Klik hier voor inhoud van de Communicatie hoofdstuk</h3></summary>
         <p>
     
 <h2>Presentaties</h2>
