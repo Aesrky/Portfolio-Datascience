@@ -33,9 +33,18 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h1> Leeswijzer </h1>
 
-Voor de herkansing heb ik 2 notebooks gemaakt met data van Kaggle om mijn skills te "showcasen". Zodat ik in ieder geval kon laten zien dat ik de basis begrijp en een model kan trainen. Bij de 2 notebooks heb ik gekozen om verschillende methodieken en technieken toe te passen. Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fitten & initialiseren op random data, maar ook hoe ik data zover kon krijgen dat het betekenisvol werd. In het hoofdstuk data heb ik de 2 notebooks met een aantal stappen toegelicht. In de 2 notebooks zelf heb ik geprobeerd hoofdstukken te plaatsen met tussentekst om te laten zien wat ik per stap heb toegepast. 
+Voor de herkansing heb ik twee wijzigingen moeten toebrengen aan mijn portfolio:
+* Datacamp State of Accomplishment toevoegen aan courses
+* Showcase van mijn "machine learning skills" die ik heb geleerd in vorm van 2 notebooks.
 
-[Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
+Voor de herkansing heb ik 2 notebooks gemaakt met data van Kaggle om mijn machine learning skills te "showcasen". Zodat ik in ieder geval kon laten zien dat ik de basis begrijp en een model kan trainen. Bij de 2 notebooks heb ik gekozen om verschillende methodieken en technieken toe te passen. Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fitten & initialiseren op random data, maar ook hoe ik data zover kon krijgen dat het betekenisvol werd. Daarvanuit heb ik een 2e notebook gemaakt waarin ik meerdere technieken toepas dan alleen maar een vorm van lineaire regressie. In het hoofdstuk Data heb ik de 2 notebooks met een aantal stappen toegelicht. In de 2 notebooks zelf heb ik geprobeerd hoofdstukken (of code line comments) te plaatsen met tussentekst om te laten zien wat ik per stap heb toegepast. 
+
+[Hoofdstuk Data](#Data)
+
+[Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) , Kaggle Dataset link:
+https://www.kaggle.com/shivachandel/kc-house-data
+[Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) , Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
+
 
 
 <details><summary><h2>Klik hier voor Introductie</h2></summary>
@@ -220,6 +229,7 @@ Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
 <b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd  op de Bank Dataset:</b>
 
+
 •	Mijn data heeft heel veel features (kolommen). Van die features hebben aantal een aantal categorische (ordinaal) waarde en sommige een continue waarde. Ik heb een code geïmplementeerd die deze twee waarde teruggeeft in lijsten: CON = bevat namen van kolommen met de continue waarde als inhoud & CAT = bevat namen van kolommen die een categorische waarde bevatten. Ik heb dit gedaan omdat ik na deze stap. Het automatiseringsproces van een aantal stappen kan vergemakkelijken. Ik hoef dus niet handmatig meer data te analyseren tot een bepaalde punt.
 
 •	Data analyse heb ik toegepast op de dataset. Ik heb hierbij gekeken naar missende data in de dataset. Ook EDA(Explatory Data Analyse) heb ik toegepast. Waarbij ik een aantal features heb gevisualiseerd en waardevolle insights heb kunnen verkrijgen
@@ -231,6 +241,7 @@ Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 •	De correlatiematrix (heatmap) laat de correlatie zien tussen elke feature. Features die een hoge correlatie bevatten zorgen ervoor dat er sneller sprake is van data redundancy.
 
 •	Met feature selection heb ik  de meest belangrijke features geselecteerd voor de machine learning model. Ik heb hierbij 2 technieken toegepast (voor feature selection):
+
 o	Decision Tree
 o	Lasso Regressie
 
@@ -255,7 +266,6 @@ Na wat onderzoek en veel verder in het project, zijn wij tot conclusie gekomen d
 * Multinomial Naive Bayes
 * Complement Naive Bayes
 * Logistic Regression
-* Support Vector Machine
 
 Deze 3 predictive models hebben wij vervolgens ook toegepast op onze dataset. Daarbij behoort onder andere de volgende code:
 
