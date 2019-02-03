@@ -103,11 +103,11 @@ Voor bewijs van voltooiing refereer ik graag naar mijn Datacamp Account:
 
 
 * <b> Programmeren </b> (19100 XP)
-1. (Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science) [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/5afe33bcab85a7d1bdb1b8309ad8819bfe8e252b) 
-2. (Course) [Intermediate Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/785552bb917d2f0ca7c12f0aa2f425aa2d72cfd6) 
-3. (Chapter) [Writing your own functions](https://www.datacamp.com/courses/python-data-science-toolbox-part-1) (Chapter dus geen SOA)
-4. (Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1) (Chapter dus geen SOA)
-5. (Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2) [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/569c578fd70f48c9602df640317c8260e2ac5c57)  
+1. (Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science) ,  [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/5afe33bcab85a7d1bdb1b8309ad8819bfe8e252b) 
+2. (Course) [Intermediate Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) , [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/785552bb917d2f0ca7c12f0aa2f425aa2d72cfd6) 
+3. (Chapter) [Writing your own functions](https://www.datacamp.com/courses/python-data-science-toolbox-part-1) ,  (Chapter dus geen SOA)
+4. (Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)  , (Chapter dus geen SOA)
+5. (Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2) , [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/569c578fd70f48c9602df640317c8260e2ac5c57)  
 
 Het leren van het programmeren van Python heeft er tot bijgedragen dat ik op een basis-gevorderd niveau Python code kan begrijpen. 
 Dit zorgde direct ervoor dat bij het lezen van de code gemaakt (vooral tutorials gevolgd op internet) door de programmeurs van de groep, de code niet vreemd overkwam bij mij op persoon.
@@ -118,9 +118,10 @@ Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote
 
 
 * <b> Importeren en Cleanen van Data </b> (8020 XP)
-1. (Course) [Importing Data in Python (Part 1)](https://www.datacamp.com/courses/importing-data-in-python-part-1) & Mandatory [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/6dbaa8c404b2a07c22554880d962f1dbe56f6444)   
-2. (Chapter) [Introduction and flat files](https://www.datacamp.com/courses/importing-data-in-python-part-1) 
-3. (Course) [Cleaning data in Python](https://www.datacamp.com/courses/cleaning-data-in-python) 
+1. (Course) [Importing Data in Python (Part 1)](https://www.datacamp.com/courses/importing-data-in-python-part-1) & Mandatory , [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/6dbaa8c404b2a07c22554880d962f1dbe56f6444)   
+2. (Chapter) [Introduction and flat files](https://www.datacamp.com/courses/importing-data-in-python-part-1) , [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/6dbaa8c404b2a07c22554880d962f1dbe56f6444) 
+3. (Course) [Cleaning data in Python](https://www.datacamp.com/courses/cleaning-data-in-python) ,  [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/2227bd9973cb5f48ed20f5bd6c8f5cf0fff47a67)   
+
 Dit gedeelte van Python heeft ervoor gezorgd dat ik nu weet hoe ik verschillende soorten data kan invoeren in python, en vervolgens met deze data aan de slag kan gaan.
 Het lijkt iets simpels, maar het invoeren van data was voorheen al een hele uitdaging. Bovendien heeft het een beeld gegeven hoe ik met mijn blote oog op zoek moet gaan naar nieuwe "raw" data. Tevens heeft deze course ook bijgedragen aan het leren van cleanen van coding met de pandas package.
 Dit heb ik in kleine schaal toegepast in de hoofdstuk Data Preparation. Tot slot heeft dit mij een algehele beeld gegeven van hoe ik data kan importeren en cleanen om het bruikbaar te maken voor mijn predictive models.
