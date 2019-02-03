@@ -83,7 +83,9 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 
 &nbsp;
 
-[Hoofdstuk Data](#Data)
+[Klik hier voor Hoofdstuk Data](#Data)
+
+&nbsp;
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
 
