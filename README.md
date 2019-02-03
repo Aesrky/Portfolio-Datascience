@@ -65,6 +65,7 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 - Scheiden van Continue & Categorische Variabele & Inhoud checken van deze waarde
 - Controleren Type Datasets 
 - Data Visualisatie (Box plots, scatter plots, histogram etc.)
+- Detecteren outliers
 - Correlatiematrix (correlatie tussen elke feature)
 - Feature Importance
 - Feature Selectie met Lasso Regressie
