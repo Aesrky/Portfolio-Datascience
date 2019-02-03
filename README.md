@@ -80,7 +80,9 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 *Predicten van classificatie rapport. (Precision, Recall, F1-score) & Dit vervolgens Plotten.
 
 *Area under the Curve predicten
+
 &nbsp;
+
 [Hoofdstuk Data](#Data)
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
