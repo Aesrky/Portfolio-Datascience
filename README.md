@@ -169,16 +169,20 @@ Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "ski
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 <b>Welke Dataset:</b>
+
+&nsbp;
 Voor deze notebook / showcase van geleerde technieken heb ik gebruik gemaakt van een Kaggle dataset. Deze is te vinden op: 
 https://www.kaggle.com/shivachandel/kc-house-data Daarbij is bewust gekozen voor een dataset zonder Kernels.
 Het betreft een dataset met historische data van huizen die verkocht zijn in de staat Washington (USA). In de periode van mei 2014 tot mei 2015. 
 
 <b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd op de Huis Dataset:</b>
+&nsbp;
 •	Data cleaning waarbij ik tabellen het “gedropt” die niet benodigd zijn voor het trainen van de dataset. Tevens heb ik ook bekeken of er geen missende waarde bevatten in de dataset.
 
 •	Vervolgens heb ik op twee manieren gevisualiseerd wat de correlatie is tussen features. 
     o	Een Panda’s Dataframe waarbij de correlatie te zien is in nummers
     o	Een Correlatie heatmap
+    
 •	Omdat ik de dataset wil “trainen” op de feature price heb ik bekeken welke feature de sterkste correlatie heeft met deze feature. Dit was feature: 
     o	“sqft_living15”
     o	“sqft_living”
