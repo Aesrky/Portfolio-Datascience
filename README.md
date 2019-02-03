@@ -35,7 +35,6 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 - [Klik hier voor Hoofdstuk Data](#Data)
 
-&nbsp;
 
 - [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
 
@@ -285,7 +284,7 @@ Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. D
 •	Ik heb mijn model getrained om de target variabele “deposit” te trainen. Hierbij heb ik een dimensie reductie techniek gebruikt genaamd PCA(Principle Component Analyse). Het model heb ik vervolgens getrained met meerdere componenten van PCA. Het voorspellen heb ik twee maal uitgevoerd. Eenmaal alleen voor de meest belangrijke features, en de tweede keer met alle features. Het blijkt uiteindelijk dat de beste resultaat wordt behaald door het trainen van alle features.
 
 
-<details><summary><b><h3>Klik hier voor oude gemaakte code.</h3></b></summary>
+<details><summary><b><h3>Klik hier voor oude gemaakte code. Dit hoofdstuk is bewust niet verwijderd omdat het (wellicht niet al te goed volgens feedback) wel mijn aandeel laat zien binnen de groep. </h3></b></summary>
 <p>
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
