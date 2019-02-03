@@ -151,7 +151,7 @@ Het zal je niets opbrengen als je geen duidelijke conclusies van je data kan tre
 
 
 * <b> Machine Learning </b> (4300 XP)
-1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)[Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/31a1deb517b91e130707e9fe011c280e588a5d3f) 
+1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn) , [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/31a1deb517b91e130707e9fe011c280e588a5d3f) 
 
 De Course die mij heeft geholpen met het maken van een predictive model. Hierbij heb ik informatie vergaard over classificatie, regressie maar ook het fine tunen van mijn model wat cruciaal is.
 Mijn code voor predictive modelling is veelal gebaseerd op stukjes van de course.
