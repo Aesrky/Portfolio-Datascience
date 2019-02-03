@@ -39,10 +39,8 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 - [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
 
-Kaggle Dataset link:
+- Kaggle Dataset link:
 https://www.kaggle.com/shivachandel/kc-house-data
-
-&nbsp;
 
 - [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
 
@@ -58,7 +56,7 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 
 <b>Technieken & Modellen kort:</b>
 
--Lineaire Regressie
+- Lineaire Regressie
 - PCA (Principle Component Analyse)
 - Decision Tree Classifier (Feature Selectie)
 - Splitten Test - Train Data, Trainen van model & fitten van model d.m.v. lineaire regressie
