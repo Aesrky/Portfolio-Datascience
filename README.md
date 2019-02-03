@@ -175,18 +175,24 @@ Het betreft een dataset met historische data van huizen die verkocht zijn in de 
 
 <b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd op de Huis Dataset:</b>
 •	Data cleaning waarbij ik tabellen het “gedropt” die niet benodigd zijn voor het trainen van de dataset. Tevens heb ik ook bekeken of er geen missende waarde bevatten in de dataset.
+
 •	Vervolgens heb ik op twee manieren gevisualiseerd wat de correlatie is tussen features. 
-o	Een Panda’s Dataframe waarbij de correlatie te zien is in nummers
-o	Een Correlatie heatmap
+    o	Een Panda’s Dataframe waarbij de correlatie te zien is in nummers
+    o	Een Correlatie heatmap
 •	Omdat ik de dataset wil “trainen” op de feature price heb ik bekeken welke feature de sterkste correlatie heeft met deze feature. Dit was feature: 
-o	“sqft_living15”
-o	“sqft_living”
+    o	“sqft_living15”
+    o	“sqft_living”
 Deze twee features heb ik vervolgens geplot in de vorm van een scatter plot.
+
 •	Ook heb ik gekeken of de andere features die enigszins hoog scoren een sterke correlatie hebben met elkaar. Hieruit vloeit meerdere tabellen.
 •	Vervolgens heb ik van de “price” colum een variabele (y) gemaakt om dit te trainen. 
+
 •	Na het maken van de variabele heb ik de data gesplitst in een training en test data. Waarbij ik een standaard test data size heb gehanteerd (33%).  En gekeken naar de accuracy score van lineaire regressie op de data. 
+
 •	Vervolgens heb ik de lineaire regressie model geinitialiseerd en vervolgens deze “gevoed” in de training data X voor training data Y. Ons model is nu getrained op de gegeven data.
+
 •	Tot slot heb ik gekeken welke feature de meest belangrijke is d.m.v. regressie coëfficiënt. Deze heb ik vervolgens in een panda dataframe geplot om te zien welke feature de meest belangrijke is. 
+
 •	Dit bleek waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
 
 
