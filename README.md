@@ -55,8 +55,9 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
 
-<h1>Domein</h1>
+<details><summary><h1>Klik hier voor Hoofdstuk Domein</h1></summary>
 
+<p>
 Voordat ik aan de course begon had ik nauwelijks kennis op het gebied van Data Science. Het werd vaak in mijn omgeving genoemd als de "next" big thing en ik ben als het ware gestapt op de hype train.
 Daarbij ging ik met bijna 0 programmeer kennis in dit vak en daarbij had ik totaal geen affiniteit met wiskunde tijdens mijn middelbare school tijden. Het was een recipe for disaster. 
 De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel iets anders dan verwacht. Wel heb ik gigantisch veel kennis gedaan door veel te onderzoeken en te relateren aan ons project.
@@ -78,7 +79,7 @@ De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel
 * Data Preparatie = Het cleanen van "raw data" om als input te dienen voor een predictive model
 * Pentesting = Het vinden van kwetsbaarheden in systemen
 * OneVsRest = Het kiezen van een class en het trainen van een two class classifier met de samples van een geselecteerde class aan de ene kant en alle andere voorbeelden aan de andere kant.
-
+</details></p>
 
 <h1>Courses</h1>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
