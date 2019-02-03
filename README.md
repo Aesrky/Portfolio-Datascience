@@ -219,13 +219,14 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
 
 
-[Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
+* [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 
 <b>Welke Dataset:</b>
 
-Voor deze notebook / showcase van geleerde technieken heb ik gebruik gemaakt van een Kaggle dataset. Deze is te vinden op: 
-https://www.kaggle.com/shivachandel/kc-house-data Daarbij is bewust gekozen voor een dataset zonder Kernels.
+Voor deze notebook / showcase van geleerde technieken heb ik gebruik gemaakt van een Kaggle dataset. Daarbij is bewust gekozen voor een dataset zonder Kernels.
 Het betreft een dataset met historische data van huizen die verkocht zijn in de staat Washington (USA). In de periode van mei 2014 tot mei 2015. 
+
+Kaggle Dataset link: https://www.kaggle.com/shivachandel/kc-house-data 
 
 <b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd op de Huis Dataset:</b>
 
@@ -252,12 +253,12 @@ Deze twee features heb ik vervolgens geplot in de vorm van een scatter plot.
 
 •	Dit bleek waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
 
-[Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb)
+* [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb)
 
 <b>Welke Dataset:</b>
 De data is gerelateerd aan een marketing campagne van een Portugese bank instituut. Deze campagnes zijn gebaseerd op telefoongesprekken. Ook was er sprake van meer dan een keer contact met de zelfde client. Dit was benodigd om het product(Deposit colum in data) een waarde van "Yes" of "No" te geven.
 
-Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
+* Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
 <b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd  op de Bank Dataset:</b>
 
