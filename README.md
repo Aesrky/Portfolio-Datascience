@@ -216,7 +216,7 @@ De data is gerelateerd aan een marketing campagne van een Portugese bank institu
 
 Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
-<b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreert  op de Bank Dataset:</b>
+<b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd  op de Bank Dataset:</b>
 
 •	Mijn data heeft heel veel features (kolommen). Van die features hebben aantal een aantal categorische (ordinaal) waarde en sommige een continue waarde. Ik heb een code geïmplementeerd die deze twee waarde teruggeeft in lijsten: CON = bevat namen van kolommen met de continue waarde als inhoud & CAT = bevat namen van kolommen die een categorische waarde bevatten. Ik heb dit gedaan omdat ik na deze stap. Het automatiseringsproces van een aantal stappen kan vergemakkelijken. Ik hoef dus niet handmatig meer data te analyseren tot een bepaalde punt.
 
