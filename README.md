@@ -170,13 +170,14 @@ Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "ski
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 <b>Welke Dataset:</b>
 
-&nsbp;
+
 Voor deze notebook / showcase van geleerde technieken heb ik gebruik gemaakt van een Kaggle dataset. Deze is te vinden op: 
 https://www.kaggle.com/shivachandel/kc-house-data Daarbij is bewust gekozen voor een dataset zonder Kernels.
 Het betreft een dataset met historische data van huizen die verkocht zijn in de staat Washington (USA). In de periode van mei 2014 tot mei 2015. 
 
 <b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd op de Huis Dataset:</b>
-&nsbp;
+
+
 •	Data cleaning waarbij ik tabellen het “gedropt” die niet benodigd zijn voor het trainen van de dataset. Tevens heb ik ook bekeken of er geen missende waarde bevatten in de dataset.
 
 •	Vervolgens heb ik op twee manieren gevisualiseerd wat de correlatie is tussen features. 
@@ -230,8 +231,8 @@ Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. D
 •	Ik heb mijn model getrained om de target variabele “deposit” te trainen. Hierbij heb ik een dimensie reductie techniek gebruikt genaamd PCA(Principle Component Analyse). Het model heb ik vervolgens getrained met meerdere componenten van PCA. Het voorspellen heb ik twee maal uitgevoerd. Eenmaal alleen voor de meest belangrijke features, en de tweede keer met alle features. Het blijkt uiteindelijk dat de beste resultaat wordt behaald door het trainen van alle features.
 
 
-
-
+<details><summary><b>Klik hier voor de oude code van portfolio voor herkansing </b> </summary>
+<p>
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
 &nbsp;
@@ -553,7 +554,9 @@ Een aantal punten die uit de error analyse is voortgekomen:
 
 <h2>Diagnostics</h2>
 
-Dit is naar mijn weten niet uitgevoerd binnen het project.
+</p>
+</details>
+
 
 
 
