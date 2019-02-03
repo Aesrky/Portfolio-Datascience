@@ -33,20 +33,20 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h1> Leeswijzer </h1>
 
-[Klik hier voor Hoofdstuk Data](#Data)
+- [Klik hier voor Hoofdstuk Data](#Data)
 
 &nbsp;
 
-[Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
+- [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
 
 Kaggle Dataset link:
 https://www.kaggle.com/shivachandel/kc-house-data
 
 &nbsp;
 
-[Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
+- [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
 
-Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
+- Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
 Voor de herkansing heb ik twee wijzigingen moeten toebrengen aan mijn portfolio:
 - Datacamp State of Accomplishment toevoegen aan courses
@@ -59,24 +59,24 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 <b>Technieken & Modellen kort:</b>
 
 -Lineaire Regressie
--PCA (Principle Component Analyse)
--Decision Tree Classifier (Feature Selectie)
--Splitten Test - Train Data, Trainen van model & fitten van model d.m.v. lineaire regressie
--Feature Engineering (o.a. maken van nieuwe features van bestaande features)
--Explatory Data Analyse
--Checken van missende data in de dataset
--Scheiden van Continue & Categorische Variabele & Inhoud checken van deze waarde
--Controleren Type Datasets 
--Data Visualisatie (Box plots, scatter plots, histogram etc.)
--Correlatiematrix (correlatie tussen elke feature)
--Feature Importance
--Feature Selectie met Lasso Regressie
--Predictive Modeling met meest belangrijke features & alle features
--Feature Scaling + PCA (hierboven genoemd)
--Trainen, Test & Fitten op verschillende modellen om o.a. accuracy score te bepalen van CoVariance, Logistic Regression, Decision Tree, Random Forest, SVC. Om vervolgens te bepalen welke classifier het beste werkt op mijn data (in dit geval Lineair Regression)
--Checken van de Mean Squared Error & Variance + Accuracy
--Predicten van classificatie rapport. (Precision, Recall, F1-score) & Dit vervolgens Plotten.
--Area under the Curve predicten
+- PCA (Principle Component Analyse)
+- Decision Tree Classifier (Feature Selectie)
+- Splitten Test - Train Data, Trainen van model & fitten van model d.m.v. lineaire regressie
+- Feature Engineering (o.a. maken van nieuwe features van bestaande features)
+- Explatory Data Analyse
+- Checken van missende data in de dataset
+- Scheiden van Continue & Categorische Variabele & Inhoud checken van deze waarde
+- Controleren Type Datasets 
+- Data Visualisatie (Box plots, scatter plots, histogram etc.)
+- Correlatiematrix (correlatie tussen elke feature)
+- Feature Importance
+- Feature Selectie met Lasso Regressie
+- Predictive Modeling met meest belangrijke features & alle features
+- Feature Scaling + PCA (hierboven genoemd)
+- Trainen, Test & Fitten op verschillende modellen om o.a. accuracy score te bepalen van CoVariance, Logistic Regression, Decision Tree, Random Forest, SVC. Om vervolgens te bepalen welke classifier het beste werkt op mijn data (in dit geval Lineair Regression)
+- Checken van de Mean Squared Error & Variance + Accuracy
+- Predicten van classificatie rapport. (Precision, Recall, F1-score) & Dit vervolgens Plotten.
+- Area under the Curve predicten
 
 &nbsp;
 
