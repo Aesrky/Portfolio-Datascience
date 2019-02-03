@@ -168,15 +168,36 @@ Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "ski
 
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
-Welke Dataset (Korte intro):
+<b>Welke Dataset:</b>
+Voor deze notebook / showcase van geleerde technieken heb ik gebruik gemaakt van een Kaggle dataset. Deze is te vinden op: 
+https://www.kaggle.com/shivachandel/kc-house-data Daarbij is bewust gekozen voor een dataset zonder Kernels.
+Het betreft een dataset met historische data van huizen die verkocht zijn in de staat Washington (USA). In de periode van mei 2014 tot mei 2015. 
+
+<b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreerd op de Huis Dataset:</b>
+•	Data cleaning waarbij ik tabellen het “gedropt” die niet benodigd zijn voor het trainen van de dataset. Tevens heb ik ook bekeken of er geen missende waarde bevatten in de dataset.
+•	Vervolgens heb ik op twee manieren gevisualiseerd wat de correlatie is tussen features. 
+o	Een Panda’s Dataframe waarbij de correlatie te zien is in nummers
+o	Een Correlatie heatmap
+•	Omdat ik de dataset wil “trainen” op de feature price heb ik bekeken welke feature de sterkste correlatie heeft met deze feature. Dit was feature: 
+o	“sqft_living15”
+o	“sqft_living”
+Deze twee features heb ik vervolgens geplot in de vorm van een scatter plot.
+•	Ook heb ik gekeken of de andere features die enigszins hoog scoren een sterke correlatie hebben met elkaar. Hieruit vloeit meerdere tabellen.
+•	Vervolgens heb ik van de “price” colum een variabele (y) gemaakt om dit te trainen. 
+•	Na het maken van de variabele heb ik de data gesplitst in een training en test data. Waarbij ik een standaard test data size heb gehanteerd (33%).  En gekeken naar de accuracy score van lineaire regressie op de data. 
+•	Vervolgens heb ik de lineaire regressie model geinitialiseerd en vervolgens deze “gevoed” in de training data X voor training data Y. Ons model is nu getrained op de gegeven data.
+•	Tot slot heb ik gekeken welke feature de meest belangrijke is d.m.v. regressie coëfficiënt. Deze heb ik vervolgens in een panda dataframe geplot om te zien welke feature de meest belangrijke is. 
+•	Dit bleek waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
 
 
-Stappen, Taken, Technieken & Modellen die ik heb gedemonstreert  op de Huis Dataset:
+[Notebook 2]()
 
+<b>Welke Dataset:</b>
+De data is gerelateerd aan een marketing campagne van een Portugese bank instituut. Deze campagnes zijn gebaseerd op telefoongesprekken. Ook was er sprake van meer dan een keer contact met de zelfde client. Dit was benodigd om het product(Deposit colum in data) een waarde van "Yes" of "No" te geven.
 
-[Notebook 2]() Welke Dataset (Korte intro):
+Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
-Stappen, Taken, Technieken & Modellen die ik heb gedemonstreert  op de Bank Dataset:
+<b>Stappen, Taken, Technieken & Modellen die ik heb gedemonstreert  op de Bank Dataset:</b>
 
 •	Mijn data heeft heel veel features (kolommen). Van die features hebben aantal een aantal categorische (ordinaal) waarde en sommige een continue waarde. Ik heb een code geïmplementeerd die deze twee waarde teruggeeft in lijsten: CON = bevat namen van kolommen met de continue waarde als inhoud & CAT = bevat namen van kolommen die een categorische waarde bevatten. Ik heb dit gedaan omdat ik na deze stap. Het automatiseringsproces van een aantal stappen kan vergemakkelijken. Ik hoef dus niet handmatig meer data te analyseren tot een bepaalde punt.
 
@@ -197,7 +218,6 @@ Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. D
 •	Feature Scaling, het scalen van alle features op de zelfde schaal
 
 •	Ik heb mijn model getrained om de target variabele “deposit” te trainen. Hierbij heb ik een dimensie reductie techniek gebruikt genaamd PCA(Principle Component Analyse). Het model heb ik vervolgens getrained met meerdere componenten van PCA. Het voorspellen heb ik twee maal uitgevoerd. Eenmaal alleen voor de meest belangrijke features, en de tweede keer met alle features. Het blijkt uiteindelijk dat de beste resultaat wordt behaald door het trainen van alle features.
-
 
 
 
