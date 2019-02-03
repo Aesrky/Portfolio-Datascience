@@ -54,7 +54,7 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 * Support Vector Machine (SVM)
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
-</p>
+</p></details>
 
 
 <details><summary><h1>Klik hier voor Hoofdstuk Domein</h1></summary><p>
