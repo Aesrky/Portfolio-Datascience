@@ -59,41 +59,23 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 <b>Technieken & Modellen kort:</b>
 
 -Lineaire Regressie
-
 -PCA (Principle Component Analyse)
-
 -Decision Tree Classifier (Feature Selectie)
-
 -Splitten Test - Train Data, Trainen van model & fitten van model d.m.v. lineaire regressie
-
 -Feature Engineering (o.a. maken van nieuwe features van bestaande features)
-
 -Explatory Data Analyse
-
 -Checken van missende data in de dataset
-
 -Scheiden van Continue & Categorische Variabele & Inhoud checken van deze waarde
-
 -Controleren Type Datasets 
-
 -Data Visualisatie (Box plots, scatter plots, histogram etc.)
-
 -Correlatiematrix (correlatie tussen elke feature)
-
 -Feature Importance
-
 -Feature Selectie met Lasso Regressie
-
 -Predictive Modeling met meest belangrijke features & alle features
-
 -Feature Scaling + PCA (hierboven genoemd)
-
 -Trainen, Test & Fitten op verschillende modellen om o.a. accuracy score te bepalen van CoVariance, Logistic Regression, Decision Tree, Random Forest, SVC. Om vervolgens te bepalen welke classifier het beste werkt op mijn data (in dit geval Lineair Regression)
-
 -Checken van de Mean Squared Error & Variance + Accuracy
-
 -Predicten van classificatie rapport. (Precision, Recall, F1-score) & Dit vervolgens Plotten.
-
 -Area under the Curve predicten
 
 &nbsp;
