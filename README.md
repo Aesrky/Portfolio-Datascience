@@ -104,8 +104,8 @@ Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset.
 
 <h1>Domein</h1>
 Voordat ik aan de course begon had ik nauwelijks kennis op het gebied van Data Science. Het werd vaak in mijn omgeving genoemd als de "next" big thing en ik ben als het ware gestapt op de hype train.
-Daarbij ging ik met bijna 0 programmeer kennis in dit vak en daarbij had ik totaal geen affiniteit met wiskunde tijdens mijn middelbare school tijden. Het was een recipe for disaster. 
-De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel iets anders dan verwacht. Wel heb ik gigantisch veel kennis gedaan door veel te onderzoeken en te relateren aan ons project.
+Daarbij ging ik met niet al teveel programmeer kennis in dit vak en daarbij had ik geen affiniteit met wiskunde tijdens mijn middelbare school tijden. 
+De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel iets anders dan verwacht. Wel heb ik gigantisch veel kennis opgedaan met python en machine learning concepten door veel te onderzoeken en te relateren aan ons project.
 
 <details><summary><h3>Klik hier voor inhoud hoofdstuk Domein</h3></summary><p>
 <h2>Jargon</h2>
