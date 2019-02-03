@@ -55,9 +55,7 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
 
-<details><summary><h1>Klik hier voor Hoofdstuk Domein</h1></summary>
-
-<p>
+<details><summary><h1>Klik hier voor Hoofdstuk Domein</h1></summary><p>
 Voordat ik aan de course begon had ik nauwelijks kennis op het gebied van Data Science. Het werd vaak in mijn omgeving genoemd als de "next" big thing en ik ben als het ware gestapt op de hype train.
 Daarbij ging ik met bijna 0 programmeer kennis in dit vak en daarbij had ik totaal geen affiniteit met wiskunde tijdens mijn middelbare school tijden. Het was een recipe for disaster. 
 De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel iets anders dan verwacht. Wel heb ik gigantisch veel kennis gedaan door veel te onderzoeken en te relateren aan ons project.
@@ -81,7 +79,10 @@ De keuze viel al snel op de chatbot van het CBS. Dat werd toch uiteindelijk heel
 * OneVsRest = Het kiezen van een class en het trainen van een two class classifier met de samples van een geselecteerde class aan de ene kant en alle andere voorbeelden aan de andere kant.
 </details></p>
 
-<h1>Courses</h1>
+
+
+<details><summary><h1>Klik hier voor hoofdstuk Courses</h1></summary>
+    <p>
 In dit hoofdstuk worden de benodigde en extra opdrachten die gemaakt zijn toegelicht.
 
 <h2>Datacamp</h2>
@@ -162,6 +163,8 @@ De video's van Coursera en de bijbehorende quiz hebben bijgedragen tot een beter
 Bij Datacamp lag de focus meer op het toepassen en programmeren. Bij Coursera werd de achterliggende gedachte, formules etc. het gehele concept uitgelegd over machine learning dus ook toepassen.
 Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde het bestuderen van Coursera ervoor dat ik nieuwe ideeen opdeed en dit zorgde er direct voor dat bepaalde handelingen veel makkelijker konden uitgevoerd. Immers, wij begrepen het concept van machine learning veel beter nu.
 &nbsp;
+
+</details></p>
 
 <h1>Data</h1>
 
