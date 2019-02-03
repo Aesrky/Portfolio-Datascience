@@ -33,7 +33,6 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h1> Leeswijzer </h1>
 
-
 [Klik hier voor Hoofdstuk Data](#Data)
 
 &nbsp;
@@ -49,10 +48,9 @@ https://www.kaggle.com/shivachandel/kc-house-data
 
 Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
-
 Voor de herkansing heb ik twee wijzigingen moeten toebrengen aan mijn portfolio:
-* Datacamp State of Accomplishment toevoegen aan courses
-* Showcase van mijn "machine learning skills" die ik heb geleerd in vorm van 2 notebooks.
+- Datacamp State of Accomplishment toevoegen aan courses
+- Showcase van mijn "machine learning skills" die ik heb geleerd in vorm van 2 notebooks.
 
 Voor de herkansing heb ik 2 notebooks gemaakt met data van Kaggle om mijn machine learning skills te "showcasen". Zodat ik in ieder geval kan laten zien dat ik de basis begrijp en een model kan trainen op een willekeurige dataset. Bij de 2 notebooks heb ik gekozen om verschillende methodieken en technieken toe te passen. 
 
