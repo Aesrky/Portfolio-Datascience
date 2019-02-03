@@ -251,7 +251,7 @@ Deze twee features heb ik vervolgens geplot in de vorm van een scatter plot.
 
 •	Tot slot heb ik gekeken welke feature de meest belangrijke is d.m.v. regressie coëfficiënt. Deze heb ik vervolgens in een panda dataframe geplot om te zien welke feature de meest belangrijke is. 
 
-•	Dit bleek waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
+•	Dit bleek feature waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
 
 * [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb)
 
@@ -285,7 +285,7 @@ Waaruit gebleken is dat Lasso Regressie niet de gewenste resultaten weergeeft. D
 •	Ik heb mijn model getrained om de target variabele “deposit” te trainen. Hierbij heb ik een dimensie reductie techniek gebruikt genaamd PCA(Principle Component Analyse). Het model heb ik vervolgens getrained met meerdere componenten van PCA. Het voorspellen heb ik twee maal uitgevoerd. Eenmaal alleen voor de meest belangrijke features, en de tweede keer met alle features. Het blijkt uiteindelijk dat de beste resultaat wordt behaald door het trainen van alle features.
 
 
-<details><summary><b><h3>Klik hier voor de oude code van de portfolio voor mijn herkansing</h3></b></summary>
+<details><summary><b><h3>Klik hier voor oude gemaakte code.</h3></b></summary>
 <p>
 In dit hoofdstuk worden de stukjes code die ik heb gemaakt voor het project uitgelegd. Tevens worden er een aantal basis data science technieken beschreven die men acht te beheersen na deze minor.
 
