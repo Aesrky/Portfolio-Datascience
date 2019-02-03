@@ -37,9 +37,11 @@ Voor de herkansing heb ik twee wijzigingen moeten toebrengen aan mijn portfolio:
 * Datacamp State of Accomplishment toevoegen aan courses
 * Showcase van mijn "machine learning skills" die ik heb geleerd in vorm van 2 notebooks.
 
-Voor de herkansing heb ik 2 notebooks gemaakt met data van Kaggle om mijn machine learning skills te "showcasen". Zodat ik in ieder geval kan laten zien dat ik de basis begrijp en een model kan trainen op een willekeurige dataset. Bij de 2 notebooks heb ik gekozen om verschillende methodieken en technieken toe te passen. Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fitten & initialiseren op random data, maar ook hoe ik data zover kon krijgen dat het betekenisvol werd. Daarvanuit heb ik een 2e notebook gemaakt waarin ik meerdere technieken heb toegepast dan alleen maar een vorm van lineaire regressie. In het hoofdstuk Data heb ik de 2 notebooks met een aantal stappen toegelicht. In de 2 notebooks zelf heb ik geprobeerd hoofdstukken (of code line comments) te plaatsen met tussentekst om te laten zien wat ik per stap heb toegepast. 
+Voor de herkansing heb ik 2 notebooks gemaakt met data van Kaggle om mijn machine learning skills te "showcasen". Zodat ik in ieder geval kan laten zien dat ik de basis begrijp en een model kan trainen op een willekeurige dataset. Bij de 2 notebooks heb ik gekozen om verschillende methodieken en technieken toe te passen. 
 
-Technieken & Modellen kort:
+Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fitten & initialiseren op random data, maar ook hoe ik data zover kon krijgen dat het betekenisvol werd. Daarvanuit heb ik een 2e notebook gemaakt waarin ik meerdere technieken heb toegepast dan alleen maar een vorm van lineaire regressie. In het hoofdstuk Data heb ik de 2 notebooks met een aantal stappen toegelicht. In de 2 notebooks zelf heb ik geprobeerd hoofdstukken (of code line comments) te plaatsen met tussentekst om te laten zien wat ik per stap heb toegepast. 
+
+<b>Technieken & Modellen kort:</b>
 
 *Lineaire Regressie
 
@@ -78,18 +80,14 @@ Technieken & Modellen kort:
 *Predicten van classificatie rapport. (Precision, Recall, F1-score) & Dit vervolgens Plotten.
 
 *Area under the Curve predicten
-
-
-
+&nbsp;
 [Hoofdstuk Data](#Data)
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
 
 Kaggle Dataset link:
 https://www.kaggle.com/shivachandel/kc-house-data
-
 &nbsp;
-
 [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
 
 Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
