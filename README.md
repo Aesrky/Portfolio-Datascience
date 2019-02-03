@@ -220,8 +220,8 @@ Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "ski
 
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
-<b>Welke Dataset:</b>
 
+<b>Welke Dataset:</b>
 
 Voor deze notebook / showcase van geleerde technieken heb ik gebruik gemaakt van een Kaggle dataset. Deze is te vinden op: 
 https://www.kaggle.com/shivachandel/kc-house-data Daarbij is bewust gekozen voor een dataset zonder Kernels.
