@@ -572,7 +572,8 @@ Een aantal punten die uit de error analyse is voortgekomen:
 <h1>Communicatie</h1>
     In dit hoofdstuk wordt er ingegaan op de presentaties, de research paper, taken in scrum & een korte reflectie over dit minor blok.
 
- <details><summary><h3>Klik hier voor inhoud van de Communicatie hoofdstuk</h3></summary>
+ <details><summary><h3>
+    Klik hier voor inhoud van hoofdstuk Communicatie</h3></summary>
         <p>
     
 <h2>Presentaties</h2>
