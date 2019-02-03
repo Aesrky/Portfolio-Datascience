@@ -33,7 +33,9 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h1> Leeswijzer </h1>
 
+Voor de herkansing heb ik 2 notebooks gemaakt met data van Kaggle om mijn skills te "showcasen". Zodat ik in ieder geval kon laten zien dat ik de basis begrijp en een model kan trainen. Bij de 2 notebooks heb ik gekozen om verschillende methodieken en technieken toe te passen. Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fitten & initialiseren op random data, maar ook hoe ik data zover kon krijgen dat het betekenisvol werd. In het hoofdstuk data heb ik de 2 notebooks met een aantal stappen toegelicht. In de 2 notebooks zelf heb ik geprobeerd hoofdstukken te plaatsen met tussentekst om te laten zien wat ik per stap heb toegepast. 
 
+[Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 
 
 <details><summary><h2>Klik hier voor Introductie</h2></summary>
@@ -101,11 +103,11 @@ Voor bewijs van voltooiing refereer ik graag naar mijn Datacamp Account:
 
 
 * <b> Programmeren </b> (19100 XP)
-1. (Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science)
-2. (Course) [Intermediate Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)
-3. (Chapter) [Writing your own functions](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
-4. (Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
-5. (Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2)
+1. (Course) [Introduction to Python](https://www.datacamp.com/courses/intro-to-python-for-data-science) [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/5afe33bcab85a7d1bdb1b8309ad8819bfe8e252b) 
+2. (Course) [Intermediate Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science) [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/785552bb917d2f0ca7c12f0aa2f425aa2d72cfd6) 
+3. (Chapter) [Writing your own functions](https://www.datacamp.com/courses/python-data-science-toolbox-part-1) (Chapter dus geen SOA)
+4. (Chapter) [Default arguments, variable-length arguments and scope](https://www.datacamp.com/courses/python-data-science-toolbox-part-1) (Chapter dus geen SOA)
+5. (Course) [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/courses/python-data-science-toolbox-part-2) [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/569c578fd70f48c9602df640317c8260e2ac5c57)  
 
 Het leren van het programmeren van Python heeft er tot bijgedragen dat ik op een basis-gevorderd niveau Python code kan begrijpen. 
 Dit zorgde direct ervoor dat bij het lezen van de code gemaakt (vooral tutorials gevolgd op internet) door de programmeurs van de groep, de code niet vreemd overkwam bij mij op persoon.
@@ -116,25 +118,24 @@ Deze relatie had ik voorheen niet kunnen leggen en dit is zodoende ook een grote
 
 
 * <b> Importeren en Cleanen van Data </b> (8020 XP)
-1. (Chapter) [Importing Data in Python (Part 1)](https://www.datacamp.com/courses/importing-data-in-python-part-1) & Mandatory
-2. (Course) [Introduction and flat files](https://www.datacamp.com/courses/importing-data-in-python-part-1)
-3. (Course) [Cleaning data in Python](https://www.datacamp.com/courses/cleaning-data-in-python)
-
+1. (Course) [Importing Data in Python (Part 1)](https://www.datacamp.com/courses/importing-data-in-python-part-1) & Mandatory [Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/6dbaa8c404b2a07c22554880d962f1dbe56f6444)   
+2. (Chapter) [Introduction and flat files](https://www.datacamp.com/courses/importing-data-in-python-part-1) 
+3. (Course) [Cleaning data in Python](https://www.datacamp.com/courses/cleaning-data-in-python) 
 Dit gedeelte van Python heeft ervoor gezorgd dat ik nu weet hoe ik verschillende soorten data kan invoeren in python, en vervolgens met deze data aan de slag kan gaan.
 Het lijkt iets simpels, maar het invoeren van data was voorheen al een hele uitdaging. Bovendien heeft het een beeld gegeven hoe ik met mijn blote oog op zoek moet gaan naar nieuwe "raw" data. Tevens heeft deze course ook bijgedragen aan het leren van cleanen van coding met de pandas package.
 Dit heb ik in kleine schaal toegepast in de hoofdstuk Data Preparation. Tot slot heeft dit mij een algehele beeld gegeven van hoe ik data kan importeren en cleanen om het bruikbaar te maken voor mijn predictive models.
 
 
 * <b> Data Manipulatie </b> (2080 XP)
-1. (Chapter) [Data ingestion & inspection](https://www.datacamp.com/courses/pandas-foundations)
-2. (Chapter) [Exploratory Data Analysis](https://www.datacamp.com/courses/pandas-foundations)
+1. (Chapter) [Data ingestion & inspection](https://www.datacamp.com/courses/pandas-foundations) (Chapter dus geen SOA)
+2. (Chapter) [Exploratory Data Analysis](https://www.datacamp.com/courses/pandas-foundations) (Chapter dus geen SOA)
 
 In deze chapters heb ik kort geleerd hoe ik met Pandas om kan gaan en heb ik ingezien wat een krachtige tool dit kan zijn. Ik heb dit echter niet toegepast binnen mijn project.
 
 * <b> Data Visualisatie </b> (3520 XP)
-1. (Chapter) [Plotting 2D Arrays](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
-2. (Chapter) [Statistical plots with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
-3. (Chapter) [Customizing Plots](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
+1. (Chapter) [Plotting 2D Arrays](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python) (Chapter dus geen SOA)
+2. (Chapter) [Statistical plots with Seaborn](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python) (Chapter dus geen SOA)
+3. (Chapter) [Customizing Plots](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python) (Chapter dus geen SOA)
 
 Mijn favoriete onderdeel en volgens mij ook het onderdeel wat ik dagelijks gebruik voor mijn eigen werk. Ik heb hierbij geleerd hoe ik mijn grafieken zo goed mogelijk kan visualiseren en heb zelfs Excel afgezworen na het volgen van deze tutorials.
 Ik gebruik de package seaborn nog dagelijks voor het maken van heatmaps voor mijn werk. Visualisatie is echt key als dit zo goed mogelijk de data vertegenwoordigd. Dit heb ik geleerd van deze course en zal het zonder twijfel een leven lang meedragen.
@@ -142,13 +143,14 @@ Ik gebruik de package seaborn nog dagelijks voor het maken van heatmaps voor mij
 
 * <b> Waarschijnlijkheid & Statistiek </b> (4350 XP)
 1. (Course) [Statistical Thinking in Python (Part 1)](https://www.datacamp.com/courses/statistical-thinking-in-python-part-1)
+[Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/21b5a596590b72f3294c0eacd2395525068533dd)  
 
 Een course waarbij wordt weergegeven hoe je statistiek kan vertalen binnen Python. Een cruciale stap binnen Data Science, want je kan zoveel moeite doen om je data te vergaren en het vormen in een product waar je mee kan werken. 
 Het zal je niets opbrengen als je geen duidelijke conclusies van je data kan trekken. Deze course heeft geholpen bij het formuleren van duidelijke resultaten en conclusies voor de paper.
 
 
 * <b> Machine Learning </b> (4300 XP)
-1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
+1. (Course) [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)[Statement of Accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/31a1deb517b91e130707e9fe011c280e588a5d3f) 
 
 De Course die mij heeft geholpen met het maken van een predictive model. Hierbij heb ik informatie vergaard over classificatie, regressie maar ook het fine tunen van mijn model wat cruciaal is.
 Mijn code voor predictive modelling is veelal gebaseerd op stukjes van de course.
