@@ -39,18 +39,44 @@ Voor de herkansing heb ik twee wijzigingen moeten toebrengen aan mijn portfolio:
 
 Voor de herkansing heb ik 2 notebooks gemaakt met data van Kaggle om mijn machine learning skills te "showcasen". Zodat ik in ieder geval kan laten zien dat ik de basis begrijp en een model kan trainen op een willekeurige dataset. Bij de 2 notebooks heb ik gekozen om verschillende methodieken en technieken toe te passen. Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fitten & initialiseren op random data, maar ook hoe ik data zover kon krijgen dat het betekenisvol werd. Daarvanuit heb ik een 2e notebook gemaakt waarin ik meerdere technieken heb toegepast dan alleen maar een vorm van lineaire regressie. In het hoofdstuk Data heb ik de 2 notebooks met een aantal stappen toegelicht. In de 2 notebooks zelf heb ik geprobeerd hoofdstukken (of code line comments) te plaatsen met tussentekst om te laten zien wat ik per stap heb toegepast. 
 
+Technieken & Modellen kort:
+
+*Lineaire Regressie
+*PCA (Principle Component Analyse)
+*Decision Tree Classifier (Feature Selectie)
+*Splitten Test - Train Data, Trainen van model & fitten van model d.m.v. lineaire regressie
+*Feature Engineering (o.a. maken van nieuwe features van bestaande features)
+*Explatory Data Analyse
+*Checken van missende data in de dataset
+*Scheiden van Continue & Categorische Variabele & Inhoud checken van deze waarde
+*Controleren Type Datasets 
+*Data Visualisatie (Box plots, scatter plots, histogram etc.)
+*Correlatiematrix (correlatie tussen elke feature)
+*Feature Importance
+*Feature Selectie met Lasso Regressie
+*Predictive Modeling met meest belangrijke features & alle features
+*Feature Scaling + PCA (hierboven genoemd)
+*Trainen, Test & Fitten op verschillende modellen om o.a. accuracy score te bepalen van CoVariance, Logistic Regression, Decision Tree, Random Forest, SVC. Om vervolgens te bepalen welke classifier het beste werkt op mijn data (in dit geval Lineair Regression)
+*Checken van de Mean Squared Error & Variance + Accuracy
+*Predicten van classificatie rapport. (Precision, Recall, F1-score)
+*Area under the Curve predicten
+
+
+
+
+
 [Hoofdstuk Data](#Data)
 
 [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
 
-, Kaggle Dataset link:
+Kaggle Dataset link:
 https://www.kaggle.com/shivachandel/kc-house-data
 
 &nbsp;
 
 [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
 
-, Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
+Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
 
 
