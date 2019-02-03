@@ -89,7 +89,9 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 
 Kaggle Dataset link:
 https://www.kaggle.com/shivachandel/kc-house-data
+
 &nbsp;
+
 [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
 
 Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
