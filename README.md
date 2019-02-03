@@ -218,6 +218,8 @@ Dat ik de stof begreep getuigd ook van mijn voldoende op de toets. Tevens zorgde
 Voor de herkansing heb ik gekozen om 2 notebooks te maken om mijn zogeheten "skills" te laten zien. Deze notebooks bevatten in ieder geval de benodigde requirements die men acht te begrijpen na de datascience minor.
 
 
+<h2> Python Notebook 1 </h2>
+
 * [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb)
 
 <b>Welke Dataset:</b>
@@ -251,6 +253,8 @@ Deze twee features heb ik vervolgens geplot in de vorm van een scatter plot.
 •	Tot slot heb ik gekeken welke feature de meest belangrijke is d.m.v. regressie coëfficiënt. Deze heb ik vervolgens in een panda dataframe geplot om te zien welke feature de meest belangrijke is. 
 
 •	Dit bleek feature waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
+
+<h2>Python Notebook 2 </h2>
 
 * [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb)
 
