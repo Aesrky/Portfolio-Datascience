@@ -33,18 +33,6 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 <h1> Leeswijzer </h1>
 
-- [Klik hier voor Hoofdstuk Data](#Data)
-
-
-- [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
-
-- Kaggle Dataset link:
-https://www.kaggle.com/shivachandel/kc-house-data
-
-- [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
-
-- Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
-
 Voor de herkansing heb ik twee wijzigingen moeten toebrengen aan mijn portfolio:
 - Datacamp State of Accomplishment toevoegen aan courses
 - Showcase van mijn "machine learning skills" die ik heb geleerd in vorm van 2 notebooks.
@@ -78,6 +66,20 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 
 &nbsp;
 
+
+- [Klik hier voor Hoofdstuk Data](#Data)
+
+
+- [Notebook 1](/Portfolio/Notebooks/Askin%20Sarikaya%20Lineaire%20Regressie%20Showcase.ipynb) 
+
+- Kaggle Dataset link:
+https://www.kaggle.com/shivachandel/kc-house-data
+
+- [Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb) 
+
+- Kaggle Dataset link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
+
+&nbsp;
 
 <details><summary><h2>Klik hier voor Introductie</h2></summary>
 <p>
