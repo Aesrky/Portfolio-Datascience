@@ -208,7 +208,7 @@ Deze twee features heb ik vervolgens geplot in de vorm van een scatter plot.
 
 •	Dit bleek waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
 
-[Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills%20.ipynb)
+[Notebook 2](/Portfolio/Notebooks/Askin%20Sarikaya%20ShowCase%20All%20Skills.ipynb)
 
 <b>Welke Dataset:</b>
 De data is gerelateerd aan een marketing campagne van een Portugese bank instituut. Deze campagnes zijn gebaseerd op telefoongesprekken. Ook was er sprake van meer dan een keer contact met de zelfde client. Dit was benodigd om het product(Deposit colum in data) een waarde van "Yes" of "No" te geven.
