@@ -36,8 +36,8 @@ Het persoonlijke portfolio voor de minor Data Science aan de Haagse Hogeschool
 
 
 
-<h2>Introductie</h2>
-
+<details><summary><h2>Klik hier voor Introductie</h2></summary>
+<p>
 Voor onze minor Data Science aan de Haagse Hogeschool hebben wij in een groep van 4 mensen een opdracht uitgevoerd namens het CBS.
 Daarbij werd er getracht de top 10 categorieen, van gegeven data van het CBS, eruit te filteren.
 Data die door het CBS beschikbaar is gesteld en tevens gebruikt is voor deze opdracht zijn de gestelde vragen per e-mail aan het CBS.
@@ -54,6 +54,8 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 * Support Vector Machine (SVM)
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
+</p>
+
 
 <details><summary><h1>Klik hier voor Hoofdstuk Domein</h1></summary><p>
 Voordat ik aan de course begon had ik nauwelijks kennis op het gebied van Data Science. Het werd vaak in mijn omgeving genoemd als de "next" big thing en ik ben als het ware gestapt op de hype train.
@@ -565,7 +567,8 @@ Een aantal punten die uit de error analyse is voortgekomen:
 
 
 
-<h1>Communicatie</h1>
+<details><summary><h1>Klik hier voor hoofdstuk Communicatie</h1></summary>
+    <p>
 <h2>Presentaties</h2>
 
 Presentaties zijn altijd gezamenlijk gemaakt met de inbreng van de groep. Omdat ik, zoals aangegeven, meer in de kant van het onderzoeken was, presenteerde ik ook veel meer. 
@@ -591,13 +594,13 @@ Presentaties per week:
 * [Week 16](/Presentaties/2018.12.21%20CBS%20Presentatie.pptx)
 
 
-<h2>Paper</h2>
+<h2>Research Paper</h2>
+   
 De paper is een gezamenlijke bijdrage van de gehele groep. 
 Omdat ik geen fervente coder ben, heb ik samen met mijn collega Seyma Irilmazbilek vooral gericht tot de taak onderzoeken en delen van kennis(o.a. aanpak, ideeen etc.) aan ons groepsgenoten binnen dit blok. 
 Zodoende was de paper meer mijn domein. 
 
 Zo heb ik het volgende uitgevoerd binnen de paper:
-
 
 * Related Work
 * Gedeelte Methode
@@ -634,7 +637,9 @@ Taken en activiteiten beknopt:
 * Confusion Matrixes maken van gelabelde datasets
 * Error Analyse over Training - Test - Cross set
 
-<h2> Reflectie </h2>
+
+
+<h2>Reflectie</h2>
 Het waren hele leerzame 2 blokken en voorheen had ik nooit gedacht dat ik mij zou verdiepen in dit onderwerp. Wat ben ik enerzijds blij dat ik het toch heb gedaan maar anderzijds ook weer niet.
 Dit blok kent veel up's en down's voor mij zowel op persoonlijk vlak als op het "zakelijke". Zo kon ik niet altijd opbrengen om aan onderwerpen te zitten wat ik veelal niet begreep. 
 Wellicht kwam dit omdat mij interesse er ook niet naar was. Dit neem ik mijzelf kwalijk. Ook vind ik dat ik sommige onderdelen van de course te laks heb aangepakt. Ik had meer inzet moeten tonen en meer moeten willen.
@@ -655,3 +660,4 @@ Ik vind wel dat de course een strengere eis moet gaan stellen voor het programme
 
 Tot slot wil ik zeggen dat ik wel een positief gevoel heb over gehouden aan de leraren en de sfeer in de klas. De leraren wisten waar ze over praatte en bij Jeroen had ik het idee dat er geen een onderwerp was in Machine Learning waar hij geen weet van had.
 Dat is toch prettig af en toe, dat je leraren hebt die weten waar ze over praten. Dat is naar mijn ervaring niet altijd zo geweest.
+</p></details>
