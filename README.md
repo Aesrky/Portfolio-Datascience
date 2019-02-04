@@ -44,6 +44,7 @@ Mijn taken waren vooral om te kijken hoe ik een lineaire regressie model kon fit
 <b>Technieken & Modellen kort:</b>
 
 - Lineaire Regressie
+- Checken wanneer sprake is van een overfit of underfit (Diagnostics)
 - PCA (Principle Component Analyse)
 - Decision Tree Classifier (Feature Selectie)
 - Splitten Test - Train Data, Trainen van model & fitten van model d.m.v. lineaire regressie
@@ -255,7 +256,7 @@ Deze twee features heb ik vervolgens geplot in de vorm van een scatter plot.
 
 •	Tot slot heb ik gekeken welke feature de meest belangrijke is d.m.v. regressie coëfficiënt. Deze heb ik vervolgens in een panda dataframe geplot om te zien welke feature de meest belangrijke is. 
 
-•	Dit bleek feature waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. 
+•	Dit bleek feature waterfront te zijn. Eerst heb ik van de feature waterfront een numpy array gemaakt. Vervolgens heb ik een object gecreëerd (LinearRegression() voor de klasse). Tot slot heb ik de lineaire regressie uitgevoerd. Het bleek jammer genoeg underfit te zijn. 
 
 <h2>Python Notebook 2 </h2>
 
