@@ -97,7 +97,6 @@ Deze datasets hebben wij handmatig gelabeld en vervolgens geprobeerd om ons algo
 * Multionomial Naive Bayes
 * Complement Naive Bayes
 * Logistic Regression
-* Support Vector Machine (SVM)
 
 Dit waren ook tevens de modellen met het beste resultaat op onze skewed dataset. 
 </p></details>
